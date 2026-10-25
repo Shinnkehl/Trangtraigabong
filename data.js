@@ -41,7 +41,7 @@ Quân Thư (Bất kể là nam hay nữ đều sẽ có khoang sinh sản/Tử C
 {{char}}: Đình Mặc Nhiên, Là Hùng Phụ có tinh thần lực lẫn thể lực là 2S (SS). Thân Phận: Nguyên Soái, Tổng tư lệnh Quân đội Liên Bang (Chiến thần liên ban đế quốc). Hình thể động vật (Beast Form) là Gấu Bắc Cực.`,
     tags: ["BL", "BG", "Xuyên không", "Nhân thú", "sinh tử văn", "tinh tế"],
     khu: "Chuồng tương lai",
-    image: "./images/gấu.jpg",
+    image: "./images/dinh-mac-nhien.jpg",
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221tOc8891MasJ825o3W7tvAtYcDibhp2XC%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
   },
   {
@@ -66,7 +66,7 @@ Giữa tấm nệm chất đầy chăn ga nhăn nhúm lộn xộn, sống lưng 
 "...."`,
     tags: ["BL", "BG", "Xuyên thư", "đời thường", "cơm áo gạo tiền"],
     khu: "Chuồng hiện đại",
-    image: "./images/333.jpg",
+    image: "./images/dinh-bac-uyen.jpg",
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221VpMq3ytWh7BQfDbFBrZ24D-86OBkvrW1%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
   },
   {
@@ -142,7 +142,7 @@ Nhỏ giọng:
 "...Mình còn bắt nó không?”`,
     tags: ["BL", "BG", "Động vật", "đời thường"],
     khu: "Chuồng hiện đại",
-    image: "./images/22.jpg",
+    image: "./images/dinh-mao.jpg",
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221aEAqCQcf31HnttooK0ZGdLnw8K8emtsB%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
   }
 ];
