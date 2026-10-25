@@ -79,7 +79,7 @@
     .section-heading p { margin: 0; color: var(--muted); font-size: 13px; }
     .count { white-space: nowrap; color: var(--green); font-size: 13px; font-weight: bold; }
 
-    .controls { display: grid; grid-template-columns: minmax(180px, 1fr) 190px auto; gap: 10px; margin-bottom: 25px; }
+    .controls { display: grid; grid-template-columns: minmax(180px, 1fr) 190px auto; gap: 10px; margin-bottom: 15px; }
     .search-wrap { position: relative; }
     .search-wrap span { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); pointer-events: none; }
     .search-wrap input, .controls select {
@@ -91,6 +91,26 @@
     .search-wrap input::placeholder { color: #98A99B; }
     .reset-button { padding: 10px 16px; border: 1px solid var(--border); border-radius: 12px; background: var(--green-light); color: var(--green-dark); font-weight: bold; transition: 0.2s ease; }
     .reset-button:hover { background: #C0DCC0; }
+
+    /* TAG CARD (BẢNG TAG RIÊNG) */
+    .tag-card {
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 15px rgba(76, 117, 82, 0.05);
+      backdrop-filter: blur(10px);
+    }
+    .tag-card-title {
+      font-size: 14px;
+      font-weight: bold;
+      color: var(--green-dark);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
 
     /* Character cards */
     .character-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
@@ -112,6 +132,8 @@
     .character-description { white-space: pre-line; line-height: 1.65; color: var(--muted); font-size: 13px; margin: 0 0 14px; max-height: 110px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; }
     
     .character-tags { display: flex; flex-wrap: wrap; gap: 7px; margin: 0 0 14px; }
+    .tag-card .character-tags { margin: 0; } /* Tinh chỉnh tag trong bảng tag */
+    
     .character-tag, .character-khu { border: 1px solid #c6dfc9; border-radius: 20px; background: #edf7ee; color: #41694a; padding: 6px 11px; font-size: 12px; cursor: pointer; transition: 0.2s; }
     .character-tag:hover, .character-khu:hover, .character-tag.active, .character-khu.active { background: #548b61; border-color: #548b61; color: white; }
     .character-khu { display: inline-block; margin-bottom: 12px; text-align: left; }
@@ -162,7 +184,7 @@
 
     .modal-body {
       padding: 30px; overflow-y: auto; font-size: 15px; line-height: 1.8;
-      color: var(--green-dark); white-space: pre-wrap; /* Lệnh này giúp GIỮ NGUYÊN XUỐNG DÒNG */
+      color: var(--green-dark); white-space: pre-wrap;
       background: #fdfdfd;
     }
     .modal-body::-webkit-scrollbar { width: 6px; }
@@ -206,7 +228,6 @@
   <div id="leaf-background" aria-hidden="true"></div>
 
   <header class="navbar">
-    <!-- ĐÃ ĐỔI TÊN Ở DÒNG DƯỚI ĐÂY -->
     <div class="logo">🍃 Fluffy Chicken Farm</div>
     <div class="nav-note">A little world of green</div>
   </header>
@@ -244,12 +265,18 @@
       <button class="reset-button" id="reset-button" type="button">↺ Đặt lại</button>
     </div>
 
+    <!-- KHUNG CHỨA TOÀN BỘ TAG -->
+    <div class="tag-card">
+      <div class="tag-card-title">🏷️ Khám phá theo Tag:</div>
+      <div class="character-tags" id="all-tags-container">
+        <!-- Các tag sẽ được tự động tạo và đưa vào đây bằng Javascript -->
+      </div>
+    </div>
+
     <div class="character-grid" id="character-grid"></div>
   </main>
 
-  <!-- =======================================
-       BẢNG MODAL ẨN SẴN (CHỜ CLICK ĐỂ HIỆN)
-  ======================================== -->
+  <!-- BẢNG MODAL -->
   <div id="character-modal" class="modal-overlay" onclick="closeModal()">
     <div class="modal-container" onclick="event.stopPropagation()">
       <button class="modal-close" onclick="closeModal()">×</button>
@@ -265,9 +292,7 @@
         </div>
       </div>
       
-      <div class="modal-body" id="modal-desc">
-        <!-- Nội dung siêu dài giữ nguyên xuống dòng sẽ được bơm tự động vào đây -->
-      </div>
+      <div class="modal-body" id="modal-desc"></div>
       
       <div class="modal-footer">
         <a id="modal-link" class="btn-chat" href="#" target="_blank" rel="noopener noreferrer">🌟 Gặp gỡ nhân vật này →</a>
@@ -281,18 +306,16 @@
     <p>Made with ♡ and little feathers 🪶</p>
   </footer>
 
-  <!-- File dữ liệu được lấy từ ngoài vào -->
   <script src="data.js"></script>
 
-  <!-- Script xử lý Logic & Giao diện -->
   <script>
     const grid = document.getElementById("character-grid");
     const searchInput = document.getElementById("search-input");
     const categoryFilter = document.getElementById("category-filter");
     const resetButton = document.getElementById("reset-button");
     const characterCount = document.getElementById("character-count");
+    const allTagsContainer = document.getElementById("all-tags-container");
 
-    // Các biến của Modal
     const modal = document.getElementById("character-modal");
     const modalImg = document.getElementById("modal-img");
     const modalName = document.getElementById("modal-name");
@@ -304,7 +327,24 @@
     let selectedTag = null;
     let selectedKhu = null;
 
-    // HÀM 1: Hiển thị các thẻ nhân vật
+    // HÀM TẠO BẢNG TAG TỔNG HỢP
+    function renderAllTags() {
+      // 1. Quét qua toàn bộ nhân vật để nhặt các tag (dùng Set để không bị trùng lặp)
+      const tagSet = new Set();
+      characters.forEach(char => {
+        if (char.tags) {
+          char.tags.forEach(t => tagSet.add(t));
+        }
+      });
+      // 2. Sắp xếp lại tag theo thứ tự (không bắt buộc nhưng sẽ đẹp hơn)
+      const uniqueTags = Array.from(tagSet).sort();
+
+      // 3. Đưa tag vào thẻ HTML
+      allTagsContainer.innerHTML = uniqueTags.map(tag => `
+        <button class="character-tag ${selectedTag === tag ? "active" : ""}" type="button" onclick="filterByTag('${tag.replace(/'/g, "\\'")}')">${tag}</button>
+      `).join("");
+    }
+
     function renderCharacters() {
       const keyword = searchInput.value.trim().toLowerCase();
       const selectedCategory = categoryFilter.value;
@@ -367,7 +407,6 @@
       }).join("");
     }
 
-    // HÀM 2: Mở bảng Modal
     function openModal(id) {
       const char = characters.find(c => c.id === id);
       if (!char) return;
@@ -375,32 +414,46 @@
       modalImg.src = char.image;
       modalName.textContent = char.name;
       modalIntro.textContent = char.intro || "";
-      modalDesc.textContent = char.content || ""; // textContent giúp CHỐNG LỖI VÀ GIỮ NGUYÊN XUỐNG DÒNG
+      modalDesc.textContent = char.content || "";
       modalLink.href = char.link || "#";
       
       const tagsHTML = (char.tags || []).map(tag => `<span class="character-tag" style="pointer-events:none">${tag}</span>`).join("");
       modalTags.innerHTML = tagsHTML;
 
       modal.classList.add("active");
-      document.body.style.overflow = "hidden"; // Khóa cuộn trang nền để tập trung vào bảng
+      document.body.style.overflow = "hidden";
     }
 
-    // HÀM 3: Đóng bảng Modal
     function closeModal() {
       modal.classList.remove("active");
-      document.body.style.overflow = ""; // Cho cuộn trang lại bình thường
+      document.body.style.overflow = "";
     }
 
-    // CÁC HÀM TÌM KIẾM - LỌC
-    function filterByTag(tag) { selectedTag = selectedTag === tag ? null : tag; renderCharacters(); }
-    function filterByKhu(khu) { selectedKhu = selectedKhu === khu ? null : khu; renderCharacters(); }
-    function clearFilters() { selectedTag = null; selectedKhu = null; searchInput.value = ""; categoryFilter.value = "all"; renderCharacters(); }
+    function filterByTag(tag) { 
+      selectedTag = selectedTag === tag ? null : tag; 
+      renderCharacters(); 
+      renderAllTags(); // Cập nhật lại màu sáng/tối của tag ở bảng Tag
+    }
+    
+    function filterByKhu(khu) { 
+      selectedKhu = selectedKhu === khu ? null : khu; 
+      renderCharacters(); 
+    }
+    
+    function clearFilters() { 
+      selectedTag = null; 
+      selectedKhu = null; 
+      searchInput.value = ""; 
+      categoryFilter.value = "all"; 
+      renderCharacters(); 
+      renderAllTags();
+    }
 
     searchInput.addEventListener("input", renderCharacters);
     categoryFilter.addEventListener("change", renderCharacters);
     resetButton.addEventListener("click", clearFilters);
 
-    // HIỆU ỨNG LÁ RƠI
+    // Lá rơi
     const leafBackground = document.getElementById("leaf-background");
     for (let i = 0; i < 12; i++) {
       const leaf = document.createElement("span");
@@ -414,7 +467,8 @@
       leafBackground.appendChild(leaf);
     }
 
-    // Chạy render ban đầu
+    // Khởi chạy khi load trang
+    renderAllTags();
     renderCharacters();
   </script>
 </body>
