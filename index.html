@@ -517,7 +517,29 @@
     });
 
     loadSong(currentSongIndex);
-
+    
+// --- LỆNH ÉP TỰ ĐỘNG PHÁT NHẠC MỘT CÁCH THÔNG MINH ---
+    let playPromise = audioPlayer.play();
+    if (playPromise !== undefined) {
+      playPromise.then(_ => {
+        // Trường hợp 1: Trình duyệt dễ tính, cho phép tự phát luôn
+        isPlaying = true;
+        btnPlay.textContent = "⏸";
+        musicToggle.classList.add("playing");
+      }).catch(error => {
+        // Trường hợp 2: Bị trình duyệt chặn. Sẽ phát ngay khi người dùng chạm/click vào web
+        const startMusicOnInteract = () => {
+          if (!isPlaying) playMusic();
+          // Phát xong thì xóa lệnh này đi để không bị lặp lại
+          document.removeEventListener("click", startMusicOnInteract);
+          document.removeEventListener("touchstart", startMusicOnInteract);
+        };
+        // Lắng nghe sự kiện click chuột hoặc chạm ngón tay trên điện thoại
+        document.addEventListener("click", startMusicOnInteract);
+        document.addEventListener("touchstart", startMusicOnInteract);
+      });
+    }
+    // -----------------------------------------------------
     // ==========================================
     // 2. LOGIC HIỂN THỊ THẺ NHÂN VẬT VÀ LỌC BẢNG
     // ==========================================
