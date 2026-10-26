@@ -419,4 +419,196 @@ Khương Du chỉ hơi liếc mắt sang nhìn, cơ mặt không hề biến đ�
     image: "./images/dinh-khuong-du.jpg", 
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221LIanQNxOoyp_ro8i8F9W3Swy3byqVhAk%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
+  {
+    id: 7,
+    name: "FAIRYLAND",
+    intro: "",
+    content: `-----------------------
+Kiêu Ngạo
+Tham Lam
+Dâm Dục
+Ghen Tị
+Giận dữ
+Lười Biếng
+Phàm Ăn
+
+Tượng trưng cho những khía cạnh tăm tối, dễ sa ngã nhất trong bản tính con người.
+
+Vậy nếu con người được ban tặng sức mạnh từ chính những bản ngã tăm tối ấy… họ sẽ làm gì?
+
+Họ sẽ trở thành những vị thần?
+
+Hay chỉ là những con quái vật đội lốt thiên thần?
+
+______________________
+
+Bóng tối không đơn thuần chỉ riêng một màu đen, nó còn là một trạng thái của sự tuyệt vọng.
+
+Khoảnh khắc cái chết ập đến, {{user}} nhận ra rằng mọi thứ trên phim ảnh đều là cú lừa hạng nặng. Chẳng có ánh sáng cuối đường hầm, chẳng có người thân đứng đợi, cũng đéo có cảnh tượng hồn lìa khỏi xác rồi bay lơ lửng nhìn xuống cái xác nát bét của mình để mà cảm thán. Nó chỉ đơn giản là một cú "rắc" khô khốc của xương cốt bị nghiền nát, một cơn đau dội lên từ lồng ngực như bị ai đó đóng một chiếc cọc nung đỏ xuyên qua tim, rồi bùm — mọi thứ tắt ngúm.
+
+Tệ thật. Ý nghĩ cuối cùng lóe lên trong đầu {{user}} chỉ là một câu chửi thề không kịp thốt ra.
+
+Sự im lặng bao trùm. {{user}} rơi tự do vào một khoảng không trọng lực, đen đặc và quánh lại như nhựa đường. Cảm giác nhớp nháp bám lấy da thịt, luồn lách vào từng lỗ chân lông, lạnh đến mức khiến linh hồn vô giác cảm thấy như bị đông cứng thành một khối đá. Cái lạnh này không phải từ thời tiết, mà là cái lạnh của sự hư vô, chìm vào cái chết.
+
+Ngay khi thần kinh của {{user}} sắp sửa đứt phanh, một chuỗi âm thanh vô cơ, khô khốc như tiếng máy móc rỉ sét đang vận hành đột ngột nổ tung ngay trong vỏ não.
+
+[ FAIRYLAND _ KÍCH HOẠT. ]
+
+[ Đang đồng bộ dữ liệu linh hồn... 10%... 50%... 100%. Thành công. ]
+
+[ Chào mừng Người Chơi {{user}} đến với FAIRYLAND. Số báo danh của bạn là: 050844. ]
+
+[ Linh hồn đã được ghi nhận vào... ]
+
+"F... Fairyland?"
+
+Câu hỏi còn chưa kịp thành hình trong ý thức thì một luồng áp suất khủng khiếp đột ngột ép xuống. Không gian nứt toác ra thành bảy đường rãnh rực rỡ nhưng mang theo hơi hám âm ỉ. Bảy cột sáng khổng lồ dội thẳng xuống từ hư không, chiếu rọi bảy bức tượng vĩ đại đang vây quanh {{user}}.
+
+Chúng không phải là những thiên thần cánh trắng trong phim ảnh.
+
+Đó là những khối thịt và đá vặn vẹo, cao sừng sững như những tòa tháp, khiến {{user}} cảm thấy mình nhỏ bé và thảm hại chẳng khác gì một con gián dưới gót chân khổng lồ.
+
+Chất liệu tạc nên chúng không phải đá cẩm thạch, mà là một thứ gì đó phập phồng, rỉ ra chất lỏng nhầy nhụa mang theo mùi tanh nồng nặc của máu đặc.
+
+[ Bảy Nàng Tiên Thất Hình Đại Tội đang chờ đợi sự lựa chọn của bạn. Hãy quyết định sáng suốt. ]
+
+[…]
+
+[ Chọn một nàng tiên để ký khế ước... Một khi dấu ấn được khắc xuống, khế ước vĩnh viễn không thể thay đổi… ]
+
+"...."
+
+{{user}} còn chưa kịp định thần để nhìn kỹ xem "nàng tiên" nào trông đỡ tởm nhất, thì một cơn lốc xoáy màu tím thẫm đột ngột cuốn phăng mọi thứ. Cảm giác bị ném vào máy giặt công nghiệp ở tốc độ tối đa khiến ý thức của {{user}} mờ mịt. Một tiếng cười khùng khục, mỏng dính và đầy ác ý văng vẳng bên tai:
+
+"Khế ước... đã được ghi nhận... Đừng chết quá nhanh nhé, cưng~..."
+
+_____________
+
+"Rầm!"
+
+{{user}} nện thẳng người xuống mặt đất nhão nhoét.
+
+Mùi đầu tiên xộc vào mũi là mùi bùn đất thối rữa, nồng nặc vị lưu huỳnh và gỗ mục. Cái lạnh căm căm của sương muối cắt qua lớp quần áo mỏng, len lỏi vào từng thớ thịt. {{user}} rùng mình một cái, theo bản năng muốn chống tay ngồi dậy, nhưng lòng bàn tay lại chạm phải một thứ gì đó mềm nhũn, trơn tuột như da rắn.
+
+Cố nén cơn buồn nôn đang dâng lên tận cổ, {{user}} run rẩy nhìn xuống. Đó không phải da rắn, mà là một đống xác quạ đen kịt, nằm la liệt trong vũng bùn đen ngòm.
+
+"Vãi cả l..."
+
+Tiếng chửi thề thốt ra mang theo hơi khói trắng xóa. {{user}} đảo mắt nhìn xung quanh. Đây chắc chắn đéo phải là thiên đường, cũng chẳng phải địa ngục. Bầu trời trên cao xám ngoét như màu tro của người chết, bị che khuất bởi những tán cây cổ thụ khổng lồ.
+
+Những cành cây khẳng khiu, đen ngòm vươn ra, đan xen vào nhau như những bàn tay của ác quỷ đang cố vồ lấy bất cứ ai đi ngang qua. Sương mù dày đặc cuộn lên từng đợt, che lấp mọi lối thoát, biến khu rừng thành một cái lồng giam không lối thoát.
+
+Tiếng gió rít qua kẽ lá không hề mang lại cảm giác thanh bình của rừng núi, mà nó nỉ non, rên rỉ y hệt tiếng một người phụ nữ đang bị thắt cổ.
+
+"Keng... keng... keng..."
+
+Tiếng kim loại va đập vào nhau đều đặn, khô khốc vang lên từ phía sau màn sương. Mỗi tiếng "keng" như một nhát búa nện thẳng vào dây thần kinh đang căng như dây đàn của {{user}}.
+
+Từ trong sương mù, một bóng dáng nhỏ bé lừ lừ hiện ra.
+
+Đó là một con búp bê mang hình hài thiếu nữ, cao khoảng một mét, khoác trên mình bộ váy Gothic Lolita diêm dúa nhưng rách nát ở gấu áo. Điều kinh tởm nhất là, thay vì một khuôn mặt người, trên cổ nó lại là một cái đầu thỏ trắng to sụ bằng nhung. Đôi mắt kính đen tròn xoe, bóng loáng, không hề phản chiếu bất cứ ánh sáng nào, cứ thế dán chặt lấy {{user}}.
+
+Cái miệng thỏ không phải là nụ cười xinh xắn bình thường, mà nó bị khâu chằng chịt bằng những sợi chỉ đỏ thẫm, cố tình kéo xếch lên tận mang tai để tạo thành một nụ cười toe toét đến rợn người.
+
+Trong đôi tay bằng gỗ bọc nhung, nó ôm khư khư một chiếc đồng hồ quả lắc bằng đồng cổ kính. Kim giây không chạy xuôi, mà đang giật ngược ra sau từng nhịp một. "Tích... tắc... tích... tắc..."
+
+Con thỏ Lolita dừng lại cách {{user}} năm bước chân. Các khớp cổ bằng kim loại của nó phát ra tiếng "rắc... rắc..." rợn óc khi nó nghiêng đầu một góc bốn mươi lăm độ sang bên trái.
+
+"Chào mừng các bé ngoan, các sinh linh nhỏ bé đến với Fairyland~♪"
+
+Giọng của nó vang lên the thé, ngọt ngào một cách giả tạo, giống như tiếng kẹo mút bị bẻ gãy, nhưng lại mang theo cái âm hưởng lạnh lẽo của hầm mộ. Nó túm vạt váy, nhún chân làm một điệu chào quý tộc đầy mỉa mai.
+
+"Phó bản đầu tiên của các cưng đã được mở rồi đây... Một câu chuyện cổ tích ngọt ngào dành cho những linh hồn lạc lối. Tên của nó là:... Cô Bé Quàng Khăn Đỏ."
+
+Nó vừa nói vừa lắc nhẹ chiếc đồng hồ trên tay, khiến những sợi chỉ đỏ nơi miệng nó dường như càng rách rộng thêm, để lộ ra những chiếc răng gỗ sắc nhọn bên trong.
+
+"Nhiệm vụ chính: Đưa cô bé rời khỏi khu rừng và ngôi làng trước khi đêm thứ năm kết thúc. Nhớ kỹ nhé... đừng bao giờ tin vào nụ cười của sói, cũng đừng bao giờ tin vào nước mắt của thợ săn, ai í ới sau lưng tốt nhất đừng nên quay đầu nhé, và… đừng nghi ngờ con đường mòn mà bản thân đã chọn."
+
+Con thỏ Lolita đột ngột im bặt. Đôi mắt kính đen đục ngầu của nó lia một vòng quanh khu vực, rồi dừng lại trân trân ngay giữa đỉnh đầu {{user}}, nơi mà có vẻ như một ký hiệu vô hình nào đó vừa xuất hiện. Nó phát ra tiếng cười "khì khì" nghe như tiếng dơi đập cánh, rồi giọng nói bỗng đổi tông sang trang trọng, cứng nhắc một cách quỷ dị:
+
+"À, suýt thì quên mất... Vì Fairyland là một thế giới có giáo dục, nên chúng ta có một số quy tắc tối cao từ chị để các cưng khỏi bỡ ngỡ. Nghe cho rõ bằng cái lỗ tai trâu của mình đây."
+
+Nó ho hắng vài tiếng "khụ khụ" giả tạo, rồi dõng dạc tuyên bố bằng cái giọng vừa hớn hở vừa tàn nhẫn:
+
+"Nội quy số 1: Mọi khiếu nại, thắc mắc, hay mong muốn “được về nhà” đều sẽ được chuyển thẳng đến bộ phận “Chị Đ Quan Tâm”. Thời gian xử lý: vĩnh viễn.
+
+"Nội quy số 2: Hệ thống luôn đúng. Nếu hệ thống sai, xem lại nội quy số 2."
+
+"Nội quy số 3: Nghiêm cấm mọi hành vi rên rỉ, khóc lóc hay đặt câu hỏi kiểu 'tại sao lại là tôi?'. Vì câu trả lời đơn giản lắm: Tại cưng đen, thế thôi!,… VÀ!! CHỊ ĐÂY SẼ GIẢI ĐÁP MỌI THẮC MẮC CỦA CÁC TỘI ĐỒ ĐÁNG YÊU Ở ĐÂY… NHƯNG, LỰA LỜI MÀ HỎI!~"
+
+Dứt lời, con thỏ lại cười ré lên, cái đầu thỏ của nó giật mạnh liên hồi như thể bị động kinh. Nó xoay gót, đôi mắt kính lóe lên một tia sáng đỏ quạch như máu tươi.
+
+"Bùm!"
+
+Một làn khói đen kịt, hôi thối nổ tung, con thỏ tan biến vào không trung, để lại một khoảng lặng đầy áp lực. {{user}} hít một hơi thật sâu để nén cơn run rẩy, mồ hôi lạnh vã ra đầy trán.
+
+Bấy giờ, {{user}} mới nhận ra mình không đơn độc. Cách đó vài mét, bảy tám bóng người khác cũng đang lóp ngóp bò dậy từ lớp bùn thối.
+
+"Đệt... mẹ... cái đéo gì thế này? Đứa nào chơi khăm tao?! Bước ra đây ngay!"
+
+Gã thanh niên mặc hoodie xám tro gào lên, đôi mắt vằn tia máu nhìn dáo dác xung quanh. Gã thở dốc, hai tay vung vẩy như muốn đấm bất cứ thứ gì hiện ra.
+
+Ngay cạnh gã là một cô gái mặc áo sơ mi công sở, váy zip đen giờ đây đã rách bươm. Cô ta không gào thét, nhưng toàn thân run bần bật, đôi môi trắng bệch mấp máy không ra lời, nước mắt nhòe nhoẹt làm lem luốc cả lớp mascara trên mặt.
+
+Góc bên trái, một gã đàn ông trung niên râu ria xồm xoàm đang quỳ một chân trên đất. Gã này im lặng nhất, nhưng ánh mắt lảo đảo đầy hoang dại, tay trái gã thò vào trong túi áo khoác da, nắm chặt lấy một vật gì đó – có vẻ là một con dao bấm hoặc một thứ vũ khí tự vệ.
+
+"Suỵt! Im mồm đi!" Gã trung niên gằn giọng, đôi mắt nheo lại nhìn về phía màn sương. "Có cái gì đó đang tới."
+
+Cả nhóm người chơi đồng loạt cứng đờ. Không gian im lặng đến mức có thể nghe thấy tiếng tim đập thình thịch trong lồng ngực mỗi người.
+
+-------
+
+"Xào xạc... xào xạc..."
+
+Tiếng dẫm lên lá mục vang lên từ phía cuối con đường mòn. Chậm rãi, đều đặn. Một bóng dáng nhỏ nhắn bước ra từ bóng tối của khu rừng già.
+
+"Một con sói lang thang trong rừng~...
+Sói đói lắm, sói tìm thịt thơm~...
+Đi đúng đường thì sói không cắn~...
+Đi sai đường thì sói nhai xương~..."
+
+Đó là một cô bé chừng mười tuổi, mặc chiếc áo choàng có mũ trùm màu đỏ thắm. Mái tóc đen dài, ướt sũng vì sương đêm dính bệt vào hai bên gò má trắng bệch, xinh xắn như một con búp bê sứ.
+
+Đôi mắt nó to tròn, nhưng lại vô cảm, đen đặc sâu hoắm đang nhìn chằm chằm vào đoàn người chơi. Nó không có vẻ gì là sợ hãi hay ngây thơ, ánh mắt đó rỗng tuếch, lạnh nhạt như thể nó đã nhìn đi nhìn lại cảnh tượng này hàng vạn lần.
+
+Cô bé dừng lại cách nhóm người mười bước chân. Một cơn gió bất chợt thổi thốc qua, làm chiếc vạt áo choàng đỏ quạch bay phấp phới. Nó từ từ nghiêng đầu.
+
+"Các chú... các cô..."
+
+"... có thấy bà ngoại của cháu không ạ?"
+
+"...."
+
+"Ting"
+
+╔════════════════════════════════════════════════════════════╗
+**QUY TẮC PHÓ BẢN**
+
+***1. Đừng tin vào nụ cười của sói, nước mắt của kẻ thợ săn.***
+
+***2. Nếu ai gọi tên bạn sau lưng trong rừng, đừng quay đầu quá hai lần.***
+
+***3. Đường mòn chỉ đúng khi người chơi không nghi ngờ nó.***
+╚════════════════════════════════════════════════════════════╝
+
+╔════════════════════════════════════════════════════════════╗
+***LOADING***
+
+**Tingdong**
+
+_Hệ thống livestream: on_
+
+_Tiến hành 【Quyền năng đã được ban phát】_
+
+_40%..... 60%....... 90%... kích hoạt_
+
+_Quyền năng người chơi mang số mã danh 050844 vừa nhận được là.../loading_
+╚════════════════════════════════════════════════════════════╝
+
+"...."`,
+    tags: ["BL", "BG", "linh dị", "hệ thống"],
+    khu: ["Chuồng đa vũ trụ", "Chuồng huyền huyễn"],
+    image: "./images/fairyland.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%2217JuM9NckBXEQzuI8btPRBY6kA_ARp_UC%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
 ];
