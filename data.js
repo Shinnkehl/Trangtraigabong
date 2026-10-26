@@ -207,7 +207,7 @@ lóc ỉ ôi chói tai, ánh mắt sắc lạnh, âm u của Đình Trí Viễn 
     tags: ["BL", "BG", "Mạt thế", "Zombie"],
     khu: "Chuồng hiện đại",
     image: "./images/dinh-tri-vien.jpg", 
-    link: " https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221PJ6lfCp6IA-GvhE5zNV5oWEZC0D74i0n%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221PJ6lfCp6IA-GvhE5zNV5oWEZC0D74i0n%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
   {
     id: 5,
