@@ -6,7 +6,6 @@
   <meta name="theme-color" content="#FDF5F7">
   <title>Chi tiết Nhân vật - Trang Trại Gà Bông</title>
   <style>
-    /* BẢO TOÀN TOÀN BỘ CSS CỦA BẠN, KHÔNG THAY ĐỔI GÌ */
     :root {
       --bg: #FDF5F7; --bg-gradient: #F5E1E6; --nav-bg: rgba(255, 255, 255, 0.88);
       --card-bg: rgba(255, 255, 255, 0.93); --white: #FFFFFF; 
@@ -42,10 +41,6 @@
     
     .detail-body { padding: 40px; font-size: 16px; line-height: 1.8; white-space: pre-wrap; color: var(--pink-dark); }
     
-    .comment-section { padding: 40px; border-top: 1px solid var(--border); background: var(--bg); }
-    .comment-section h2 { margin-top: 0; color: var(--pink-dark); font-size: 22px; margin-bottom: 20px; }
-    #fb-comment-box { background: var(--card-bg); padding: 15px; border-radius: 16px; border: 1px solid var(--border); min-height: 200px; }
-    
     .meet-btn { display: block; background: var(--pink); color: #fff; text-align: center; padding: 18px; text-decoration: none; font-weight: bold; font-size: 18px; transition: 0.3s; }
     .meet-btn:hover { background: var(--pink-dark); }
 
@@ -57,8 +52,6 @@
   </style>
 </head>
 <body>
-  <!-- 1. THÊM THẺ NÀY ĐỂ FACEBOOK HOẠT ĐỘNG -->
-  <div id="fb-root"></div>
 
   <header class="navbar">
     <a href="index.html" class="btn-back">← Trở về Trang Trại</a>
@@ -94,10 +87,6 @@
       const tagsHtml = (character.tags || []).map(t => `<span class="tag">#${t}</span>`).join('');
       const khuHtml = (Array.isArray(character.khu) ? character.khu : [character.khu || "Chưa rõ"]).map(k => `<span class="tag">🏰 ${k}</span>`).join('');
       
-      const myWebsiteUrl = "https://shinnkehl.github.io/Trangtraigabong"; 
-      const uniqueCharUrl = `${myWebsiteUrl}/?character_id=${character.id}`;
-      const isDark = document.documentElement.getAttribute("data-theme") === "dark";
-      
       container.innerHTML = `
         <div class="detail-card">
           <div class="detail-header">
@@ -118,31 +107,9 @@
             ${character.content || "Nhân vật này khá bí ẩn, chưa có thông tin chi tiết..."}
           </div>
           
-          <div class="comment-section">
-            <h2>💌 Em muốn gửi gắm đôi lời đến ${character.name} rằng...</h2>
-            <div id="fb-comment-box">
-              <div class="fb-comments" data-href="${uniqueCharUrl}" data-width="100%" data-numposts="10" data-colorscheme="${isDark ? 'dark' : 'light'}"></div>
-            </div>
-          </div>
-          
           ${character.link ? `<a href="${character.link}" class="meet-btn" target="_blank" rel="noopener">🌟 Gặp gỡ nhân vật này ngoài đời →</a>` : ''}
         </div>
       `;
-
-      // 2. ÉP FACEBOOK HIỂN THỊ KHUNG BÌNH LUẬN SAU KHI XUẤT HTML Ở TRÊN
-      if (window.FB) {
-        // Nếu Facebook đã tải xong trước đó, ra lệnh cho nó quét lại giao diện
-        window.FB.XFBML.parse();
-      } else {
-        // Nếu chưa tải, thì nhúng script
-        const fbScript = document.createElement('script');
-        // Tốt nhất bạn nên thay app_id của bạn vào chỗ trống. Nếu không có tạm thời cứ để trống.
-        fbScript.src = "https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0&appId=";
-        fbScript.async = true;
-        fbScript.defer = true;
-        fbScript.crossOrigin = "anonymous";
-        document.body.appendChild(fbScript);
-      }
     }
   </script>
 </body>
