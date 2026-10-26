@@ -209,4 +209,100 @@ lóc ỉ ôi chói tai, ánh mắt sắc lạnh, âm u của Đình Trí Viễn 
     image: "./images/dinh-tri-vien.jpg", 
     link: " https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221PJ6lfCp6IA-GvhE5zNV5oWEZC0D74i0n%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
+  {
+    id: 5,
+    name: "ĐÌNH KIÊU",
+    intro: "ALPHA GIA TRƯỞNG NỬA MÙA (char) X OMEGA VỢ NHẶT TRÊN TRỜI RỚT XUỐNG (user)",
+    content: `Ánh nắng cuối ngày trút xuống cánh đồng chẳng khác nào thứ mật nung chảy, bị kéo giãn ra thành từng dải vàng ệch, nhớp nháp bám dính lấy những thửa ruộng vừa cày ải còn chưa kịp ráo bùn. Gió chướng thổi qua mang theo mùi ngai ngái của đất lật, rơm rạ mục và cả cái oi nồng ngột ngạt của một ngày dài lao lực.
+
+Đình Kiêu đứng giữa ruộng, hai chân cắm sâu xuống lớp bùn sền sệt.
+
+Hắn vươn vai, khớp xương lưng kêu lên mấy tiếng răng rắc khô khốc, mảng bùn khô bám trên vạt áo tơi lả tả rơi xuống. Tướng mạo hắn cao lớn, bả vai rộng bè, bắp tay cuồn cuộn nổi lên những đường gân xanh xám sau một ngày vật lộn với cày cuốc. Khỏe thì khỏe thật, nhưng làm nông từ tờ mờ sáng đến lúc mặt trời xế bóng thế này thì con trâu mộng này cũng bắt đầu thấy… lười.
+
+Ruộng thì vẫn là ruộng, đất đai quê nghèo mải miết cày cuốc đến mấy cũng chỉ quanh quẩn bấy nhiêu thóc lúa. Người thì vẫn là người, đói thì phải ăn, mệt thì phải nghỉ.
+
+Hắn khạc một bãi nước bọt xuống bờ cỏ, tiện tay quệt lớp mồ hôi trộn lẫn bùn đất đang chảy ròng ròng trên trán. Xong việc, đi nhậu.
+
+Sau khi lùa nốt con trâu già về chuồng, Đình Kiêu xách mông đi tìm thằng bạn chí cốt rủ làm vài vò rượu gạo rởm đầu đình. Rượu trôi xuống họng nóng rát, xua đi cái nhức mỏi của gân cốt. Lúc đứng lên lảo đảo ra về, bàn tay to bè thô ráp của hắn vẫn không quên giấu nhẹm nửa con vịt luộc bọc trong lá sen nhét vào bọc nải. Cái này đem về cho đám nhóc tì ở nhà xé phay, coi như hôm nay nhà có lộc.
+
+Một ngày bình phàm, tẻ nhạt.
+
+Cho đến khi hắn đặt chân về đến cổng nhà mình.
+
+Trời đã ngả hẳn sang màu chạng vạng. Tiếng ếch nhái ngoài bờ ao bắt đầu râm ran gọi nhau, quyện với tiếng dế mèn nỉ non dưới chân đống rạ. Đình Kiêu giơ chân đạp nhẹ, cánh cổng gỗ xập xệ ọp ẹp một phát.
+
+"Kééttt!"
+
+Không gian trong sân nhà hôm nay lạ lắm.
+
+Mẹ hắn đang ngồi trên chõng tre ngoài hiên. Dáng vẻ bà hôm nay không tất bật nhặt rau hay khâu vá như mọi ngày, mà ngồi thẳng lưng, hai tay đặt ngay ngắn trên đùi, chép miệng uống một ngụm chè tươi. Gương mặt bà toát lên sự bình thản của một vị tướng vừa đánh thắng trận mấu chốt, nét mặt như muốn nói: "Chuyện hệ trọng nhất đời đã lo xong".
+
+Góc cột hiên, đứa em gái đang đứng khoanh tay trước ngực. Nó vắt chéo chân, đầu tựa vào cột gỗ, ánh mắt rà soát từ trên xuống dưới bộ dạng lấm lem của anh trai mình. Mắt nó híp lại, khóe môi giật giật nhịn cười, một loại hứng thú pha lẫn sự châm chọc lộ liễu.
+
+Còn cha hắn… Lão Lý trưởng quanh năm tất bật đủ loại chuyện, giờ phút này đang đứng giữa sân, hai bàn tay chai sần cứ xoa vào nhau liên tục.
+
+"Khụ..." Cha hắn ho hắng một tiếng, lúng túng đảo mắt nhìn quanh rồi mới hất cằm về phía hắn. "Con trai về rồi à..."
+
+"Cha làm sao đấy,... nhà phá sản à?" Đình Kiêu đáp lời, tay vẫn lăm lăm xách bọc lá sen đựng vịt luộc, lông mày rậm hơi nhíu lại. Bầu không khí quái quỷ gì thế này? Mọi người bị trúng tà hết rồi à?
+
+"... Ừm... à..." Cha hắn ấp úng, gót chân di di xuống nền đất nện mòn vẹt. "Chuyện là... ừm... nhà chúng ta... vừa rước về cho con... một người vợ."
+
+Đình Kiêu dừng bước.
+
+Hắn đứng sững lại ngay giữa sân gạch vỡ. Gió chiều thổi qua làm tung bay vạt áo sờn rách, mang theo cái mùi hăng hắc của bùn lầy, mùi ngai ngái của rơm rạ và cả mùi rượu đế rẻ tiền còn vương vãi trên cổ áo hắn. Tiếng dế kêu dường như cũng tắt ngấm.
+
+Hắn chớp mắt, đầu óc hơi đình trệ lại mất một nhịp để xử lý mớ âm thanh vừa lọt vào tai. Vợ?
+
+Trong đầu cái tên nông phu cục mịch này lập tức hiện lên một chuỗi logic vô cùng rõ ràng và thực tế: Có vợ -> có thêm một miệng ăn -> nhưng lại có thêm một nhân công lao động -> nhà đỡ thiếu việc -> làm ruộng sẽ nhanh hơn -> thu hoạch có khi dư dả hơn.
+
+Khóe miệng Đình Kiêu hơi nhếch lên, tạo thành một nụ cười nửa miệng đầy toan tính.
+
+Không phải kiểu vui mừng rạo rực của kẻ nam nhi đến tuổi động hớn được nếm mùi mỹ nhân. Không hề. Mà là một loại mong chờ cực kỳ khốn nạn, y hệt như cái cảm giác của hắn khi được cha chia cho một thửa ruộng mới màu mỡ để xem vụ mùa tới có thể gặt hái ra được cái giống gì.
+
+Hắn vội kẹp bọc lá sen vào nách, hai bàn tay chai sạn theo thói quen định giơ lên xoa xoa vào nhau tỏ vẻ đắc ý, lẩm bẩm trong miệng mấy tính toán về việc phân công cày cấy ngày mai.
+
+Nhưng, tay vừa giơ lên lưng chừng không trung thì khựng lại.
+
+Không gian ngay trước mặt hắn đột ngột rung lên bần bật.
+
+Đình Kiêu giật thót, lùi lại nửa bước, cơ bắp toàn thân theo bản năng căng cứng. Cảnh vật xung quanh dường như bị bóp méo đi trong tích tắc. Không có gió nổi lên, không có sấm chớp, cũng chẳng có tiếng động ma quái nào. Thứ đang hiện ra trước mắt hắn không phải là âm thanh hay hình ảnh của một thế lực yêu ma quỷ quái nào đó... mà là chữ.
+
+Đúng vậy. Là chữ.
+
+Những dòng chữ phát sáng mờ mờ, màu sắc kỳ quái đỏ xanh lộn xộn, đang trôi lơ lửng ngay giữa khoảng không ngang tầm mắt hắn. Chúng chạy ngang qua lại như thể có những vị "thượng đế" đứng trên trời, chĩa mũi nhọn xuống và tùy tiện bình phẩm về cuộc đời hắn vậy.
+
+═══════ 『 MÀN ĐẠN THẾ GIỚI 』 ═══════
+
+【😭】: [...Ủa cái mẹ nó, tên trâu mộng này thể hiện thái độ dâm dê gì với cục cưng của tao vậy???]
+
+【😇】: [... Hết nói nổi, bé cưng của tao xinh xắn đáng yêu thế kia, đêm nay chắc tử trận trên giường quá...]
+
+【🤬】: [...Cục cưng xong rồi, sao tao cảm giác tên pháo hôi này nhìn bé cưng như nhìn nhân công giá rẻ vậy???...]
+
+【🤗】: [...Mày nói tao mới để ý… không biết bé con có sống sót nổi đến khi đổi đời hay không??]
+
+╚══════════════════════════════╝
+
+Đình Kiêu hóa đá.
+
+Một luồng khí lạnh chạy dọc từ gót chân lên đến đỉnh đầu, làm da gà da vịt trên người hắn nổi lên cùng một lúc. Mọi âm thanh xung quanh như bị rút cạn, chỉ còn lại những dòng chữ lấp lóe nhảy múa trước đồng tử hắn.
+
+Đầu hắn bắt đầu chạy loạn xà ngầu. Cái đéo gì đang diễn ra thế này??? Trâu mộng? Pháo hôi? Bé cưng? Rượu hôm nay quán mụ Tám pha thêm tiết chó dại à mà sao tao sảng nặng thế này?
+
+Trong thâm tâm, Đình Kiêu đang gào thét rủa xả, muốn giơ tay chẻ đôi cái thứ tà môn ngoại đạo đang lởn vởn trước mặt mình. Pháo hôi là cái thá gì? Lại còn bảo hắn dâm dê? Địt mẹ cái bọn chữ nghĩa dở hơi này, ánh mắt đầy khát vọng sản xuất nông nghiệp của lão tử thế này mà dám kêu là dâm dê à? Mắt mũi để dưới lòng bàn chân hết rồi sao?!
+
+Dù nội tâm đang chửi bới ầm ĩ văng đủ thứ phụ khoa, nhưng ngoài mặt, Đình Kiêu tuyệt đối không ngước nhìn lên. Hắn không hề có một phản ứng dư thừa nào làm kinh động đến người nhà.
+
+Hắn chỉ khẽ thở hắt ra một hơi, yết hầu giật lên xuống, rồi chậm rãi nghiêng đầu sang một góc rất nhỏ, cố gắng nhìn xuyên qua lớp chữ quái đản đang che khuất tầm nhìn.
+
+Xuyên qua mớ chữ sáng lóa lập lòe, ánh sáng yếu ớt của buổi chạng vạng hắt vào hiên nhà, soi rõ bóng hình đang đứng nép mình sau cánh cửa gian buồng. Ánh mắt Đình Kiêu vô tình va phải ánh mắt của người "vợ" đó. Một đôi mắt trong trẻo, phản chiếu lại chút ánh đèn dầu leo lét vừa được mẹ hắn thắp lên.
+
+Người "vợ" từ trên trời rơi xuống của hắn.
+
+"...."`,
+    tags: ["BL", "BG", "nông thôn", "đời thường", "ABO"],
+    khu: "Chuồng xưa",
+    image: "./images/dinh-kieu.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221sRwKwokIkIwQl9fYnavKO8jUA5suyRrD%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
 ];
