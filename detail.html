@@ -43,7 +43,7 @@
     
     .comment-section { padding: 40px; border-top: 1px solid var(--border); background: var(--bg); }
     .comment-section h2 { margin-top: 0; color: var(--pink-dark); font-size: 22px; margin-bottom: 20px; }
-    #fb-comment-box { background: var(--card-bg); padding: 15px; border-radius: 16px; border: 1px solid var(--border); }
+    #fb-comment-box { background: var(--card-bg); padding: 15px; border-radius: 16px; border: 1px solid var(--border); min-height: 150px;}
     
     .meet-btn { display: block; background: var(--pink); color: #fff; text-align: center; padding: 18px; text-decoration: none; font-weight: bold; font-size: 18px; transition: 0.3s; }
     .meet-btn:hover { background: var(--pink-dark); }
@@ -104,7 +104,8 @@
       // ===============================================
       // BƯỚC QUAN TRỌNG: ĐỔI LINK GITHUB CỦA BẠN VÀO ĐÂY
       // ===============================================
-      const myWebsiteUrl = "https://ten-github-cua-ban.github.io/ten-du-an"; 
+      const myWebsiteUrl = "https://ten-github-cua-ban.github.io/ten-du-an"; // <--- BẠN HÃY SỬA DÒNG NÀY
+
       const uniqueCharUrl = `${myWebsiteUrl}/?character_id=${character.id}`;
       const isDark = document.documentElement.getAttribute("data-theme") === "dark";
       
@@ -129,7 +130,9 @@
           </div>
           
           <div class="comment-section">
-            <h2>💬 Mọi người nghĩ gì về ${character.name}?</h2>
+            <!-- ĐÃ SỬA DÒNG CHỮ Ở ĐÂY -->
+            <h2>💌 Em muốn gửi gắm đôi lời đến ${character.name} rằng...</h2>
+            
             <div id="fb-comment-box">
               <div class="fb-comments" data-href="${uniqueCharUrl}" data-width="100%" data-numposts="10" data-colorscheme="${isDark ? 'dark' : 'light'}"></div>
             </div>
