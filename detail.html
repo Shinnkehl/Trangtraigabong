@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FDF5F7">
+  <title>Chi tiết Nhân vật - Trang Trại Gà Bông</title>
+  <style>
+    :root {
+      --bg: #FDF5F7; --bg-gradient: #F5E1E6; --nav-bg: rgba(255, 255, 255, 0.88);
+      --card-bg: rgba(255, 255, 255, 0.93); --white: #FFFFFF; 
+      --pink: #D46C85; --pink-dark: #632B39; --pink-light: #F5E1E6;
+      --border: #E8D0D6; --muted: #8A7278; --shadow: 0 15px 35px rgba(212, 108, 133, 0.15);
+    }
+    [data-theme="dark"] {
+      --bg: #1A1416; --bg-gradient: #2B1D22; --nav-bg: rgba(26, 20, 22, 0.88);
+      --card-bg: rgba(36, 26, 30, 0.93); --white: #261A1E; 
+      --pink: #E08A9E; --pink-dark: #F7E8EB; --pink-light: #3D262C;
+      --border: #4A323A; --muted: #A8949B; --shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    }
+
+    * { box-sizing: border-box; } html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--pink-dark); background: radial-gradient(ellipse at top, var(--bg-gradient) 0%, transparent 55%), var(--bg); min-height: 100vh; transition: 0.3s; padding-bottom: 50px;}
+    
+    .navbar { display: flex; justify-content: space-between; align-items: center; padding: 15px 7%; background: var(--nav-bg); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; backdrop-filter: blur(10px); }
+    .btn-back { display: inline-flex; align-items: center; gap: 8px; background: var(--pink-light); color: var(--pink-dark); text-decoration: none; padding: 10px 18px; border-radius: 12px; font-weight: bold; transition: 0.3s; }
+    .btn-back:hover { background: var(--pink); color: #fff; transform: translateX(-3px); }
+    
+    .container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+    
+    .detail-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 24px; overflow: hidden; box-shadow: var(--shadow); }
+    .detail-header { display: flex; gap: 30px; padding: 40px; background: linear-gradient(135deg, var(--bg-gradient), var(--bg)); border-bottom: 1px solid var(--border); align-items: center; }
+    
+    .img-wrap { width: 200px; height: 200px; border-radius: 24px; border: 5px solid var(--card-bg); box-shadow: var(--shadow); overflow: hidden; flex-shrink: 0; }
+    .img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+    
+    .info h1 { margin: 0 0 10px; font-size: 36px; color: var(--pink-dark); }
+    .info .intro { font-size: 16px; color: var(--pink); font-weight: bold; margin-bottom: 15px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tag { background: var(--pink-light); color: var(--pink-dark); padding: 6px 12px; border-radius: 20px; font-size: 13px; border: 1px solid var(--border);}
+    
+    .detail-body { padding: 40px; font-size: 16px; line-height: 1.8; white-space: pre-wrap; color: var(--pink-dark); }
+    
+    .comment-section { padding: 40px; border-top: 1px solid var(--border); background: var(--bg); }
+    .comment-section h2 { margin-top: 0; color: var(--pink-dark); font-size: 22px; margin-bottom: 20px; }
+    #fb-comment-box { background: var(--card-bg); padding: 15px; border-radius: 16px; border: 1px solid var(--border); }
+    
+    .meet-btn { display: block; background: var(--pink); color: #fff; text-align: center; padding: 18px; text-decoration: none; font-weight: bold; font-size: 18px; transition: 0.3s; }
+    .meet-btn:hover { background: var(--pink-dark); }
+
+    @media (max-width: 600px) {
+      .detail-header { flex-direction: column; text-align: center; padding: 30px 20px; }
+      .tags { justify-content: center; }
+      .detail-body { padding: 30px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- TẢI THƯ VIỆN FB -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0" nonce="ABC123xyz"></script>
+
+  <header class="navbar">
+    <a href="index.html" class="btn-back">← Trở về Trang Trại</a>
+  </header>
+
+  <div class="container" id="content-container">
+    <!-- NỘI DUNG SẼ ĐƯỢC JAVASCRIPT TẠO TỰ ĐỘNG Ở ĐÂY -->
+    <div style="text-align: center; padding: 50px; color: var(--muted);">Đang tải thông tin nhân vật...</div>
+  </div>
+
+  <script src="data.js"></script>
+  <script>
+    // Lấy Theme
+    if (localStorage.getItem("theme") === "dark" || (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+
+    // 1. Lấy ID từ URL (VD: detail.html?id=12)
+    const urlParams = new URLSearchParams(window.location.search);
+    const charId = parseInt(urlParams.get('id'));
+
+    // 2. Tìm nhân vật trong file data.js
+    const character = typeof characters !== 'undefined' ? characters.find(c => c.id === charId) : null;
+    const container = document.getElementById('content-container');
+
+    if (!character) {
+      container.innerHTML = `
+        <div style="text-align:center; padding: 50px; background: var(--card-bg); border-radius: 20px;">
+          <h1 style="font-size: 50px; margin: 0 0 10px;">😢</h1>
+          <h2>Không tìm thấy bé gà này!</h2>
+          <p style="color: var(--muted);">Có vẻ như bạn đã đi lạc hoặc nhân vật không tồn tại.</p>
+          <br><a href="index.html" class="btn-back">Quay lại trang chủ</a>
+        </div>
+      `;
+    } else {
+      // Đổi tiêu đề tab trình duyệt
+      document.title = `${character.name} - Trang Trại Gà Bông`;
+
+      // 3. Render HTML
+      const tagsHtml = (character.tags || []).map(t => `<span class="tag">#${t}</span>`).join('');
+      const khuHtml = (Array.isArray(character.khu) ? character.khu : [character.khu || "Chưa rõ"]).map(k => `<span class="tag">🏰 ${k}</span>`).join('');
+      
+      // ===============================================
+      // BƯỚC QUAN TRỌNG: ĐỔI LINK GITHUB CỦA BẠN VÀO ĐÂY
+      // ===============================================
+      const myWebsiteUrl = "https://ten-github-cua-ban.github.io/ten-du-an"; 
+      const uniqueCharUrl = `${myWebsiteUrl}/?character_id=${character.id}`;
+      const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+      
+      container.innerHTML = `
+        <div class="detail-card">
+          <div class="detail-header">
+            <div class="img-wrap">
+              <img src="${character.image}" alt="${character.name}" onerror="this.src='https://via.placeholder.com/300/F5E1E6/D46C85?text=Gà+Bông'">
+            </div>
+            <div class="info">
+              <h1>${character.name}</h1>
+              <div class="intro">${character.intro || ""}</div>
+              <div class="tags">
+                ${khuHtml}
+                ${tagsHtml}
+              </div>
+            </div>
+          </div>
+          
+          <div class="detail-body">
+            ${character.content || "Nhân vật này khá bí ẩn, chưa có thông tin chi tiết..."}
+          </div>
+          
+          <div class="comment-section">
+            <h2>💬 Mọi người nghĩ gì về ${character.name}?</h2>
+            <div id="fb-comment-box">
+              <div class="fb-comments" data-href="${uniqueCharUrl}" data-width="100%" data-numposts="10" data-colorscheme="${isDark ? 'dark' : 'light'}"></div>
+            </div>
+          </div>
+          
+          ${character.link ? `<a href="${character.link}" class="meet-btn" target="_blank" rel="noopener">🌟 Gặp gỡ nhân vật này ngoài đời →</a>` : ''}
+        </div>
+      `;
+
+      // Kích hoạt FB Comment tải lại
+      if (typeof FB !== 'undefined') {
+        FB.XFBML.parse(document.getElementById('fb-comment-box'));
+      }
+    }
+  </script>
+</body>
+</html>
