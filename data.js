@@ -159,7 +159,7 @@ Rầm!
 Chiếc ghế gỗ đổ sập. Âm thanh không quá lớn, nhưng đủ để giật đứt những luồng suy nghĩ lơ đãng, kéo theo mấy chục ánh mắt đồng loạt ngoái lại.
 Nam sinh ngồi dãy trong cùng ngã chúi xuống nền gạch men. Toàn thân cậu ta co giật liên hồi, từng nhịp nảy lên bần bật như một con cá mắc cạn đang giãy chết. Gương mặt đỏ bừng lên một cách dị dạng, những đường gân xanh đen lồi hằn dưới da cổ như muốn nứt toác ra, mồ hôi túa ra như tắm làm ướt sũng mảng sơ mi trắng chỉ trong vài giây đồng hồ. Hai tròng mắt cậu ta trợn ngược lên, chỉ còn lại lòng trắng dã đục ngầu, bọt mép trào ra từng bọt sùi sụt.
 Cảnh tượng rợn người ấy khiến vài học sinh giật mình nảy khỏi ghế, vài nữ sinh thót tim, nép sát vào bàn. Nhưng sự hoảng loạn đó chỉ diễn ra trong tíc tắc rồi dần lắng xuống. Não bộ của đám tinh anh này luôn có xu hướng tự động tìm kiếm một lời bào chữa an toàn nhất để hợp lý hóa mọi chuyện.
-"Vãi l0^`n... lại tuột huyết áp à?" Một gã nam sinh vuốt vuốt tóc, tặc lưỡi.
+"Vãi l0^'n... lại tuột huyết áp à?" Một gã nam sinh vuốt vuốt tóc, tặc lưỡi.
 "Thằng điên này đêm qua thức gánh tạ kéo team tới sáng chứ gì. Ng/U thì ch3t mẹ đi."
 "Nhìn cái tướng dặt dẹo vãi đ4'i... haha."
 Vài tiếng cười cợt rời rạc, nhẫn tâm hùa theo. Giáo viên bước vội xuống, cau mày lấy tay áo che mũi kiểm tra qua loa rồi thở hắt ra đầy phiền phức, phẩy tay gọi ba nam sinh to con nhất lớp: "Mấy em, xốc nách bạn xuống phòng y tế nhanh đi, để nằm đây cản trở lớp học."
@@ -197,16 +197,16 @@ Không gian chết lặng đi một nhịp. Hô hấp của ba mươi con ngư�
 "...."
 Rồi toàn bộ tầng sáu nổ tung.
 "AAAAAAA!!!"
-"Khóa cửa lại!! Chốt cái cửa vào mau lên, cmn thằng l9^`n kia kéo cái bàn qua đây!!!"
+"Khóa cửa lại!! Chốt cái cửa vào mau lên, cmn thằng l9^'n kia kéo cái bàn qua đây!!!"
 "Cứu tao với! Điện thoại đâu, gọi cảnh sát!! Gọi cha tao!!!"
 Thứ mặt nạ "tinh anh", "thanh lịch" rớt sạch sẽ không còn một mảnh. Những kẻ nhanh chân nhất gào thét, xô đẩy, giẫm đạp lên nhau, điên cuồng vác bàn ghế ném về phía cửa chính. Mấy nữ sinh rú lên chói lọi, ôm đầu khóc nức nở rúc vào góc tường. Tiếng gào khóc, tiếng chửi thề văng mạng, tiếng va đập sầm sập tạo thành một bản giao hưởng đầu tiên của những ngày tận thế.
 Nhưng giữa cơn hỗn loạn kinh thiên động địa ấy, Đình Trí Viễn vẫn đứng yên ở ngưỡng cửa.
 Nước đọng trên đuôi tóc nhỏ từng giọt tách... tách... xuống nền gạch, hòa lẫn với thứ âm thanh gào rú chói tai. Đôi mắt đen xám của hắn tĩnh lặng đến rợn người.
 Xuyên qua đám đông hoảng loạn đang giẫm đạp lên nhau, xuyên qua những tiếng khóc
 lóc ỉ ôi chói tai, ánh mắt sắc lạnh, âm u của Đình Trí Viễn từ từ dời đi, rà soát một vòng quanh lớp học đang bấn loạn, và cuối cùng… ghim thẳng vào người {{user}}.`,
-    tags: ["BL", "BG", "Mạt thế", "Zombie"], 
-    khu: "Chuồng hiện đại", 
+    tags: ["BL", "BG", "Mạt thế", "Zombie"],
+    khu: "Chuồng hiện đại",
     image: "./images/dinh-tri-vien.jpg", 
-    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221PJ6lfCp6IA-GvhE5zNV5oWEZC0D74i0n%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
-  }
-]; 
+    link: " https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221PJ6lfCp6IA-GvhE5zNV5oWEZC0D74i0n%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+];
