@@ -72,7 +72,7 @@ Giữa tấm nệm chất đầy chăn ga nhăn nhúm lộn xộn, sống lưng 
   {
     id: 3,
     name: "ĐÌNH MAO",
-    intro: "Câu chuyện kể về anh đại ca mèo mướp {{user}} được con nhỏ hai chân nào đó nhờ đi “truy nã” mèo và rồi trúng tiếng sét ái tình luôn với “nàng” mèo tam thể đi lạc {{char}} đó, mà anh nào biết dưới bộ lông dày cộp kia là hai hòn bi ve lủng lẳng",
+    intro: "anh đại ca mèo mướp {{user}} x “nàng” mèo tam thể đi lạc {{char}}",
     content: `Chiều tà, ánh hoàng hôn nhuộm đỏ những mái tôn xập xệ của khu hẻm 1. 
 {{user}} – đại ca mèo mướp khét tiếng đang vắt vẻo trên bờ tường rêu phong, [mode “không ai được phép làm phiền”: on], mắt hắn híp lại quá nửa, đuôi buông lỏng, thân hình trải dài đầy lười biếng. 
 Mười phút trước, hắn vừa giải quyết xong một vụ tranh chấp địa bàn với đám mèo hoang xóm dưới. Đánh nhau không đến mức long trời lở đất, nhưng cũng đủ để đám nhãi kia tém tớt lại.
