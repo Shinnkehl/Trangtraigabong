@@ -55,7 +55,20 @@
       padding: 18px 7%; background: rgba(255, 255, 255, 0.88); border-bottom: 1px solid var(--border); backdrop-filter: blur(10px);
     }
     .logo { font-size: 15px; font-weight: 800; letter-spacing: 2px; color: var(--green); text-transform: uppercase; }
-    .nav-note { font-size: 12px; color: var(--muted); }
+    
+    /* Các nút mạng xã hội (Facebook, Discord) */
+    .nav-links { display: flex; gap: 10px; align-items: center; }
+    .nav-links a {
+      display: flex; align-items: center; justify-content: center;
+      width: 34px; height: 34px; border-radius: 50%;
+      background: var(--green-light); color: var(--green-dark);
+      transition: all 0.3s ease; text-decoration: none;
+    }
+    .nav-links a:hover {
+      background: var(--green); color: white;
+      transform: translateY(-3px); box-shadow: 0 4px 10px rgba(99, 155, 112, 0.3);
+    }
+    .nav-links svg { width: 18px; height: 18px; fill: currentColor; }
 
     .hero { position: relative; z-index: 1; text-align: center; padding: 65px 20px 35px; }
     .eyebrow { display: inline-block; padding: 8px 14px; border: 1px solid var(--border); border-radius: 30px; background: rgba(255, 255, 255, 0.8); color: var(--green); font-size: 11px; letter-spacing: 2px; font-weight: bold; }
@@ -203,7 +216,23 @@
 
   <header class="navbar">
     <div class="logo">🍃 Fluffy Chicken Farm</div>
-    <div class="nav-note">A little world of green</div>
+    
+    <!-- KHU VỰC 2 ICON MẠNG XÃ HỘI MỚI -->
+    <div class="nav-links">
+      <!-- LINK FACEBOOK: THAY CHỖ DẤU # BẰNG LINK FB CỦA BẠN -->
+      <a href="https://www.facebook.com/share/18uTvgBHKz/" target="_blank" rel="noopener" title="Trang Facebook của Shinn">
+        <svg viewBox="0 0 320 512">
+          <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
+        </svg>
+      </a>
+      
+      <!-- LINK DISCORD: THAY CHỖ DẤU # BẰNG LINK DISCORD CỦA BẠN -->
+      <a href="https://discord.gg/rgN6QMPTFP" target="_blank" rel="noopener" title="Server Discord">
+        <svg viewBox="0 0 640 512">
+          <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.276c8.3-11.261,15.892-23.109,22.7-35.485a1.854,1.854,0,0,0-1.026-2.61,311.666,311.666,0,0,1-44.475-21.263,1.879,1.879,0,0,1-.186-3.161c3.153-2.348,6.236-4.786,9.157-7.3a1.812,1.812,0,0,1,1.9-.387c95.27,43.27,198.3,43.27,292.368,0a1.816,1.816,0,0,1,1.923.418c2.921,2.513,6.035,4.951,9.188,7.3a1.88,1.88,0,0,1-.154,3.161,310.222,310.222,0,0,1-44.512,21.263,1.85,1.85,0,0,0-1.024,2.61c6.808,12.376,14.4,24.224,22.7,35.485a1.891,1.891,0,0,0,2.029.276,488.583,488.583,0,0,0,146.8-74.189,2.017,2.017,0,0,0,.76-1.375C624.789,282.883,595.6,172.932,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"/>
+        </svg>
+      </a>
+    </div>
   </header>
 
   <section class="hero">
@@ -302,7 +331,7 @@
 
   <script>
     // 1. LOGIC TRÌNH PHÁT NHẠC
-    const songs = [
+     const songs = [
       { title: "Tìm em", src: "./images/TIM-EM.mp4" },
       { title: "Haru haru", src: "./images/HARU-HARUu.mp4" },
       { title: "Horang Suwolga", src: "./images/Horang-Suwolga.mp4" },
@@ -424,6 +453,9 @@
     let selectedKhu = null;
 
     function renderAllTags() {
+      // Dừng lại nếu data.js chưa load thành công
+      if (typeof characters === 'undefined') return;
+
       const tagSet = new Set();
       characters.forEach(char => { if (char.tags) char.tags.forEach(t => tagSet.add(t)); });
       const uniqueTags = Array.from(tagSet).sort();
@@ -433,13 +465,17 @@
     }
 
     function renderCharacters() {
+      // Dừng lại nếu data.js chưa load thành công
+      if (typeof characters === 'undefined') {
+        grid.innerHTML = `<div class="empty-state"><div>⚠️</div><strong>Lỗi tải dữ liệu</strong><p>Hãy kiểm tra lại file data.js xem có copy thiếu không nhé!</p></div>`;
+        return;
+      }
+
       const keyword = searchInput.value.trim().toLowerCase();
       const selectedCategory = categoryFilter.value;
 
       const filtered = characters.filter(char => {
-        // Hỗ trợ cả Khu dạng Chuỗi và dạng Mảng
         const charKhuArray = Array.isArray(char.khu) ? char.khu : (char.khu ? [char.khu] : [""]);
-        
         const matchesKeyword = char.name.toLowerCase().includes(keyword) || (char.intro || "").toLowerCase().includes(keyword) || (char.content || "").toLowerCase().includes(keyword) || (char.tags || []).some(tag => tag.toLowerCase().includes(keyword)) || charKhuArray.some(k => k.toLowerCase().includes(keyword));
         const matchesCategory = selectedCategory === "all" || charKhuArray.some(k => k.toLowerCase() === selectedCategory.toLowerCase());
         const matchesTag = !selectedTag || (char.tags || []).includes(selectedTag);
@@ -456,8 +492,6 @@
 
       grid.innerHTML = filtered.map(char => {
         const tagsHTML = (char.tags || []).map(tag => `<button class="character-tag ${selectedTag === tag ? "active" : ""}" type="button" onclick="event.stopPropagation(); filterByTag('${tag.replace(/'/g, "\\'")}')">${tag}</button>`).join("");
-        
-        // Render 1 hoặc nhiều thẻ Khu
         const charKhuArray = Array.isArray(char.khu) ? char.khu : (char.khu ? [char.khu] : ["Chưa phân khu"]);
         const khuHTML = charKhuArray.map(k => `<button class="character-khu ${selectedKhu === k ? "active" : ""}" type="button" onclick="event.stopPropagation(); filterByKhu('${k.replace(/'/g, "\\'")}')">🏰 ${k}</button>`).join("");
 
