@@ -3,43 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#F1F8F0">
+  <meta name="theme-color" content="#FDF5F7">
   <title>TRANG TRẠI GÀ BÔNG</title>
   <style>
     :root {
-      /* MÀU SẮC CHẾ ĐỘ SÁNG (MẶC ĐỊNH) */
-      --bg: #F1F8F0;
-      --bg-gradient: #DDEEDB;
+      /* MÀU SẮC CHẾ ĐỘ SÁNG (MẶC ĐỊNH) - TONE HỒNG */
+      --bg: #FDF5F7;
+      --bg-gradient: #F5E1E6;
       --nav-bg: rgba(255, 255, 255, 0.88);
       --card-bg: rgba(255, 255, 255, 0.93);
       --input-bg: rgba(255, 255, 255, 0.94);
       --white: #FFFFFF;
-      --green: #639B70;
-      --green-dark: #355343;
-      --green-light: #DDEEDB;
-      --border: #D0E3CF;
-      --muted: #718779;
-      --shadow: 0 8px 25px rgba(76, 117, 82, 0.08);
-      --art-bg-1: #F0F7EC;
-      --art-bg-2: #DDEEDB;
+      --pink: #D46C85; /* Hồng chủ đạo */
+      --pink-dark: #632B39; /* Đỏ đô / Hồng đậm */
+      --pink-light: #F5E1E6;
+      --border: #E8D0D6;
+      --muted: #8A7278;
+      --shadow: 0 8px 25px rgba(212, 108, 133, 0.12);
+      --art-bg-1: #FAF0F3;
+      --art-bg-2: #F5E1E6;
     }
 
-    /* MÀU SẮC CHẾ ĐỘ TỐI (DARK MODE) */
+    /* MÀU SẮC CHẾ ĐỘ TỐI (DARK MODE) - TONE HỒNG ĐEN */
     [data-theme="dark"] {
-      --bg: #161b18;
-      --bg-gradient: #202d25;
-      --nav-bg: rgba(22, 27, 24, 0.88);
-      --card-bg: rgba(30, 38, 32, 0.93);
-      --input-bg: rgba(22, 27, 24, 0.94);
-      --white: #1e2620;
-      --green: #76b385;
-      --green-dark: #e0f0e5;
-      --green-light: #25362a;
-      --border: #324738;
-      --muted: #94a89b;
+      --bg: #1A1416;
+      --bg-gradient: #2B1D22;
+      --nav-bg: rgba(26, 20, 22, 0.88);
+      --card-bg: rgba(36, 26, 30, 0.93);
+      --input-bg: rgba(26, 20, 22, 0.94);
+      --white: #261A1E;
+      --pink: #E08A9E; 
+      --pink-dark: #F7E8EB;
+      --pink-light: #3D262C;
+      --border: #4A323A;
+      --muted: #A8949B;
       --shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
-      --art-bg-1: #1e2620;
-      --art-bg-2: #161b18;
+      --art-bg-1: #261A1E;
+      --art-bg-2: #1A1416;
     }
 
     * { box-sizing: border-box; }
@@ -48,25 +48,25 @@
     /* Custom Scrollbar */
     ::-webkit-scrollbar { width: 8px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
-    ::-webkit-scrollbar-thumb { background: var(--green); border-radius: 10px; }
-    ::-webkit-scrollbar-thumb:hover { background: var(--green-dark); }
+    ::-webkit-scrollbar-thumb { background: var(--pink); border-radius: 10px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--pink-dark); }
 
     body {
       margin: 0; min-height: 100vh; font-family: Arial, Helvetica, sans-serif;
-      color: var(--green-dark); 
+      color: var(--pink-dark); 
       background: radial-gradient(ellipse at top, var(--bg-gradient) 0%, transparent 55%), var(--bg);
       overflow-x: hidden; transition: background 0.3s ease, color 0.3s ease;
     }
 
     button, input, select { font: inherit; }
     button { cursor: pointer; }
-    button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #A5CCA2; outline-offset: 3px; }
+    button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid var(--pink); outline-offset: 3px; }
 
-    /* Lá rơi */
+    /* Hoa anh đào rơi */
     #leaf-background { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; contain: strict; }
     .falling-leaf {
       position: absolute; top: -40px; left: var(--leaf-left); font-size: var(--leaf-size); opacity: var(--leaf-opacity);
-      filter: drop-shadow(0 0 3px rgba(151, 207, 146, 0.5)) drop-shadow(0 0 7px rgba(151, 207, 146, 0.2));
+      filter: drop-shadow(0 0 3px rgba(212, 108, 133, 0.5)) drop-shadow(0 0 7px rgba(212, 108, 133, 0.2));
       animation: leaf-fall var(--leaf-duration) linear var(--leaf-delay) infinite; user-select: none; will-change: transform;
     }
     @keyframes leaf-fall {
@@ -81,26 +81,25 @@
       padding: 18px 7%; background: var(--nav-bg); border-bottom: 1px solid var(--border); backdrop-filter: blur(10px);
       transition: all 0.3s ease;
     }
-    .logo { font-size: 15px; font-weight: 800; letter-spacing: 2px; color: var(--green); text-transform: uppercase; }
+    .logo { font-size: 15px; font-weight: 800; letter-spacing: 2px; color: var(--pink); text-transform: uppercase; }
     
-    /* Mạng xã hội & Theme Toggle */
     .nav-links { display: flex; gap: 10px; align-items: center; }
     .nav-links a, .theme-btn {
       display: flex; align-items: center; justify-content: center;
       width: 34px; height: 34px; border-radius: 50%;
-      background: var(--green-light); color: var(--green-dark);
+      background: var(--pink-light); color: var(--pink-dark);
       border: none; transition: all 0.3s ease; text-decoration: none; cursor: pointer;
     }
     .nav-links a:hover, .theme-btn:hover {
-      background: var(--green); color: #fff;
-      transform: translateY(-3px); box-shadow: 0 4px 10px rgba(99, 155, 112, 0.3);
+      background: var(--pink); color: #fff;
+      transform: translateY(-3px); box-shadow: 0 4px 10px rgba(212, 108, 133, 0.3);
     }
     .nav-links svg, .theme-btn svg { width: 18px; height: 18px; fill: currentColor; }
 
     .hero { position: relative; z-index: 1; text-align: center; padding: 65px 20px 35px; }
-    .eyebrow { display: inline-block; padding: 8px 14px; border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); color: var(--green); font-size: 11px; letter-spacing: 2px; font-weight: bold; transition: all 0.3s; }
+    .eyebrow { display: inline-block; padding: 8px 14px; border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); color: var(--pink); font-size: 11px; letter-spacing: 2px; font-weight: bold; transition: all 0.3s; }
     .hero h1 { margin: 22px 0 12px; font-size: clamp(30px, 6vw, 54px); line-height: 1.15; letter-spacing: -1px; }
-    .hero h1 span { color: var(--green); }
+    .hero h1 span { color: var(--pink); }
     .hero p { max-width: 510px; margin: 0 auto; color: var(--muted); font-size: 14px; line-height: 1.9; }
     .hero-decoration { margin-top: 18px; font-size: 24px; letter-spacing: 8px; }
 
@@ -109,27 +108,27 @@
     .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 15px; margin-bottom: 22px; }
     .section-heading h2 { margin: 0 0 7px; font-size: 23px; }
     .section-heading p { margin: 0; color: var(--muted); font-size: 13px; }
-    .count { white-space: nowrap; color: var(--green); font-size: 13px; font-weight: bold; }
+    .count { white-space: nowrap; color: var(--pink); font-size: 13px; font-weight: bold; }
 
     .controls { display: grid; grid-template-columns: minmax(180px, 1fr) 190px auto; gap: 10px; margin-bottom: 15px; }
     .search-wrap { position: relative; }
     .search-wrap span { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); pointer-events: none; }
     .search-wrap input, .controls select {
       width: 100%; min-height: 46px; padding: 12px 14px; border: 1px solid var(--border); border-radius: 12px;
-      background: var(--input-bg); color: var(--green-dark); transition: all 0.3s;
+      background: var(--input-bg); color: var(--pink-dark); transition: all 0.3s;
     }
-    .search-wrap input:focus, .controls select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(99, 155, 112, 0.2); outline: none; }
+    .search-wrap input:focus, .controls select:focus { border-color: var(--pink); box-shadow: 0 0 0 3px rgba(212, 108, 133, 0.2); outline: none; }
     .search-wrap input { padding-left: 42px; }
     .search-wrap input::placeholder { color: var(--muted); }
-    .reset-button { padding: 10px 16px; border: 1px solid var(--border); border-radius: 12px; background: var(--green-light); color: var(--green-dark); font-weight: bold; transition: 0.2s ease; }
-    .reset-button:hover { background: var(--green); color: #fff; border-color: var(--green); }
+    .reset-button { padding: 10px 16px; border: 1px solid var(--border); border-radius: 12px; background: var(--pink-light); color: var(--pink-dark); font-weight: bold; transition: 0.2s ease; }
+    .reset-button:hover { background: var(--pink); color: #fff; border-color: var(--pink); }
 
     /* TAG CARD */
     .tag-card {
       background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 16px 20px;
       margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); backdrop-filter: blur(10px); transition: all 0.3s;
     }
-    .tag-card-title { font-size: 14px; font-weight: bold; color: var(--green-dark); margin-bottom: 12px; display: flex; align-items: center; gap: 6px; }
+    .tag-card-title { font-size: 14px; font-weight: bold; color: var(--pink-dark); margin-bottom: 12px; display: flex; align-items: center; gap: 6px; }
 
     /* Character cards */
     .character-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
@@ -139,27 +138,27 @@
     }
     .character-card:hover { transform: translateY(-5px); box-shadow: 0 14px 30px rgba(0, 0, 0, 0.15); }
     .character-art { position: relative; display: grid; place-items: center; height: 180px; overflow: hidden; background: linear-gradient(145deg, var(--art-bg-1), var(--art-bg-2)); transition: 0.3s; }
-    .character-art::before, .character-art::after { content: ""; position: absolute; border-radius: 50%; background: rgba(255, 255, 255, 0.2); }
+    .character-art::before, .character-art::after { content: ""; position: absolute; border-radius: 50%; background: rgba(255, 255, 255, 0.3); }
     .character-art::before { width: 140px; height: 140px; top: -45px; right: -20px; }
     .character-art::after { width: 90px; height: 90px; bottom: -40px; left: -10px; }
     .character-art img { position: relative; z-index: 1; width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }
     .character-card:hover .character-art img { transform: scale(1.04); }
 
     .character-info { padding: 17px; flex: 1; display: flex; flex-direction: column; }
-    .character-info h3 { margin: 0 0 8px; font-size: 18px; color: var(--green-dark); }
-    .character-intro { color: var(--green); font-weight: 600; font-size: 13px; margin: 0 0 10px; }
+    .character-info h3 { margin: 0 0 8px; font-size: 18px; color: var(--pink-dark); }
+    .character-intro { color: var(--pink); font-weight: 600; font-size: 13px; margin: 0 0 10px; }
     .character-description { white-space: pre-line; line-height: 1.65; color: var(--muted); font-size: 13px; margin: 0 0 14px; max-height: 110px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; }
     
     .character-tags { display: flex; flex-wrap: wrap; gap: 7px; margin: 0 0 14px; }
     .tag-card .character-tags { margin: 0; }
     
-    .character-tag, .character-khu { border: 1px solid var(--border); border-radius: 20px; background: var(--green-light); color: var(--green-dark); padding: 6px 11px; font-size: 12px; cursor: pointer; transition: 0.2s; }
-    .character-tag:hover, .character-khu:hover, .character-tag.active, .character-khu.active { background: var(--green); border-color: var(--green); color: #fff; }
+    .character-tag, .character-khu { border: 1px solid var(--border); border-radius: 20px; background: var(--pink-light); color: var(--pink-dark); padding: 6px 11px; font-size: 12px; cursor: pointer; transition: 0.2s; }
+    .character-tag:hover, .character-khu:hover, .character-tag.active, .character-khu.active { background: var(--pink); border-color: var(--pink); color: #fff; }
     
     .khu-container { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 12px; }
 
-    .choose-button { width: 100%; padding: 11px; border: 1px solid var(--border); border-radius: 10px; background: var(--green-light); color: var(--green-dark); font-weight: bold; transition: 0.2s ease; text-align: center; text-decoration: none; display: block; margin-top: auto; }
-    .choose-button:hover { background: var(--green); color: #fff; border-color: var(--green); }
+    .choose-button { width: 100%; padding: 11px; border: 1px solid var(--border); border-radius: 10px; background: var(--pink-light); color: var(--pink-dark); font-weight: bold; transition: 0.2s ease; text-align: center; text-decoration: none; display: block; margin-top: auto; }
+    .choose-button:hover { background: var(--pink); color: #fff; border-color: var(--pink); }
 
     .empty-state { grid-column: 1 / -1; padding: 50px 20px; border: 1px dashed var(--border); border-radius: 18px; text-align: center; color: var(--muted); background: var(--card-bg); }
     .empty-state div { margin-bottom: 10px; font-size: 32px; }
@@ -181,25 +180,25 @@
     .modal-img-wrap { width: 160px; height: 160px; flex-shrink: 0; border-radius: 20px; border: 4px solid var(--card-bg); box-shadow: var(--shadow); overflow: hidden; background: var(--card-bg);}
     .modal-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
     .modal-info { flex: 1; display: flex; flex-direction: column; justify-content: center; }
-    .modal-info h2 { margin: 0 0 10px; font-size: 28px; color: var(--green-dark); }
-    .modal-info .intro { font-weight: 600; color: var(--green); margin: 0 0 15px; font-size: 15px; }
-    .modal-body { padding: 30px; overflow-y: auto; font-size: 15px; line-height: 1.8; color: var(--green-dark); white-space: pre-wrap; background: var(--card-bg); }
+    .modal-info h2 { margin: 0 0 10px; font-size: 28px; color: var(--pink-dark); }
+    .modal-info .intro { font-weight: 600; color: var(--pink); margin: 0 0 15px; font-size: 15px; }
+    .modal-body { padding: 30px; overflow-y: auto; font-size: 15px; line-height: 1.8; color: var(--pink-dark); white-space: pre-wrap; background: var(--card-bg); }
     .modal-body::-webkit-scrollbar { width: 6px; }
     .modal-body::-webkit-scrollbar-track { background: transparent; }
     .modal-body::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
     .modal-footer { padding: 20px 30px; background: var(--nav-bg); border-top: 1px solid var(--border); display: flex; justify-content: flex-end; }
-    .btn-chat { background: var(--green); color: #fff; padding: 12px 30px; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; box-shadow: 0 4px 15px rgba(99, 155, 112, 0.3); }
-    .btn-chat:hover { background: var(--green-dark); transform: translateY(-2px); color: #fff;}
+    .btn-chat { background: var(--pink); color: #fff; padding: 12px 30px; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; box-shadow: 0 4px 15px rgba(212, 108, 133, 0.3); }
+    .btn-chat:hover { background: var(--pink-dark); transform: translateY(-2px); color: #fff;}
 
     /* MUSIC PLAYER BONG BÓNG */
     .music-widget { position: fixed; bottom: 25px; right: 25px; z-index: 999; display: flex; flex-direction: column; align-items: flex-end; }
     .music-bubble-btn {
-      width: 60px; height: 60px; border-radius: 50%; background: var(--green); color: #fff; border: 3px solid var(--card-bg);
+      width: 60px; height: 60px; border-radius: 50%; background: var(--pink); color: #fff; border: 3px solid var(--card-bg);
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); font-size: 24px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.3s; z-index: 2;
     }
-    .music-bubble-btn:hover { transform: scale(1.1) rotate(10deg); background: var(--green-dark); }
+    .music-bubble-btn:hover { transform: scale(1.1) rotate(10deg); background: var(--pink-dark); }
     .music-bubble-btn.playing { animation: pulse 2s infinite; }
-    @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(99, 155, 112, 0.7); } 70% { box-shadow: 0 0 0 15px rgba(99, 155, 112, 0); } 100% { box-shadow: 0 0 0 0 rgba(99, 155, 112, 0); } }
+    @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(212, 108, 133, 0.7); } 70% { box-shadow: 0 0 0 15px rgba(212, 108, 133, 0); } 100% { box-shadow: 0 0 0 0 rgba(212, 108, 133, 0); } }
     .music-panel {
       position: absolute; bottom: 80px; right: 0; width: 320px; background: var(--card-bg); backdrop-filter: blur(10px);
       border: 1px solid var(--border); border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.3); padding: 20px;
@@ -207,29 +206,80 @@
     }
     .music-panel.active { opacity: 1; visibility: visible; transform: translateY(0) scale(1); }
     .music-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 1px solid var(--border); padding-bottom: 10px; }
-    .music-header h4 { margin: 0; font-size: 16px; color: var(--green-dark); display: flex; align-items: center; gap: 8px;}
+    .music-header h4 { margin: 0; font-size: 16px; color: var(--pink-dark); display: flex; align-items: center; gap: 8px;}
     .close-music { background: none; border: none; font-size: 20px; color: var(--muted); padding: 0; line-height: 1; cursor: pointer; }
     .close-music:hover { color: red; }
-    .now-playing { font-size: 14px; font-weight: bold; color: var(--green); text-align: center; margin-bottom: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .now-playing { font-size: 14px; font-weight: bold; color: var(--pink); text-align: center; margin-bottom: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .music-controls { display: flex; justify-content: center; gap: 15px; margin-bottom: 15px; }
-    .music-controls button { width: 40px; height: 40px; border-radius: 50%; border: none; background: var(--green-light); color: var(--green-dark); font-size: 16px; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: 0.2s; }
-    .music-controls button:hover { background: var(--green); color: #fff; }
-    .music-controls .play-btn { width: 50px; height: 50px; font-size: 22px; background: var(--green); color: #fff; }
-    .music-controls .play-btn:hover { background: var(--green-dark); transform: scale(1.05); }
+    .music-controls button { width: 40px; height: 40px; border-radius: 50%; border: none; background: var(--pink-light); color: var(--pink-dark); font-size: 16px; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: 0.2s; }
+    .music-controls button:hover { background: var(--pink); color: #fff; }
+    .music-controls .play-btn { width: 50px; height: 50px; font-size: 22px; background: var(--pink); color: #fff; }
+    .music-controls .play-btn:hover { background: var(--pink-dark); transform: scale(1.05); }
     .slider-container { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-size: 12px; color: var(--muted); }
     .slider-container span.icon { font-size: 16px; }
     input[type=range] { flex: 1; -webkit-appearance: none; width: 100%; background: transparent; }
     input[type=range]:focus { outline: none; }
     input[type=range]::-webkit-slider-runnable-track { width: 100%; height: 6px; background: var(--border); border-radius: 3px; }
-    input[type=range]::-webkit-slider-thumb { height: 14px; width: 14px; border-radius: 50%; background: var(--green); cursor: pointer; -webkit-appearance: none; margin-top: -4px; }
+    input[type=range]::-webkit-slider-thumb { height: 14px; width: 14px; border-radius: 50%; background: var(--pink); cursor: pointer; -webkit-appearance: none; margin-top: -4px; }
     .playlist { max-height: 120px; overflow-y: auto; border-top: 1px solid var(--border); padding-top: 10px; margin-top: 5px; }
     .playlist::-webkit-scrollbar { width: 4px; }
     .playlist::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
     .playlist-item { padding: 8px 10px; font-size: 13px; color: var(--muted); border-radius: 8px; cursor: pointer; transition: 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .playlist-item:hover { background: var(--green-light); color: var(--green-dark); }
-    .playlist-item.active { background: var(--green); color: #fff; font-weight: bold; }
+    .playlist-item:hover { background: var(--pink-light); color: var(--pink-dark); }
+    .playlist-item.active { background: var(--pink); color: #fff; font-weight: bold; }
 
     footer { position: relative; z-index: 1; padding: 24px 15px; border-top: 1px solid var(--border); background: var(--nav-bg); text-align: center; color: var(--muted); font-size: 12px; line-height: 1.8; padding-bottom: 80px; transition: all 0.3s; }
+
+    /* --- GIAO DIỆN POPUP CHÀO MỪNG --- */
+    .welcome-overlay {
+      position: fixed; top: 0; left: 0; inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(10px);
+      z-index: 10000;
+      display: flex; align-items: center; justify-content: center;
+      padding: 20px;
+      transition: opacity 0.4s ease, visibility 0.4s;
+    }
+    .welcome-overlay.hidden {
+      opacity: 0; visibility: hidden;
+    }
+    .welcome-modal {
+      background: var(--card-bg);
+      border: 2px solid var(--pink);
+      border-radius: 24px;
+      padding: 40px 30px;
+      text-align: center;
+      max-width: 400px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+      transform: translateY(0) scale(1);
+      transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+    .welcome-overlay.hidden .welcome-modal {
+      transform: translateY(-20px) scale(0.95);
+    }
+    .welcome-modal h2 {
+      color: var(--pink-dark);
+      margin: 0 0 15px; font-size: 24px;
+    }
+    .welcome-modal p {
+      color: var(--muted);
+      margin-bottom: 25px; font-size: 15px; line-height: 1.6;
+    }
+    .enter-btn {
+      background: var(--pink); color: #fff; border: none;
+      padding: 14px 24px; border-radius: 14px;
+      font-size: 16px; font-weight: bold; cursor: pointer;
+      width: 100%; margin-bottom: 12px; transition: all 0.3s;
+      box-shadow: 0 4px 15px rgba(212, 108, 133, 0.3);
+    }
+    .enter-btn:hover {
+      background: var(--pink-dark); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(212, 108, 133, 0.4);
+    }
+    .silent-btn {
+      background: transparent; color: var(--muted); border: none;
+      font-size: 14px; cursor: pointer; text-decoration: underline; transition: 0.3s;
+    }
+    .silent-btn:hover { color: var(--pink-dark); }
 
     @media (max-width: 760px) {
       .navbar { padding: 16px 5%; } .hero { padding-top: 48px; } .character-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
@@ -239,20 +289,25 @@
   </style>
 </head>
 <body>
+
+  <!-- POPUP CHÀO MỪNG (GIẢI QUYẾT LỖI TỰ PHÁT NHẠC) -->
+  <div id="welcome-popup" class="welcome-overlay">
+    <div class="welcome-modal">
+      <h2>🌸 Chào mừng ghé thăm 🌸</h2>
+      <p>Trang trại Gà Bông có chuẩn bị một chút nhạc chill để tăng trải nghiệm. Bạn có muốn bật nhạc luôn không?</p>
+      <button id="btn-enter-farm" class="enter-btn">🐥 Vào Trang Trại & Phát Nhạc 🎵</button>
+      <button id="btn-enter-silent" class="silent-btn">Chỉ vào xem, tắt nhạc đi</button>
+    </div>
+  </div>
+
   <div id="leaf-background" aria-hidden="true"></div>
 
   <header class="navbar">
-    <div class="logo">🍃 Fluffy Chicken Farm</div>
+    <div class="logo">🌸 Fluffy Chicken Farm</div>
     
-    <!-- KHU VỰC CÁC NÚT MẠNG XÃ HỘI VÀ ĐỔI THEME -->
     <div class="nav-links">
-      <!-- Nút đổi chế độ Sáng/Tối -->
       <button id="theme-toggle" class="theme-btn" title="Chuyển chế độ Sáng/Tối">
-        <!-- Icon Mặt Trăng (Tối) -->
-        <svg id="moon-icon" viewBox="0 0 24 24">
-          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-        </svg>
-        <!-- Icon Mặt Trời (Sáng) - Ẩn mặc định -->
+        <svg id="moon-icon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
         <svg id="sun-icon" viewBox="0 0 24 24" style="display: none;">
           <circle cx="12" cy="12" r="5"></circle>
           <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -266,18 +321,12 @@
         </svg>
       </button>
 
-      <!-- LINK FACEBOOK: THAY DẤU # BẰNG LINK CỦA BẠN -->
       <a href="https://www.facebook.com/share/18uTvgBHKz/" target="_blank" rel="noopener" title="Facebook">
-        <svg viewBox="0 0 320 512">
-          <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
-        </svg>
+        <svg viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
       </a>
       
-      <!-- LINK DISCORD: THAY DẤU # BẰNG LINK CỦA BẠN -->
       <a href="https://discord.gg/rgN6QMPTFP" target="_blank" rel="noopener" title="Discord">
-        <svg viewBox="0 0 640 512">
-          <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.276c8.3-11.261,15.892-23.109,22.7-35.485a1.854,1.854,0,0,0-1.026-2.61,311.666,311.666,0,0,1-44.475-21.263,1.879,1.879,0,0,1-.186-3.161c3.153-2.348,6.236-4.786,9.157-7.3a1.812,1.812,0,0,1,1.9-.387c95.27,43.27,198.3,43.27,292.368,0a1.816,1.816,0,0,1,1.923.418c2.921,2.513,6.035,4.951,9.188,7.3a1.88,1.88,0,0,1-.154,3.161,310.222,310.222,0,0,1-44.512,21.263,1.85,1.85,0,0,0-1.024,2.61c6.808,12.376,14.4,24.224,22.7,35.485a1.891,1.891,0,0,0,2.029.276,488.583,488.583,0,0,0,146.8-74.189,2.017,2.017,0,0,0,.76-1.375C624.789,282.883,595.6,172.932,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"/>
-        </svg>
+        <svg viewBox="0 0 640 512"><path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.276c8.3-11.261,15.892-23.109,22.7-35.485a1.854,1.854,0,0,0-1.026-2.61,311.666,311.666,0,0,1-44.475-21.263,1.879,1.879,0,0,1-.186-3.161c3.153-2.348,6.236-4.786,9.157-7.3a1.812,1.812,0,0,1,1.9-.387c95.27,43.27,198.3,43.27,292.368,0a1.816,1.816,0,0,1,1.923.418c2.921,2.513,6.035,4.951,9.188,7.3a1.88,1.88,0,0,1-.154,3.161,310.222,310.222,0,0,1-44.512,21.263,1.85,1.85,0,0,0-1.024,2.61c6.808,12.376,14.4,24.224,22.7,35.485a1.891,1.891,0,0,0,2.029.276,488.583,488.583,0,0,0,146.8-74.189,2.017,2.017,0,0,0,.76-1.375C624.789,282.883,595.6,172.932,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"/></svg>
       </a>
     </div>
   </header>
@@ -286,7 +335,7 @@
     <div class="eyebrow">✿ SHINN KEHL ✿</div>
     <h1>🐥 Trang Trại <span>Gà Bông</span> 🌷</h1>
     <p>chào mừng em đã ghé thăm, hãy cùng Shinn đi tham quan nhà của những chú lùn mỏ nhọn nào~</p>
-    <div class="hero-decoration" aria-hidden="true">✿ 🍃 ❀ 🍃 ✿</div>
+    <div class="hero-decoration" aria-hidden="true">✿ 🌸 ❀ 🌸 ✿</div>
   </section>
 
   <main class="collection">
@@ -384,7 +433,6 @@
     const moonIcon = document.getElementById("moon-icon");
     const sunIcon = document.getElementById("sun-icon");
 
-    // Lấy theme đã lưu hoặc theo hệ thống
     const currentTheme = localStorage.getItem("theme") || 
                          (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
 
@@ -500,23 +548,26 @@
 
     loadSong(currentSongIndex);
 
-    let playPromise = audioPlayer.play();
-    if (playPromise !== undefined) {
-      playPromise.then(_ => {
-        isPlaying = true; btnPlay.textContent = "⏸"; musicToggle.classList.add("playing");
-      }).catch(error => {
-        const startMusicOnInteract = () => {
-          if (!isPlaying) playMusic();
-          document.removeEventListener("click", startMusicOnInteract);
-          document.removeEventListener("touchstart", startMusicOnInteract);
-        };
-        document.addEventListener("click", startMusicOnInteract);
-        document.addEventListener("touchstart", startMusicOnInteract);
-      });
-    }
+    // ==========================================
+    // 2. LOGIC CHO POPUP CHÀO MỪNG (Xử lý lỗi chặn nhạc)
+    // ==========================================
+    const welcomePopup = document.getElementById("welcome-popup");
+    const btnEnterFarm = document.getElementById("btn-enter-farm");
+    const btnEnterSilent = document.getElementById("btn-enter-silent");
+
+    btnEnterFarm.addEventListener("click", () => {
+      welcomePopup.classList.add("hidden");
+      setTimeout(() => welcomePopup.style.display = "none", 400); 
+      playMusic(); // Điện thoại cho phép phát vì bạn vừa chủ động bấm
+    });
+
+    btnEnterSilent.addEventListener("click", () => {
+      welcomePopup.classList.add("hidden");
+      setTimeout(() => welcomePopup.style.display = "none", 400);
+    });
 
     // ==========================================
-    // 2. LOGIC HIỂN THỊ THẺ NHÂN VẬT VÀ LỌC BẢNG
+    // 3. LOGIC HIỂN THỊ THẺ NHÂN VẬT VÀ LỌC BẢNG
     // ==========================================
     const grid = document.getElementById("character-grid");
     const searchInput = document.getElementById("search-input");
@@ -567,7 +618,7 @@
       characterCount.textContent = filtered.length + " nhân vật";
 
       if (filtered.length === 0) {
-        grid.innerHTML = `<div class="empty-state"><div>🍃</div><strong>Chưa tìm thấy nhân vật</strong><p>Thử từ khóa khác hoặc bỏ bớt bộ lọc nhé.</p><button type="button" class="reset-button" onclick="clearFilters()">Xóa bộ lọc</button></div>`;
+        grid.innerHTML = `<div class="empty-state"><div>🌸</div><strong>Chưa tìm thấy nhân vật</strong><p>Thử từ khóa khác hoặc bỏ bớt bộ lọc nhé.</p><button type="button" class="reset-button" onclick="clearFilters()">Xóa bộ lọc</button></div>`;
         return;
       }
 
@@ -576,9 +627,10 @@
         const charKhuArray = Array.isArray(char.khu) ? char.khu : (char.khu ? [char.khu] : ["Chưa phân khu"]);
         const khuHTML = charKhuArray.map(k => `<button class="character-khu ${selectedKhu === k ? "active" : ""}" type="button" onclick="event.stopPropagation(); filterByKhu('${k.replace(/'/g, "\\'")}')">🏰 ${k}</button>`).join("");
 
+        // Đã đổi màu nền của ảnh hỏng (placeholder) sang tone hồng
         return `
           <article class="character-card" onclick="openModal(${char.id})">
-            <div class="character-art"><img src="${char.image}" loading="lazy" onerror="this.src='https://via.placeholder.com/300x180/DDEEDB/639B70?text=Gà+Bông'"></div>
+            <div class="character-art"><img src="${char.image}" loading="lazy" onerror="this.src='https://via.placeholder.com/300x180/F5E1E6/D46C85?text=Gà+Bông'"></div>
             <div class="character-info">
               <h3>${char.name}</h3><p class="character-intro">${char.intro || ""}</p><p class="character-description">${char.content || ""}</p>
               <div class="character-tags">${tagsHTML}</div>
@@ -609,11 +661,13 @@
     categoryFilter.addEventListener("change", renderCharacters);
     resetButton.addEventListener("click", clearFilters);
 
+    // Hoa anh đào (hoặc cánh hoa) rơi
     const leafBackground = document.getElementById("leaf-background");
-    for (let i = 0; i < 12; i++) {
-      const leaf = document.createElement("span"); leaf.className = "falling-leaf"; leaf.textContent = "🍃";
+    for (let i = 0; i < 15; i++) {
+      const leaf = document.createElement("span"); leaf.className = "falling-leaf"; 
+      leaf.textContent = "🌸"; // Đã đổi sang hoa anh đào
       leaf.style.setProperty("--leaf-left", Math.random() * 100 + "%"); leaf.style.setProperty("--leaf-size", (14 + Math.random() * 12) + "px");
-      leaf.style.setProperty("--leaf-opacity", 0.18 + Math.random() * 0.3); leaf.style.setProperty("--leaf-duration", (22 + Math.random() * 18) + "s");
+      leaf.style.setProperty("--leaf-opacity", 0.4 + Math.random() * 0.4); leaf.style.setProperty("--leaf-duration", (22 + Math.random() * 18) + "s");
       leaf.style.setProperty("--leaf-delay", (-Math.random() * 40) + "s"); leafBackground.appendChild(leaf);
     }
 
