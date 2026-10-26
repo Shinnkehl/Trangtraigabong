@@ -59,16 +59,50 @@
     .tag-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 16px 20px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
     .tag-card-title { font-size: 14px; font-weight: bold; margin-bottom: 12px; }
 
+    /* --- CSS SỬA LỖI ẢNH CARD --- */
     .character-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
-    .character-card { overflow: hidden; border: 1px solid var(--border); border-radius: 20px; background: var(--card-bg); box-shadow: var(--shadow); transition: transform 0.2s; display: flex; flex-direction: column; cursor: pointer; }
+    
+    .character-card { 
+      overflow: hidden; 
+      border: 1px solid var(--border); 
+      border-radius: 20px; 
+      background: var(--card-bg); 
+      box-shadow: var(--shadow); 
+      transition: transform 0.2s; 
+      display: flex; 
+      flex-direction: column; 
+      cursor: pointer; 
+      height: 100%; 
+    }
     .character-card:hover { transform: translateY(-5px); box-shadow: 0 14px 30px rgba(0,0,0,0.15); }
-    .character-art { position: relative; display: grid; place-items: center; height: 180px; background: linear-gradient(145deg, var(--art-bg-1), var(--art-bg-2)); }
-    .character-art img { width: 100%; height: 100%; object-fit: cover; transition: 0.3s; }
+    
+    .character-art { 
+      position: relative; 
+      width: 100%;
+      height: 220px; /* Khóa cứng chiều cao ảnh */
+      flex-shrink: 0; /* Không cho ảnh lấn chiếm chỗ của chữ */
+      overflow: hidden;
+      background: linear-gradient(145deg, var(--art-bg-1), var(--art-bg-2)); 
+    }
+    
+    .character-art img { 
+      width: 100%; 
+      height: 100%; 
+      object-fit: cover; /* Cắt ảnh vừa vặn khung mà không bị méo */
+      transition: 0.3s; 
+    }
     .character-card:hover .character-art img { transform: scale(1.04); }
-    .character-info { padding: 17px; flex: 1; display: flex; flex-direction: column; }
+    
+    .character-info { 
+      padding: 17px; 
+      flex: 1; /* Cho phép chữ tự động chiếm hết không gian còn lại */
+      display: flex; 
+      flex-direction: column; 
+    }
     .character-info h3 { margin: 0 0 8px; font-size: 18px; }
     .character-intro { color: var(--pink); font-weight: 600; font-size: 13px; margin: 0 0 10px; }
     .character-description { white-space: pre-line; line-height: 1.65; color: var(--muted); font-size: 13px; margin: 0 0 14px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    /* --- KẾT THÚC ĐOẠN CSS CARD --- */
     
     .character-tags { display: flex; flex-wrap: wrap; gap: 7px; margin: 0 0 14px; }
     .character-tag, .character-khu { border: 1px solid var(--border); border-radius: 20px; background: var(--pink-light); color: var(--pink-dark); padding: 6px 11px; font-size: 12px; transition: 0.2s; }
