@@ -163,32 +163,68 @@
     .empty-state { grid-column: 1 / -1; padding: 50px 20px; border: 1px dashed var(--border); border-radius: 18px; text-align: center; color: var(--muted); background: var(--card-bg); }
     .empty-state div { margin-bottom: 10px; font-size: 32px; }
 
-    /* BẢNG NỘI DUNG CHI TIẾT (MODAL) */
-    .modal-overlay {
-      position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(5px);
-      z-index: 9999; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; padding: 20px;
-    }
-    .modal-overlay.active { opacity: 1; visibility: visible; }
-    .modal-container {
-      background: var(--bg); width: 100%; max-width: 800px; max-height: 90vh; border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.4);
-      display: flex; flex-direction: column; overflow: hidden; transform: translateY(30px) scale(0.95); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    }
-    .modal-overlay.active .modal-container { transform: translateY(0) scale(1); }
-    .modal-header { position: relative; display: flex; gap: 24px; padding: 30px; background: linear-gradient(135deg, var(--art-bg-2), var(--art-bg-1)); border-bottom: 1px solid var(--border); }
-    .modal-close { position: absolute; top: 15px; right: 15px; width: 36px; height: 36px; border-radius: 50%; background: var(--card-bg); border: 1px solid var(--border); font-size: 24px; line-height: 0; display: flex; align-items: center; justify-content: center; color: var(--muted); cursor: pointer; transition: 0.2s; z-index: 10; }
-    .modal-close:hover { background: #ffdbdb; color: #d9534f; border-color: #ffc2c2; }
-    .modal-img-wrap { width: 160px; height: 160px; flex-shrink: 0; border-radius: 20px; border: 4px solid var(--card-bg); box-shadow: var(--shadow); overflow: hidden; background: var(--card-bg);}
-    .modal-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
-    .modal-info { flex: 1; display: flex; flex-direction: column; justify-content: center; }
-    .modal-info h2 { margin: 0 0 10px; font-size: 28px; color: var(--pink-dark); }
-    .modal-info .intro { font-weight: 600; color: var(--pink); margin: 0 0 15px; font-size: 15px; }
-    .modal-body { padding: 30px; overflow-y: auto; font-size: 15px; line-height: 1.8; color: var(--pink-dark); white-space: pre-wrap; background: var(--card-bg); }
-    .modal-body::-webkit-scrollbar { width: 6px; }
-    .modal-body::-webkit-scrollbar-track { background: transparent; }
-    .modal-body::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
-    .modal-footer { padding: 20px 30px; background: var(--nav-bg); border-top: 1px solid var(--border); display: flex; justify-content: flex-end; }
+    /* --- NÚT TƯƠNG TÁC (Dùng cho trang chi tiết) --- */
     .btn-chat { background: var(--pink); color: #fff; padding: 12px 30px; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; box-shadow: 0 4px 15px rgba(212, 108, 133, 0.3); }
     .btn-chat:hover { background: var(--pink-dark); transform: translateY(-2px); color: #fff;}
+
+    /* --- CSS CHO TRANG CHI TIẾT NHÂN VẬT TOÀN MÀN HÌNH --- */
+    #character-page-view {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      min-height: 100vh;
+      padding: 40px 5% 100px;
+      animation: fadeIn 0.4s ease-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .char-page-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .btn-back {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--card-bg); color: var(--pink-dark);
+      border: 1px solid var(--border); border-radius: 12px;
+      padding: 10px 20px; font-weight: bold; font-size: 15px;
+      margin-bottom: 30px; transition: 0.3s;
+      box-shadow: var(--shadow);
+    }
+    .btn-back:hover {
+      background: var(--pink); color: #fff; border-color: var(--pink);
+      transform: translateX(-5px);
+    }
+
+    .char-page-header {
+      display: flex; gap: 40px; align-items: center;
+      background: var(--card-bg); border: 1px solid var(--border);
+      padding: 40px; border-radius: 24px; box-shadow: var(--shadow);
+      margin-bottom: 30px; backdrop-filter: blur(10px);
+    }
+
+    .char-page-img {
+      width: 250px; height: 250px; flex-shrink: 0;
+      border-radius: 50%; border: 6px solid var(--pink-light);
+      box-shadow: 0 10px 30px rgba(212, 108, 133, 0.2);
+      overflow: hidden; background: var(--pink-light);
+    }
+    .char-page-img img { width: 100%; height: 100%; object-fit: cover; }
+
+    .char-page-info h2 { font-size: 36px; color: var(--pink-dark); margin: 0 0 10px; }
+    .char-page-info .intro { font-size: 18px; color: var(--pink); font-weight: 600; margin: 0 0 20px; }
+    .char-page-info .btn-chat { display: inline-block; margin-top: 20px; }
+
+    .char-page-body {
+      background: var(--card-bg); border: 1px solid var(--border);
+      padding: 40px; border-radius: 24px; box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+    .char-page-body h3 { color: var(--pink); margin-top: 0; font-size: 22px; border-bottom: 2px dashed var(--border); padding-bottom: 15px; margin-bottom: 20px; }
+    .desc-content { font-size: 16px; line-height: 1.8; color: var(--pink-dark); white-space: pre-wrap; }
 
     /* MUSIC PLAYER BONG BÓNG */
     .music-widget { position: fixed; bottom: 25px; right: 25px; z-index: 999; display: flex; flex-direction: column; align-items: flex-end; }
@@ -284,6 +320,10 @@
     @media (max-width: 760px) {
       .navbar { padding: 16px 5%; } .hero { padding-top: 48px; } .character-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
       .controls { grid-template-columns: 1fr 1fr; } .search-wrap { grid-column: 1 / -1; } .music-widget { bottom: 15px; right: 15px; }
+      .char-page-header { flex-direction: column; text-align: center; padding: 25px; }
+      .char-page-img { width: 180px; height: 180px; }
+      .char-page-info .btn-chat { width: 100%; text-align: center; }
+      .char-page-body { padding: 25px; }
     }
     @media (max-width: 480px) { .character-grid { grid-template-columns: 1fr; } }
   </style>
@@ -331,61 +371,73 @@
     </div>
   </header>
 
-  <section class="hero">
-    <div class="eyebrow">✿ SHINN KEHL ✿</div>
-    <h1>🐥 Trang Trại <span>Gà Bông</span> 🌷</h1>
-    <p>chào mừng em đã ghé thăm, hãy cùng Shinn đi tham quan nhà của những chú lùn mỏ nhọn nào~</p>
-    <div class="hero-decoration" aria-hidden="true">✿ 🌸 ❀ 🌸 ✿</div>
-  </section>
+  <!-- BỌC GIAO DIỆN CHÍNH VÀO MAIN-VIEW -->
+  <div id="main-view">
+    <section class="hero">
+      <div class="eyebrow">✿ SHINN KEHL ✿</div>
+      <h1>🐥 Trang Trại <span>Gà Bông</span> 🌷</h1>
+      <p>chào mừng em đã ghé thăm, hãy cùng Shinn đi tham quan nhà của những chú lùn mỏ nhọn nào~</p>
+      <div class="hero-decoration" aria-hidden="true">✿ 🌸 ❀ 🌸 ✿</div>
+    </section>
 
-  <main class="collection">
-    <div class="section-heading">
-      <div>
-        <h2>Chuồng phân loại</h2>
-        <p>Nơi quy tụ toàn bộ những chú Gà Cưng mang năng lực diệu kỳ..</p>
+    <main class="collection">
+      <div class="section-heading">
+        <div>
+          <h2>Chuồng phân loại</h2>
+          <p>Nơi quy tụ toàn bộ những chú Gà Cưng mang năng lực diệu kỳ..</p>
+        </div>
+        <div class="count" id="character-count">0 nhân vật</div>
       </div>
-      <div class="count" id="character-count">0 nhân vật</div>
-    </div>
 
-    <div class="controls">
-      <label class="search-wrap">
-        <span aria-hidden="true">⌕</span>
-        <input type="search" id="search-input" placeholder="Tìm tên nhân vật..." aria-label="Tìm tên nhân vật">
-      </label>
-      <select id="category-filter" aria-label="Lọc theo nhóm">
-        <option value="all">Tất cả nhóm</option>
-        <option value="Chuồng xưa">Chuồng xưa</option>
-        <option value="Chuồng tương lai">Chuồng tương lai</option>
-        <option value="Chuồng hiện đại">Chuồng hiện đại</option>
-        <option value="Chuồng huyền huyễn">Chuồng huyền huyễn</option>
-        <option value="Chuồng anime">Chuồng anime</option>
-        <option value="Chuồng đa vũ trụ">Chuồng đa vũ trụ</option>
-      </select>
-      <button class="reset-button" id="reset-button" type="button">↺ Đặt lại</button>
-    </div>
+      <div class="controls">
+        <label class="search-wrap">
+          <span aria-hidden="true">⌕</span>
+          <input type="search" id="search-input" placeholder="Tìm tên nhân vật..." aria-label="Tìm tên nhân vật">
+        </label>
+        <select id="category-filter" aria-label="Lọc theo nhóm">
+          <option value="all">Tất cả nhóm</option>
+          <option value="Chuồng xưa">Chuồng xưa</option>
+          <option value="Chuồng tương lai">Chuồng tương lai</option>
+          <option value="Chuồng hiện đại">Chuồng hiện đại</option>
+          <option value="Chuồng huyền huyễn">Chuồng huyền huyễn</option>
+          <option value="Chuồng anime">Chuồng anime</option>
+          <option value="Chuồng đa vũ trụ">Chuồng đa vũ trụ</option>
+        </select>
+        <button class="reset-button" id="reset-button" type="button">↺ Đặt lại</button>
+      </div>
 
-    <div class="tag-card">
-      <div class="tag-card-title">🏷️ Khám phá theo Tag:</div>
-      <div class="character-tags" id="all-tags-container"></div>
-    </div>
+      <div class="tag-card">
+        <div class="tag-card-title">🏷️ Khám phá theo Tag:</div>
+        <div class="character-tags" id="all-tags-container"></div>
+      </div>
 
-    <div class="character-grid" id="character-grid"></div>
-  </main>
+      <div class="character-grid" id="character-grid"></div>
+    </main>
+  </div> <!-- Kết thúc main-view -->
 
-  <div id="character-modal" class="modal-overlay" onclick="closeModal()">
-    <div class="modal-container" onclick="event.stopPropagation()">
-      <button class="modal-close" onclick="closeModal()">×</button>
-      <div class="modal-header">
-        <div class="modal-img-wrap"><img id="modal-img" src="" alt="Avatar"></div>
-        <div class="modal-info">
-          <h2 id="modal-name">Tên nhân vật</h2>
-          <p id="modal-intro" class="intro">Giới thiệu ngắn</p>
-          <div id="modal-tags" class="character-tags"></div>
+  <!-- GIAO DIỆN TRANG CHI TIẾT NHÂN VẬT (THAY THẾ MODAL CŨ) -->
+  <div id="character-page-view" style="display: none;">
+    <div class="char-page-container">
+      <button class="btn-back" onclick="closeCharacterPage()">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        Quay lại trang trại
+      </button>
+
+      <div class="char-page-header">
+        <div class="char-page-img">
+          <img id="detail-img" src="" alt="Avatar">
+        </div>
+        <div class="char-page-info">
+          <h2 id="detail-name">Tên nhân vật</h2>
+          <p id="detail-intro" class="intro">Giới thiệu ngắn</p>
+          <div id="detail-tags" class="character-tags"></div>
+          <a id="detail-link" class="btn-chat" href="#" target="_blank" rel="noopener noreferrer">🌟 Gặp gỡ nhân vật này →</a>
         </div>
       </div>
-      <div class="modal-body" id="modal-desc"></div>
-      <div class="modal-footer">
-        <a id="modal-link" class="btn-chat" href="#" target="_blank" rel="noopener noreferrer">🌟 Gặp gỡ nhân vật này →</a>
+
+      <div class="char-page-body">
+        <h3>📖 Báo cáo hồ sơ:</h3>
+        <div id="detail-desc" class="desc-content"></div>
       </div>
     </div>
   </div>
@@ -549,19 +601,26 @@
     loadSong(currentSongIndex);
 
     // ==========================================
-    // 2. LOGIC CHO POPUP CHÀO MỪNG (Xử lý lỗi chặn nhạc)
+    // 2. LOGIC CHO POPUP CHÀO MỪNG (CÓ LƯU TRẠNG THÁI)
     // ==========================================
     const welcomePopup = document.getElementById("welcome-popup");
     const btnEnterFarm = document.getElementById("btn-enter-farm");
     const btnEnterSilent = document.getElementById("btn-enter-silent");
 
+    // Kiểm tra xem người dùng đã từng xác nhận trong phiên làm việc này chưa
+    if (sessionStorage.getItem("farmWelcomePassed") === "true") {
+      welcomePopup.style.display = "none";
+    }
+
     btnEnterFarm.addEventListener("click", () => {
+      sessionStorage.setItem("farmWelcomePassed", "true"); // Lưu trạng thái
       welcomePopup.classList.add("hidden");
       setTimeout(() => welcomePopup.style.display = "none", 400); 
       playMusic(); // Điện thoại cho phép phát vì bạn vừa chủ động bấm
     });
 
     btnEnterSilent.addEventListener("click", () => {
+      sessionStorage.setItem("farmWelcomePassed", "true"); // Lưu trạng thái
       welcomePopup.classList.add("hidden");
       setTimeout(() => welcomePopup.style.display = "none", 400);
     });
@@ -576,13 +635,14 @@
     const characterCount = document.getElementById("character-count");
     const allTagsContainer = document.getElementById("all-tags-container");
 
-    const modal = document.getElementById("character-modal");
-    const modalImg = document.getElementById("modal-img");
-    const modalName = document.getElementById("modal-name");
-    const modalIntro = document.getElementById("modal-intro");
-    const modalTags = document.getElementById("modal-tags");
-    const modalDesc = document.getElementById("modal-desc");
-    const modalLink = document.getElementById("modal-link");
+    const mainView = document.getElementById("main-view");
+    const charPageView = document.getElementById("character-page-view");
+    const detailImg = document.getElementById("detail-img");
+    const detailName = document.getElementById("detail-name");
+    const detailIntro = document.getElementById("detail-intro");
+    const detailTags = document.getElementById("detail-tags");
+    const detailDesc = document.getElementById("detail-desc");
+    const detailLink = document.getElementById("detail-link");
 
     let selectedTag = null;
     let selectedKhu = null;
@@ -627,31 +687,67 @@
         const charKhuArray = Array.isArray(char.khu) ? char.khu : (char.khu ? [char.khu] : ["Chưa phân khu"]);
         const khuHTML = charKhuArray.map(k => `<button class="character-khu ${selectedKhu === k ? "active" : ""}" type="button" onclick="event.stopPropagation(); filterByKhu('${k.replace(/'/g, "\\'")}')">🏰 ${k}</button>`).join("");
 
-        // Đã đổi màu nền của ảnh hỏng (placeholder) sang tone hồng
         return `
-          <article class="character-card" onclick="openModal(${char.id})">
+          <article class="character-card" onclick="openCharacterPage(${char.id})">
             <div class="character-art"><img src="${char.image}" loading="lazy" onerror="this.src='https://via.placeholder.com/300x180/F5E1E6/D46C85?text=Gà+Bông'"></div>
             <div class="character-info">
               <h3>${char.name}</h3><p class="character-intro">${char.intro || ""}</p><p class="character-description">${char.content || ""}</p>
               <div class="character-tags">${tagsHTML}</div>
               <div class="khu-container">${khuHTML}</div>
-              <button class="choose-button" type="button" onclick="event.stopPropagation(); openModal(${char.id})">📖 Xem chi tiết nội dung</button>
+              <button class="choose-button" type="button" onclick="event.stopPropagation(); openCharacterPage(${char.id})">📖 Xem chi tiết nội dung</button>
             </div>
           </article>
         `;
       }).join("");
     }
 
-    function openModal(id) {
+    // ==========================================
+    // 4. MỞ TRANG CHI TIẾT (SPA)
+    // ==========================================
+    function openCharacterPage(id, pushHistory = true) {
       const char = characters.find(c => c.id === id);
       if (!char) return;
-      modalImg.src = char.image; modalName.textContent = char.name; modalIntro.textContent = char.intro || "";
-      modalDesc.textContent = char.content || ""; modalLink.href = char.link || "#";
-      modalTags.innerHTML = (char.tags || []).map(tag => `<span class="character-tag" style="pointer-events:none">${tag}</span>`).join("");
-      modal.classList.add("active"); document.body.style.overflow = "hidden";
+      
+      // Đổ dữ liệu
+      detailImg.src = char.image; 
+      detailName.textContent = char.name; 
+      detailIntro.textContent = char.intro || "";
+      detailDesc.textContent = char.content || ""; 
+      detailLink.href = char.link || "#";
+      detailTags.innerHTML = (char.tags || []).map(tag => `<span class="character-tag" style="pointer-events:none">${tag}</span>`).join("");
+      
+      // Ẩn trang trại, hiện chi tiết
+      mainView.style.display = "none";
+      charPageView.style.display = "block";
+      window.scrollTo({ top: 0, behavior: 'smooth' }); // Cuộn lên đầu trang
+
+      // Cập nhật URL để dùng được nút Back của trình duyệt
+      if (pushHistory) {
+        history.pushState({ charId: id }, "", "#character-" + id);
+      }
     }
 
-    function closeModal() { modal.classList.remove("active"); document.body.style.overflow = ""; }
+    // Đóng trang chi tiết
+    function closeCharacterPage(pushHistory = true) {
+      charPageView.style.display = "none";
+      mainView.style.display = "block";
+      
+      // Cuộn về đầu danh sách nhân vật
+      document.querySelector('.collection').scrollIntoView({ behavior: 'smooth' });
+      
+      if (pushHistory) {
+        history.pushState("", document.title, window.location.pathname + window.location.search);
+      }
+    }
+
+    // Xử lý sự kiện khi bấm nút BACK trên trình duyệt điện thoại/máy tính
+    window.addEventListener("popstate", (event) => {
+      if (event.state && event.state.charId) {
+        openCharacterPage(event.state.charId, false);
+      } else {
+        closeCharacterPage(false);
+      }
+    });
 
     function filterByTag(tag) { selectedTag = selectedTag === tag ? null : tag; renderCharacters(); renderAllTags(); }
     function filterByKhu(khu) { selectedKhu = selectedKhu === khu ? null : khu; renderCharacters(); }
@@ -661,17 +757,28 @@
     categoryFilter.addEventListener("change", renderCharacters);
     resetButton.addEventListener("click", clearFilters);
 
-    // Hoa anh đào (hoặc cánh hoa) rơi
+    // Hoa anh đào rơi
     const leafBackground = document.getElementById("leaf-background");
     for (let i = 0; i < 15; i++) {
       const leaf = document.createElement("span"); leaf.className = "falling-leaf"; 
-      leaf.textContent = "🌸"; // Đã đổi sang hoa anh đào
+      leaf.textContent = "🌸"; 
       leaf.style.setProperty("--leaf-left", Math.random() * 100 + "%"); leaf.style.setProperty("--leaf-size", (14 + Math.random() * 12) + "px");
       leaf.style.setProperty("--leaf-opacity", 0.4 + Math.random() * 0.4); leaf.style.setProperty("--leaf-duration", (22 + Math.random() * 18) + "s");
       leaf.style.setProperty("--leaf-delay", (-Math.random() * 40) + "s"); leafBackground.appendChild(leaf);
     }
 
     renderAllTags(); renderCharacters();
+
+    // Nếu người dùng F5 trực tiếp vào đường link có #character-1
+    window.addEventListener('load', () => {
+      const hash = window.location.hash;
+      if (hash && hash.startsWith("#character-")) {
+        const id = parseInt(hash.replace("#character-", ""));
+        if (!isNaN(id)) {
+          openCharacterPage(id, false);
+        }
+      }
+    });
   </script>
 </body>
 </html>
