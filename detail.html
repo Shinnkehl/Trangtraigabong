@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#FDF5F7">
   <title>Chi tiết Nhân vật - Trang Trại Gà Bông</title>
   <style>
+    /* BẢO TOÀN TOÀN BỘ CSS CỦA BẠN, KHÔNG THAY ĐỔI GÌ */
     :root {
       --bg: #FDF5F7; --bg-gradient: #F5E1E6; --nav-bg: rgba(255, 255, 255, 0.88);
       --card-bg: rgba(255, 255, 255, 0.93); --white: #FFFFFF; 
@@ -56,8 +57,8 @@
   </style>
 </head>
 <body>
-
-  <!-- Đã xóa mã thư viện FB cũ ở đây để chuyển xuống xử lý bằng JS cho mượt hơn -->
+  <!-- 1. THÊM THẺ NÀY ĐỂ FACEBOOK HOẠT ĐỘNG -->
+  <div id="fb-root"></div>
 
   <header class="navbar">
     <a href="index.html" class="btn-back">← Trở về Trang Trại</a>
@@ -93,12 +94,10 @@
       const tagsHtml = (character.tags || []).map(t => `<span class="tag">#${t}</span>`).join('');
       const khuHtml = (Array.isArray(character.khu) ? character.khu : [character.khu || "Chưa rõ"]).map(k => `<span class="tag">🏰 ${k}</span>`).join('');
       
-      // LINK GITHUB ĐÃ ĐƯỢC CHÈN SẴN CHUẨN XÁC
       const myWebsiteUrl = "https://shinnkehl.github.io/Trangtraigabong"; 
       const uniqueCharUrl = `${myWebsiteUrl}/?character_id=${character.id}`;
       const isDark = document.documentElement.getAttribute("data-theme") === "dark";
       
-      // Tạo giao diện
       container.innerHTML = `
         <div class="detail-card">
           <div class="detail-header">
@@ -130,13 +129,20 @@
         </div>
       `;
 
-      // SAU KHI TẠO GIAO DIỆN XONG, BẮT ĐẦU GỌI FACEBOOK VÀO ĐỂ TRÁNH LỖI
-      const fbScript = document.createElement('script');
-      fbScript.src = "https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0";
-      fbScript.async = true;
-      fbScript.defer = true;
-      fbScript.crossOrigin = "anonymous";
-      document.body.appendChild(fbScript);
+      // 2. ÉP FACEBOOK HIỂN THỊ KHUNG BÌNH LUẬN SAU KHI XUẤT HTML Ở TRÊN
+      if (window.FB) {
+        // Nếu Facebook đã tải xong trước đó, ra lệnh cho nó quét lại giao diện
+        window.FB.XFBML.parse();
+      } else {
+        // Nếu chưa tải, thì nhúng script
+        const fbScript = document.createElement('script');
+        // Tốt nhất bạn nên thay app_id của bạn vào chỗ trống. Nếu không có tạm thời cứ để trống.
+        fbScript.src = "https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0&appId=";
+        fbScript.async = true;
+        fbScript.defer = true;
+        fbScript.crossOrigin = "anonymous";
+        document.body.appendChild(fbScript);
+      }
     }
   </script>
 </body>
