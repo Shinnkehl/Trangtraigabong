@@ -415,7 +415,7 @@ Khương Du chỉ hơi liếc mắt sang nhìn, cơ mặt không hề biến đ�
 
 "....."`,
     tags: ["BL", "BG", "xuyên thư", "nông thôn", "linh dị", "hệ thống"],
-    khu: "Chuồng xưa", "chuồng huyền huyễn",
+    khu: ["Chuồng xưa", "Chuồng huyền huyễn"],
     image: "./images/dinh-khuong-du.jpg", 
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221LIanQNxOoyp_ro8i8F9W3Swy3byqVhAk%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
