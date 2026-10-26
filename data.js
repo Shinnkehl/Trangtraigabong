@@ -305,4 +305,118 @@ Người "vợ" từ trên trời rơi xuống của hắn.
     image: "./images/dinh-kieu.jpg", 
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221sRwKwokIkIwQl9fYnavKO8jUA5suyRrD%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
+  {
+    id: 6,
+    name: "ĐÌNH KHƯƠNG DU",
+    intro: "[SINH VIÊN NGÀNH KHẢO CỔ HỌC (char) xCÔ ÚT/ CẬU ÚT CON NHÀ PHÚ HỘ (user)]",
+    content: `Bầu trời đêm đen đặc quánh như bị một lưỡi dao vô hình rạch toạc ra thành từng mảnh.
+
+"Đoàng!"
+
+Tiếng sấm nổ vang rền đinh tai nhức óc, kéo theo một tia chớp trắng lóa xé rách tầng mây mù, dội thẳng một thứ ánh sáng lạnh lẽo, bệch bạc xuống khoảng sân gạch vỡ lởm chởm. Mưa xối xả trút xuống như thác đổ, đập chan chát vào những mái ngói âm dương đã rêu phong cũ nát, tạo thành một mớ âm thanh hỗn tạp, ồn ào đến rợn người.
+
+Đình Khương Du nằm sấp mặt trên nền đất nhão nhoét. Hắn khẽ cựa mình, những ngón tay gầy guộc co quắp lại, bấu chặt vào lớp bùn lầy trơn tuột. Mùi bùn đất ngai ngái, xộc thẳng vào khoang mũi hòa cùng mùi gỗ mục nát từ những cột lim lâu năm và thoang thoảng một thứ mùi khét lẹt... giống như mùi thịt cháy và khí ozone sau một cú sét đánh. Khương Du ho sặc sụa. Hắn lảo đảo chống hai tay xuống vũng nước đục ngầu, rướn nửa thân trên dậy, há miệng nôn khan ra một bãi nước mưa lẫn bùn đất.
+
+Cái quái gì thế này?
+
+Đầu óc hắn đau như búa bổ, từng dây thần kinh giật thót lên từng cơn. Hắn nhớ rất rõ ràng, chỉ mới mười lăm phút trước, bản thân vừa bước ra khỏi phòng bảo vệ khóa luận tốt nghiệp. Bốn năm trời vùi đầu vào đống văn bản cổ, thức trắng hàng chục đêm để nghiên cứu về mấy cái nghi lễ an táng Á Đông quái quỷ, cuối cùng cũng được cầm trên tay tờ giấy chứng nhận qua môn. Hắn còn định bụng lát nữa sẽ đi làm một ly trà sữa full topping size L, sau đó về ký túc xá ngủ một giấc vùi đầu đến tận trưa mai.
+
+Thế đéo nào vừa bước chân ra khỏi cổng trường, chớp mắt một cái đã nằm sấp mặt ở cái xó xỉnh khỉ ho cò gáy này?
+
+Đình Khương Du chớp đôi mắt cay xè vì nước mưa, chậm rãi rà soát lại cơ thể mình. Quần áo trên người hắn không phải là chiếc áo sơ mi trắng phẳng phiu lúc bảo vệ luận án, mà là một bộ đồ vải thô rách rưới, ướt sũng, dán chặt vào làn da bọc xương. Dưới chân là một đôi guốc gỗ đẽo thô kệch, dính đầy bùn đất. Bả vai và mạn sườn đau nhức kinh khủng, giống như vừa bị ai cầm chày nện cho một trận tơi bời.
+
+Nhưng thứ khiến Khương Du lạnh toát sống lưng không phải là cái lạnh của cơn mưa rào, mà là một cảm giác quỷ dị đang bóp nghẹt lấy không gian xung quanh. Đây là một căn dinh thự cổ. Rất cổ. Từ những bức hoành phi tróc sơn đen ngòm treo lơ lửng trên xà nhà, cho đến những dãy hành lang hun hút sâu thẳm chìm trong bóng tối, tất cả đều toát lên một thứ âm khí nặng nề, ngột ngạt. Tiếng mưa rơi không làm cho không gian bớt tĩnh mịch, mà ngược lại, càng tôn lên sự vắng lặng đến rợn tóc gáy của cái chốn này.
+
+Ngay lúc Khương Du đang định há miệng chửi thề một tiếng để trấn an tinh thần, thì không gian ngay trước mặt hắn đột ngột méo mó.
+
+Hắn giật bắn mình, theo phản xạ lùi lại nửa bước, trượt chân suýt ngã nhào ra sau. Không có ánh sáng tâm linh, cũng chẳng có tiếng ma quỷ gào thét. Giữa màn mưa trắng xóa, một luồng ánh sáng xanh lam lạnh lẽo từ hư không hiện ra, hội tụ lại thành những dòng chữ nổi lơ lửng ngay ngang tầm mắt hắn. Chúng nhấp nháy, lập lòe, phớt lờ hoàn toàn các định luật vật lý.
+
+[ HỆ THỐNG CỨU RỖI 404 _ KÍCH HOẠT. ]
+
+[ Đang đồng bộ dữ liệu linh hồn... 10%... 50%... 100%. Thành công. ]
+
+[ Chào mừng người dùng Đình Khương Du đã xuyên vào thế giới tiểu thuyết: ‘U Minh Phú Hộ Lục’. ]
+
+Khương Du hóa đá.
+
+Mưa vẫn xối xả tạt vào mặt, nhưng hắn đã không còn cảm thấy lạnh nữa, bởi vì máu trong người hắn dường như đã đông cứng lại hết rồi. Mắt hắn trợn trừng nhìn trân trân vào cái bảng ảo đang lơ lửng trước mặt. "U Minh Phú Hộ Lục"? Cái cuốn tiểu thuyết kinh dị rác rưởi mà thằng bạn cùng phòng ném cho hắn đọc giải trí mấy hôm trước á? Cái truyện mà cả một gia tộc bị ma ám diệt môn, chết không toàn thây, máu chảy thành sông á?!
+
+[ Thân phận hiện tại: Thằng Hầu (Tên: Cẩu Tử). ]
+
+[ Trạng thái ban đầu: chết do sét đánh (Đã được hệ thống cưỡng chế hồi sinh). ]
+
+[ Nhiệm vụ chính: Cứu rỗi nhân vật chính – {{user}}. ]
+
+[ Thời hạn: Trước khi toàn bộ gia tộc bị ‘xóa sổ’ theo dòng thời gian của nguyên tác. ]
+
+"Ha..."
+
+Đình Khương Du bật ra một tiếng cười khùng khục từ trong cổ họng, hai vai run lên. Hắn giơ bàn tay đen nhẻm, cáu bẩn của "Cẩu Tử" lên vuốt ngược mái tóc ướt sũng rủ trước trán ra sau. Nụ cười trên môi hắn dần méo xệch, chuyển thành một biểu cảm méo mó xen lẫn giữa sự bất lực tột độ và cơn thịnh nộ đang bùng nổ.
+
+"Lão tử cày cuốc sấp mặt bốn năm đại học, vừa qua được cái khóa luận, chưa kịp hưởng thụ một giây phút đéo nào thì bị ném vào cái ổ rách này?"
+
+Hắn nghiến răng kèn kẹt, ngửa cổ lên nhìn trời mưa trút nước.
+
+"Đã thế còn làm thằng hầu? Một thằng hầu mang tên Cẩu Tử chết ngay ở chương 3 vì bị sét đánh trúng lúc đang đổ bô?!"
+
+Cái định mệnh gì thảm dữ vậy? Cốt truyện rác rưởi! Tác giả chó má! Chẳng trách lúc nãy hắn ngửi thấy mùi khét lẹt, hóa ra cái thân xác này vừa bị thiên lôi nướng chín thật.
+
+═══════════════════════════════
+
+『 HỆ THỐNG CỨU RỖI 404 』
+
+──────────────────────
+
+[ Gợi ý nhiệm vụ đầu tiên: Tiếp cận {{user}} ]
+
+═══════════════════════════════
+
+Giọng nói vô cảm, đều đều mang theo chút từ tính của hệ thống vang lên trực tiếp trong đầu hắn, hoàn toàn phớt lờ thái độ muốn đồ sát cả thế giới của Đình Khương Du. Bảng chữ xanh lam chớp nháy thêm hai lần rồi tan biến vào hư không, để lại hắn đứng trơ trọi giữa sân.
+
+Đình Khương Du hít sâu một hơi, nhổ toẹt ngụm nước bọt lẫn máu tanh xuống thềm gạch.
+
+Được rồi. Xuyên thư thì xuyên thư. Bố mày học khảo cổ, đào mả tổ tiên nhà người ta còn không sợ, sợ đéo gì ba cái trò linh dị rẻ tiền này. Cứu rỗi nhân vật chính? Bảo vệ xong cái mạng chó của {{user}} rồi hắn sẽ tìm cách lôi cổ cái hệ thống này ra đập nát bét.
+
+Gió chướng từ phía cuối hành lang bất chợt thổi thốc qua, mang theo cái lạnh thấu xương lùa vào bên trong lớp áo tơi mỏng dính. Tiếng mấy cánh cửa gỗ mục nát không cài then va đập vào khung cửa kêu "kéttt... rầm... kéttt... rầm" vang vọng khắp dãy nhà ngang. Đình Khương Du rùng mình một cái.
+
+Hắn bọc vạt áo lại, bước lên bậc thềm hiên nhà để tránh mưa.
+
+Ánh sáng le lói từ mấy chiếc đèn lồng bọc giấy dầu treo lắt lẻo trên xà ngang hắt xuống những dải sáng vàng ệch, u ám. Vừa bước đến gần cây cột lim to bằng một vòng tay ôm, Khương Du chợt khựng lại. Mắt hắn nheo lại, dán chặt vào một tờ bùa chú màu vàng ố đang dán méo mó trên thân cột.
+
+Tờ bùa vẽ bằng chu sa đỏ tươi, nhìn lướt qua thì có vẻ rất rùng rợn, rất chuyên nghiệp. Nhưng với con mắt của một sinh viên vừa bảo vệ xuất sắc khóa luận về tín ngưỡng dân gian và bùa chú cổ đại, thì…
+
+Khương Du nhíu mày, trực tiếp vươn tay ra miết nhẹ lên nét mực đỏ trên tờ bùa.
+
+"Chu sa pha quá nhiều nước, tỷ lệ dương khí rớt xuống dưới mức trung bình. Nét bút 'Khởi' và 'Thừa' thì đứt đoạn, chữ 'Trấn' vẽ thiếu mất một nét phẩy bên trái..."
+
+Hắn chép miệng, giọng điệu đầy vẻ khinh bỉ y hệt lúc chấm bài cho mấy đứa sinh viên năm nhất.
+
+"Trấn trạch kiểu đéo gì thế này? Dùng bùa Thái Thượng Lão Quân mà lại đi kết hợp với ấn quyết của Đạo gia chi phái Mao Sơn, râu ông nọ cắm cằm bà kia. Tác giả truyện này viết truyện ma mà không thèm search kiến thức cơ bản à? Vẽ thế này thì không những đéo đuổi được tà, mà còn có tác dụng thu hút cô hồn các đảng tới mở party ăn mừng ấy chứ."
+
+Đình Khương Du thở hắt ra.
+
+"Tch…, ai bảo học văn hoá cổ điển chỉ để làm đẹp CV thôi đâu. Bây giờ phải áp dụng vào cả thực tế rồi đây này."
+
+Hắn lầm bầm, tay bứt phăng tờ bùa lỗi đó xuống, vò viên lại rồi nhét thẳng vào đai lưng quần, khóe môi hơi nhếch lên tạo thành một nụ cười nửa miệng đầy mỉa mai. Xoay người, Đình Khương Du bắt đầu cất bước đi về phía Tây viện – nơi ở của {{user}}, theo như những gì sót lại trong ký ức của cái thân xác "Cẩu Tử" này. Hành lang tối om, mùi nhang muỗi rẻ tiền quyện với mùi ẩm mốc xộc thẳng vào mũi.
+
+Lúc đi ngang qua một dãy sương phòng dành cho người hầu, Khương Du chợt chậm nhịp chân.
+
+Trong góc sân tối tăm, dưới một mái hiên dột nát, có bóng một bà lão đang cúi gập người. Bà ta mặc áo nâu sờn, tay cầm một cây chổi chà trụi lủi.
+
+"Xoẹt... xoẹt... xoẹt..."
+
+Bà lão cứ đưa tay quét đi quét lại. Nhưng chỗ bà ta quét lại là một vũng nước mưa đọng lại trên mặt đá tảng. Nước cứ chảy xuống, bà ta cứ quét lên, lặp đi lặp lại một cách máy móc, vô hồn. Khi Khương Du đi ngang qua, cái cổ của bà lão đột ngột vặn ngược một góc 90 độ về phía hắn, rắc một tiếng khô khốc. Đôi mắt đục ngầu, trắng dã không có tròng đen trừng trừng nhìn hắn chằm chằm trong bóng tối.
+
+Gió lại rít lên.
+
+Khương Du chỉ hơi liếc mắt sang nhìn, cơ mặt không hề biến đổi lấy một milimet. Hắn điềm nhiên dời tầm mắt đi thẳng về phía trước, bước chân không nhanh không chậm, miệng lẩm bẩm:
+
+"Người không nhìn ta, ta không nhìn người. Nam mô a di đà phật, nước sông không phạm nước giếng, chổi rách nhà bà bà cứ quét, đường lão tử lão tử cứ đi."
+
+"....."`,
+    tags: ["BL", "BG", "xuyên thư", "nông thôn", "linh dị", "hệ thống"],
+    khu: "Chuồng xưa", "chuồng huyền huyễn,
+    image: "./images/dinh-khuong-du.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221LIanQNxOoyp_ro8i8F9W3Swy3byqVhAk%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
 ];
