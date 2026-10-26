@@ -190,6 +190,11 @@
     .btn-chat { background: var(--pink); color: #fff; padding: 12px 30px; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; box-shadow: 0 4px 15px rgba(212, 108, 133, 0.3); }
     .btn-chat:hover { background: var(--pink-dark); transform: translateY(-2px); color: #fff;}
 
+    /* --- KHU VỰC BÌNH LUẬN FB --- */
+    .modal-comments { padding: 20px 30px; background: var(--bg); border-top: 1px solid var(--border); }
+    .modal-comments h3 { margin: 0 0 15px; font-size: 18px; color: var(--pink-dark); }
+    #fb-comment-box { background: var(--card-bg); border-radius: 12px; padding: 10px; min-height: 200px; }
+
     /* MUSIC PLAYER BONG BÓNG */
     .music-widget { position: fixed; bottom: 25px; right: 25px; z-index: 999; display: flex; flex-direction: column; align-items: flex-end; }
     .music-bubble-btn {
@@ -232,53 +237,26 @@
 
     /* --- GIAO DIỆN POPUP CHÀO MỪNG --- */
     .welcome-overlay {
-      position: fixed; top: 0; left: 0; inset: 0;
-      background: rgba(0, 0, 0, 0.75);
-      backdrop-filter: blur(10px);
-      z-index: 10000;
-      display: flex; align-items: center; justify-content: center;
-      padding: 20px;
-      transition: opacity 0.4s ease, visibility 0.4s;
+      position: fixed; top: 0; left: 0; inset: 0; background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(10px); z-index: 10000; display: flex; align-items: center; justify-content: center;
+      padding: 20px; transition: opacity 0.4s ease, visibility 0.4s;
     }
-    .welcome-overlay.hidden {
-      opacity: 0; visibility: hidden;
-    }
+    .welcome-overlay.hidden { opacity: 0; visibility: hidden; }
     .welcome-modal {
-      background: var(--card-bg);
-      border: 2px solid var(--pink);
-      border-radius: 24px;
-      padding: 40px 30px;
-      text-align: center;
-      max-width: 400px;
-      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-      transform: translateY(0) scale(1);
-      transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+      background: var(--card-bg); border: 2px solid var(--pink); border-radius: 24px;
+      padding: 40px 30px; text-align: center; max-width: 400px; box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+      transform: translateY(0) scale(1); transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     }
-    .welcome-overlay.hidden .welcome-modal {
-      transform: translateY(-20px) scale(0.95);
-    }
-    .welcome-modal h2 {
-      color: var(--pink-dark);
-      margin: 0 0 15px; font-size: 24px;
-    }
-    .welcome-modal p {
-      color: var(--muted);
-      margin-bottom: 25px; font-size: 15px; line-height: 1.6;
-    }
+    .welcome-overlay.hidden .welcome-modal { transform: translateY(-20px) scale(0.95); }
+    .welcome-modal h2 { color: var(--pink-dark); margin: 0 0 15px; font-size: 24px; }
+    .welcome-modal p { color: var(--muted); margin-bottom: 25px; font-size: 15px; line-height: 1.6; }
     .enter-btn {
-      background: var(--pink); color: #fff; border: none;
-      padding: 14px 24px; border-radius: 14px;
-      font-size: 16px; font-weight: bold; cursor: pointer;
-      width: 100%; margin-bottom: 12px; transition: all 0.3s;
+      background: var(--pink); color: #fff; border: none; padding: 14px 24px; border-radius: 14px;
+      font-size: 16px; font-weight: bold; cursor: pointer; width: 100%; margin-bottom: 12px; transition: all 0.3s;
       box-shadow: 0 4px 15px rgba(212, 108, 133, 0.3);
     }
-    .enter-btn:hover {
-      background: var(--pink-dark); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(212, 108, 133, 0.4);
-    }
-    .silent-btn {
-      background: transparent; color: var(--muted); border: none;
-      font-size: 14px; cursor: pointer; text-decoration: underline; transition: 0.3s;
-    }
+    .enter-btn:hover { background: var(--pink-dark); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(212, 108, 133, 0.4); }
+    .silent-btn { background: transparent; color: var(--muted); border: none; font-size: 14px; cursor: pointer; text-decoration: underline; transition: 0.3s; }
     .silent-btn:hover { color: var(--pink-dark); }
 
     @media (max-width: 760px) {
@@ -289,6 +267,10 @@
   </style>
 </head>
 <body>
+
+  <!-- TẢI THƯ VIỆN FACEBOOK -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0" nonce="ABC123xyz"></script>
 
   <!-- POPUP CHÀO MỪNG (GIẢI QUYẾT LỖI TỰ PHÁT NHẠC) -->
   <div id="welcome-popup" class="welcome-overlay">
@@ -375,6 +357,7 @@
   <div id="character-modal" class="modal-overlay" onclick="closeModal()">
     <div class="modal-container" onclick="event.stopPropagation()">
       <button class="modal-close" onclick="closeModal()">×</button>
+      
       <div class="modal-header">
         <div class="modal-img-wrap"><img id="modal-img" src="" alt="Avatar"></div>
         <div class="modal-info">
@@ -383,7 +366,17 @@
           <div id="modal-tags" class="character-tags"></div>
         </div>
       </div>
+      
       <div class="modal-body" id="modal-desc"></div>
+
+      <!-- KHU VỰC BÌNH LUẬN FB -->
+      <div class="modal-comments">
+        <h3>💬 Mọi người nghĩ gì về bé gà này?</h3>
+        <div id="fb-comment-box">
+          <!-- Bình luận FB sẽ tự động hiện ở đây -->
+        </div>
+      </div>
+
       <div class="modal-footer">
         <a id="modal-link" class="btn-chat" href="#" target="_blank" rel="noopener noreferrer">🌟 Gặp gỡ nhân vật này →</a>
       </div>
@@ -627,7 +620,6 @@
         const charKhuArray = Array.isArray(char.khu) ? char.khu : (char.khu ? [char.khu] : ["Chưa phân khu"]);
         const khuHTML = charKhuArray.map(k => `<button class="character-khu ${selectedKhu === k ? "active" : ""}" type="button" onclick="event.stopPropagation(); filterByKhu('${k.replace(/'/g, "\\'")}')">🏰 ${k}</button>`).join("");
 
-        // Đã đổi màu nền của ảnh hỏng (placeholder) sang tone hồng
         return `
           <article class="character-card" onclick="openModal(${char.id})">
             <div class="character-art"><img src="${char.image}" loading="lazy" onerror="this.src='https://via.placeholder.com/300x180/F5E1E6/D46C85?text=Gà+Bông'"></div>
@@ -645,10 +637,35 @@
     function openModal(id) {
       const char = characters.find(c => c.id === id);
       if (!char) return;
-      modalImg.src = char.image; modalName.textContent = char.name; modalIntro.textContent = char.intro || "";
-      modalDesc.textContent = char.content || ""; modalLink.href = char.link || "#";
+      
+      modalImg.src = char.image; 
+      modalName.textContent = char.name; 
+      modalIntro.textContent = char.intro || "";
+      modalDesc.textContent = char.content || ""; 
+      modalLink.href = char.link || "#";
       modalTags.innerHTML = (char.tags || []).map(tag => `<span class="character-tag" style="pointer-events:none">${tag}</span>`).join("");
-      modal.classList.add("active"); document.body.style.overflow = "hidden";
+      
+      // ==========================================
+      // LOGIC TÍCH HỢP FACEBOOK COMMENT 
+      // ==========================================
+      
+      // BẮT BUỘC: THAY LINK NÀY THÀNH LINK TRANG WEB GITHUB CỦA BẠN 
+      // Ví dụ: "https://shinnkehl.github.io/fluffy-chicken-farm"
+      const myWebsiteUrl = "https://ten-github-cua-ban.github.io/ten-du-an"; 
+      
+      const uniqueCharUrl = `${myWebsiteUrl}/?character_id=${char.id}`;
+      const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+      const fbTheme = isDark ? "dark" : "light";
+
+      const fbBox = document.getElementById("fb-comment-box");
+      fbBox.innerHTML = `<div class="fb-comments" data-href="${uniqueCharUrl}" data-width="100%" data-numposts="5" data-colorscheme="${fbTheme}"></div>`;
+      
+      if (typeof FB !== 'undefined') {
+        FB.XFBML.parse(fbBox);
+      }
+
+      modal.classList.add("active"); 
+      document.body.style.overflow = "hidden";
     }
 
     function closeModal() { modal.classList.remove("active"); document.body.style.overflow = ""; }
@@ -661,11 +678,11 @@
     categoryFilter.addEventListener("change", renderCharacters);
     resetButton.addEventListener("click", clearFilters);
 
-    // Hoa anh đào (hoặc cánh hoa) rơi
+    // Hoa anh đào rơi
     const leafBackground = document.getElementById("leaf-background");
     for (let i = 0; i < 15; i++) {
       const leaf = document.createElement("span"); leaf.className = "falling-leaf"; 
-      leaf.textContent = "🌸"; // Đã đổi sang hoa anh đào
+      leaf.textContent = "🌸"; 
       leaf.style.setProperty("--leaf-left", Math.random() * 100 + "%"); leaf.style.setProperty("--leaf-size", (14 + Math.random() * 12) + "px");
       leaf.style.setProperty("--leaf-opacity", 0.4 + Math.random() * 0.4); leaf.style.setProperty("--leaf-duration", (22 + Math.random() * 18) + "s");
       leaf.style.setProperty("--leaf-delay", (-Math.random() * 40) + "s"); leafBackground.appendChild(leaf);
