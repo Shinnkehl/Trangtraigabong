@@ -43,7 +43,7 @@
     
     .comment-section { padding: 40px; border-top: 1px solid var(--border); background: var(--bg); }
     .comment-section h2 { margin-top: 0; color: var(--pink-dark); font-size: 22px; margin-bottom: 20px; }
-    #fb-comment-box { background: var(--card-bg); padding: 15px; border-radius: 16px; border: 1px solid var(--border); min-height: 150px;}
+    #fb-comment-box { background: var(--card-bg); padding: 15px; border-radius: 16px; border: 1px solid var(--border); min-height: 200px; }
     
     .meet-btn { display: block; background: var(--pink); color: #fff; text-align: center; padding: 18px; text-decoration: none; font-weight: bold; font-size: 18px; transition: 0.3s; }
     .meet-btn:hover { background: var(--pink-dark); }
@@ -56,31 +56,25 @@
   </style>
 </head>
 <body>
-  <!-- TẢI THƯ VIỆN FB -->
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0" nonce="ABC123xyz"></script>
+
+  <!-- Đã xóa mã thư viện FB cũ ở đây để chuyển xuống xử lý bằng JS cho mượt hơn -->
 
   <header class="navbar">
     <a href="index.html" class="btn-back">← Trở về Trang Trại</a>
   </header>
 
   <div class="container" id="content-container">
-    <!-- NỘI DUNG SẼ ĐƯỢC JAVASCRIPT TẠO TỰ ĐỘNG Ở ĐÂY -->
     <div style="text-align: center; padding: 50px; color: var(--muted);">Đang tải thông tin nhân vật...</div>
   </div>
 
   <script src="data.js"></script>
   <script>
-    // Lấy Theme
     if (localStorage.getItem("theme") === "dark" || (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
       document.documentElement.setAttribute("data-theme", "dark");
     }
 
-    // 1. Lấy ID từ URL (VD: detail.html?id=12)
     const urlParams = new URLSearchParams(window.location.search);
     const charId = parseInt(urlParams.get('id'));
-
-    // 2. Tìm nhân vật trong file data.js
     const character = typeof characters !== 'undefined' ? characters.find(c => c.id === charId) : null;
     const container = document.getElementById('content-container');
 
@@ -94,21 +88,17 @@
         </div>
       `;
     } else {
-      // Đổi tiêu đề tab trình duyệt
       document.title = `${character.name} - Trang Trại Gà Bông`;
 
-      // 3. Render HTML
       const tagsHtml = (character.tags || []).map(t => `<span class="tag">#${t}</span>`).join('');
       const khuHtml = (Array.isArray(character.khu) ? character.khu : [character.khu || "Chưa rõ"]).map(k => `<span class="tag">🏰 ${k}</span>`).join('');
       
-      // ===============================================
-      // BƯỚC QUAN TRỌNG: ĐỔI LINK GITHUB CỦA BẠN VÀO ĐÂY
-      // ===============================================
-      const myWebsiteUrl = "https://shinnkehl.github.io/Trangtraigabong"; // <--- BẠN HÃY SỬA DÒNG NÀY
-
+      // LINK GITHUB ĐÃ ĐƯỢC CHÈN SẴN CHUẨN XÁC
+      const myWebsiteUrl = "https://shinnkehl.github.io/Trangtraigabong"; 
       const uniqueCharUrl = `${myWebsiteUrl}/?character_id=${character.id}`;
       const isDark = document.documentElement.getAttribute("data-theme") === "dark";
       
+      // Tạo giao diện
       container.innerHTML = `
         <div class="detail-card">
           <div class="detail-header">
@@ -130,9 +120,7 @@
           </div>
           
           <div class="comment-section">
-            <!-- ĐÃ SỬA DÒNG CHỮ Ở ĐÂY -->
             <h2>💌 Em muốn gửi gắm đôi lời đến ${character.name} rằng...</h2>
-            
             <div id="fb-comment-box">
               <div class="fb-comments" data-href="${uniqueCharUrl}" data-width="100%" data-numposts="10" data-colorscheme="${isDark ? 'dark' : 'light'}"></div>
             </div>
@@ -142,10 +130,13 @@
         </div>
       `;
 
-      // Kích hoạt FB Comment tải lại
-      if (typeof FB !== 'undefined') {
-        FB.XFBML.parse(document.getElementById('fb-comment-box'));
-      }
+      // SAU KHI TẠO GIAO DIỆN XONG, BẮT ĐẦU GỌI FACEBOOK VÀO ĐỂ TRÁNH LỖI
+      const fbScript = document.createElement('script');
+      fbScript.src = "https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0";
+      fbScript.async = true;
+      fbScript.defer = true;
+      fbScript.crossOrigin = "anonymous";
+      document.body.appendChild(fbScript);
     }
   </script>
 </body>
