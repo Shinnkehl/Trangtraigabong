@@ -20,32 +20,24 @@
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
 
-    /* Custom Scrollbar cho toàn trang */
+    /* Custom Scrollbar */
     ::-webkit-scrollbar { width: 8px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--green); border-radius: 10px; }
     ::-webkit-scrollbar-thumb:hover { background: var(--green-dark); }
 
     body {
-      margin: 0;
-      min-height: 100vh;
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--green-dark);
-      background: radial-gradient(ellipse at top, #DDEEDB 0%, transparent 55%), var(--bg);
+      margin: 0; min-height: 100vh; font-family: Arial, Helvetica, sans-serif;
+      color: var(--green-dark); background: radial-gradient(ellipse at top, #DDEEDB 0%, transparent 55%), var(--bg);
       overflow-x: hidden;
     }
 
     button, input, select { font: inherit; }
     button { cursor: pointer; }
-    button:focus-visible, input:focus-visible, select:focus-visible {
-      outline: 3px solid #A5CCA2;
-      outline-offset: 3px;
-    }
+    button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #A5CCA2; outline-offset: 3px; }
 
     /* Lá rơi */
-    #leaf-background {
-      position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; contain: strict;
-    }
+    #leaf-background { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; contain: strict; }
     .falling-leaf {
       position: absolute; top: -40px; left: var(--leaf-left); font-size: var(--leaf-size); opacity: var(--leaf-opacity);
       filter: drop-shadow(0 0 3px rgba(151, 207, 146, 0.5)) drop-shadow(0 0 7px rgba(151, 207, 146, 0.2));
@@ -123,7 +115,8 @@
     
     .character-tag, .character-khu { border: 1px solid #c6dfc9; border-radius: 20px; background: #edf7ee; color: #41694a; padding: 6px 11px; font-size: 12px; cursor: pointer; transition: 0.2s; }
     .character-tag:hover, .character-khu:hover, .character-tag.active, .character-khu.active { background: #548b61; border-color: #548b61; color: white; }
-    .character-khu { display: inline-block; margin-bottom: 12px; text-align: left; }
+    
+    .khu-container { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 12px; }
 
     .choose-button { width: 100%; padding: 11px; border: 1px solid #C0DCC0; border-radius: 10px; background: var(--green-light); color: var(--green-dark); font-weight: bold; transition: 0.2s ease; text-align: center; text-decoration: none; display: block; margin-top: auto; }
     .choose-button:hover { background: #C0DCC0; }
@@ -131,160 +124,76 @@
     .empty-state { grid-column: 1 / -1; padding: 50px 20px; border: 1px dashed var(--border); border-radius: 18px; text-align: center; color: var(--muted); background: rgba(255, 255, 255, 0.65); }
     .empty-state div { margin-bottom: 10px; font-size: 32px; }
 
-    /* =======================================
-       BẢNG NỘI DUNG CHI TIẾT (MODAL)
-    ======================================= */
+    /* BẢNG NỘI DUNG CHI TIẾT (MODAL) */
     .modal-overlay {
       position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(35, 60, 45, 0.6); backdrop-filter: blur(5px);
       z-index: 9999; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; padding: 20px;
     }
     .modal-overlay.active { opacity: 1; visibility: visible; }
-    
     .modal-container {
       background: var(--bg); width: 100%; max-width: 800px; max-height: 90vh; border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.2);
       display: flex; flex-direction: column; overflow: hidden; transform: translateY(30px) scale(0.95); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     }
     .modal-overlay.active .modal-container { transform: translateY(0) scale(1); }
-
     .modal-header { position: relative; display: flex; gap: 24px; padding: 30px; background: linear-gradient(135deg, #DDEEDB, #F1F8F0); border-bottom: 1px solid var(--border); }
     .modal-close { position: absolute; top: 15px; right: 15px; width: 36px; height: 36px; border-radius: 50%; background: white; border: 1px solid var(--border); font-size: 24px; line-height: 0; display: flex; align-items: center; justify-content: center; color: var(--muted); cursor: pointer; transition: 0.2s; z-index: 10; }
     .modal-close:hover { background: #ffdbdb; color: #d9534f; border-color: #ffc2c2; }
-    
     .modal-img-wrap { width: 160px; height: 160px; flex-shrink: 0; border-radius: 20px; border: 4px solid white; box-shadow: var(--shadow); overflow: hidden; background: white;}
     .modal-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
-    
     .modal-info { flex: 1; display: flex; flex-direction: column; justify-content: center; }
     .modal-info h2 { margin: 0 0 10px; font-size: 28px; color: var(--green-dark); }
     .modal-info .intro { font-weight: 600; color: var(--green); margin: 0 0 15px; font-size: 15px; }
-
     .modal-body { padding: 30px; overflow-y: auto; font-size: 15px; line-height: 1.8; color: var(--green-dark); white-space: pre-wrap; background: #fdfdfd; }
     .modal-body::-webkit-scrollbar { width: 6px; }
     .modal-body::-webkit-scrollbar-track { background: transparent; }
     .modal-body::-webkit-scrollbar-thumb { background: #c6dfc9; border-radius: 10px; }
-
     .modal-footer { padding: 20px 30px; background: rgba(255, 255, 255, 0.8); border-top: 1px solid var(--border); display: flex; justify-content: flex-end; }
     .btn-chat { background: var(--green); color: white; padding: 12px 30px; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; box-shadow: 0 4px 15px rgba(99, 155, 112, 0.3); }
     .btn-chat:hover { background: var(--green-dark); transform: translateY(-2px); }
 
-    /* =======================================
-       MUSIC PLAYER BONG BÓNG (NỔI GÓC DƯỚI)
-    ======================================= */
-    .music-widget {
-      position: fixed;
-      bottom: 25px;
-      right: 25px;
-      z-index: 999;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-    }
-
-    /* Nút bong bóng hình tròn */
+    /* MUSIC PLAYER BONG BÓNG */
+    .music-widget { position: fixed; bottom: 25px; right: 25px; z-index: 999; display: flex; flex-direction: column; align-items: flex-end; }
     .music-bubble-btn {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      background: var(--green);
-      color: white;
-      border: 3px solid white;
-      box-shadow: 0 8px 20px rgba(53, 83, 67, 0.3);
-      font-size: 24px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      transition: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-      z-index: 2;
+      width: 60px; height: 60px; border-radius: 50%; background: var(--green); color: white; border: 3px solid white;
+      box-shadow: 0 8px 20px rgba(53, 83, 67, 0.3); font-size: 24px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.3s; z-index: 2;
     }
-    .music-bubble-btn:hover {
-      transform: scale(1.1) rotate(10deg);
-      background: var(--green-dark);
-    }
-    .music-bubble-btn.playing {
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(99, 155, 112, 0.7); }
-      70% { box-shadow: 0 0 0 15px rgba(99, 155, 112, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(99, 155, 112, 0); }
-    }
-
-    /* Bảng điều khiển (ẩn mặc định, trượt lên khi click) */
+    .music-bubble-btn:hover { transform: scale(1.1) rotate(10deg); background: var(--green-dark); }
+    .music-bubble-btn.playing { animation: pulse 2s infinite; }
+    @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(99, 155, 112, 0.7); } 70% { box-shadow: 0 0 0 15px rgba(99, 155, 112, 0); } 100% { box-shadow: 0 0 0 0 rgba(99, 155, 112, 0); } }
     .music-panel {
-      position: absolute;
-      bottom: 80px;
-      right: 0;
-      width: 320px;
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(10px);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-      padding: 20px;
-      opacity: 0;
-      visibility: hidden;
-      transform: translateY(20px) scale(0.9);
-      transform-origin: bottom right;
-      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-      z-index: 1;
+      position: absolute; bottom: 80px; right: 0; width: 320px; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px);
+      border: 1px solid var(--border); border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.15); padding: 20px;
+      opacity: 0; visibility: hidden; transform: translateY(20px) scale(0.9); transform-origin: bottom right; transition: all 0.3s; z-index: 1;
     }
-    .music-panel.active {
-      opacity: 1;
-      visibility: visible;
-      transform: translateY(0) scale(1);
-    }
-
+    .music-panel.active { opacity: 1; visibility: visible; transform: translateY(0) scale(1); }
     .music-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 1px solid var(--border); padding-bottom: 10px; }
     .music-header h4 { margin: 0; font-size: 16px; color: var(--green-dark); display: flex; align-items: center; gap: 8px;}
     .close-music { background: none; border: none; font-size: 20px; color: var(--muted); padding: 0; line-height: 1; cursor: pointer; }
     .close-music:hover { color: red; }
-
     .now-playing { font-size: 14px; font-weight: bold; color: var(--green); text-align: center; margin-bottom: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
     .music-controls { display: flex; justify-content: center; gap: 15px; margin-bottom: 15px; }
-    .music-controls button {
-      width: 40px; height: 40px; border-radius: 50%; border: none; background: var(--green-light); color: var(--green-dark);
-      font-size: 16px; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: 0.2s;
-    }
+    .music-controls button { width: 40px; height: 40px; border-radius: 50%; border: none; background: var(--green-light); color: var(--green-dark); font-size: 16px; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: 0.2s; }
     .music-controls button:hover { background: var(--green); color: white; }
     .music-controls .play-btn { width: 50px; height: 50px; font-size: 22px; background: var(--green); color: white; }
     .music-controls .play-btn:hover { background: var(--green-dark); transform: scale(1.05); }
-
     .slider-container { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-size: 12px; color: var(--muted); }
     .slider-container span.icon { font-size: 16px; }
-    input[type=range] {
-      flex: 1; -webkit-appearance: none; width: 100%; background: transparent;
-    }
+    input[type=range] { flex: 1; -webkit-appearance: none; width: 100%; background: transparent; }
     input[type=range]:focus { outline: none; }
-    input[type=range]::-webkit-slider-runnable-track {
-      width: 100%; height: 6px; background: var(--border); border-radius: 3px;
-    }
-    input[type=range]::-webkit-slider-thumb {
-      height: 14px; width: 14px; border-radius: 50%; background: var(--green);
-      cursor: pointer; -webkit-appearance: none; margin-top: -4px;
-    }
-
+    input[type=range]::-webkit-slider-runnable-track { width: 100%; height: 6px; background: var(--border); border-radius: 3px; }
+    input[type=range]::-webkit-slider-thumb { height: 14px; width: 14px; border-radius: 50%; background: var(--green); cursor: pointer; -webkit-appearance: none; margin-top: -4px; }
     .playlist { max-height: 120px; overflow-y: auto; border-top: 1px solid var(--border); padding-top: 10px; margin-top: 5px; }
     .playlist::-webkit-scrollbar { width: 4px; }
     .playlist::-webkit-scrollbar-thumb { background: #c6dfc9; border-radius: 4px; }
-    .playlist-item {
-      padding: 8px 10px; font-size: 13px; color: var(--muted); border-radius: 8px;
-      cursor: pointer; transition: 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    }
+    .playlist-item { padding: 8px 10px; font-size: 13px; color: var(--muted); border-radius: 8px; cursor: pointer; transition: 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .playlist-item:hover { background: var(--green-light); color: var(--green-dark); }
     .playlist-item.active { background: var(--green); color: white; font-weight: bold; }
 
-    /* Footer */
     footer { position: relative; z-index: 1; padding: 24px 15px; border-top: 1px solid var(--border); background: rgba(255, 255, 255, 0.65); text-align: center; color: var(--muted); font-size: 12px; line-height: 1.8; padding-bottom: 80px; }
 
-    /* Responsive */
     @media (max-width: 760px) {
-      .navbar { padding: 16px 5%; }
-      .hero { padding-top: 48px; }
-      .character-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-      .controls { grid-template-columns: 1fr 1fr; }
-      .search-wrap { grid-column: 1 / -1; }
-      .music-widget { bottom: 15px; right: 15px; }
+      .navbar { padding: 16px 5%; } .hero { padding-top: 48px; } .character-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+      .controls { grid-template-columns: 1fr 1fr; } .search-wrap { grid-column: 1 / -1; } .music-widget { bottom: 15px; right: 15px; }
     }
     @media (max-width: 480px) { .character-grid { grid-template-columns: 1fr; } }
   </style>
@@ -338,11 +247,9 @@
     <div class="character-grid" id="character-grid"></div>
   </main>
 
-  <!-- BẢNG MODAL -->
   <div id="character-modal" class="modal-overlay" onclick="closeModal()">
     <div class="modal-container" onclick="event.stopPropagation()">
       <button class="modal-close" onclick="closeModal()">×</button>
-      
       <div class="modal-header">
         <div class="modal-img-wrap"><img id="modal-img" src="" alt="Avatar"></div>
         <div class="modal-info">
@@ -364,39 +271,29 @@
     <p>Made with ♡ and little feathers 🪶</p>
   </footer>
 
-  <!-- ==========================================
-       TRÌNH PHÁT NHẠC (FLOATING MUSIC PLAYER)
-  =========================================== -->
   <div class="music-widget">
     <button id="music-toggle" class="music-bubble-btn" title="Bật nhạc chill">🎵</button>
-    
     <div id="music-panel" class="music-panel">
       <div class="music-header">
         <h4>🎧 Góc Âm Nhạc Thư Giãn</h4>
         <button id="music-close" class="close-music">×</button>
       </div>
-
       <div class="now-playing" id="now-playing">Chọn một bài hát để phát...</div>
-
       <div class="music-controls">
         <button id="btn-prev">⏮</button>
         <button id="btn-play" class="play-btn">▶</button>
         <button id="btn-next">⏭</button>
       </div>
-
       <div class="slider-container">
         <span id="current-time">0:00</span>
         <input type="range" id="progress-bar" min="0" value="0" step="1">
         <span id="total-time">0:00</span>
       </div>
-
       <div class="slider-container">
         <span class="icon">🔊</span>
         <input type="range" id="volume-bar" min="0" max="100" value="50">
       </div>
-
       <div class="playlist" id="playlist"></div>
-
       <audio id="audio-player"></audio>
     </div>
   </div>
@@ -404,11 +301,7 @@
   <script src="data.js"></script>
 
   <script>
-    // ==========================================
     // 1. LOGIC TRÌNH PHÁT NHẠC
-    // ==========================================
-    
-    // BẠN THÊM HOẶC SỬA BÀI HÁT TẠI ĐÂY NHÉ! (.mp3 hoặc .mp4 đều được)
     const songs = [
       { title: "Tìm em", src: "./images/TIM-EM.mp4" },
       { title: "Haru haru", src: "./images/HARU-HARUu.mp4" },
@@ -429,7 +322,6 @@
     const currentTimeEl = document.getElementById("current-time");
     const totalTimeEl = document.getElementById("total-time");
 
-    // ĐÃ SỬA DÒNG NÀY THÀNH RANDOM ĐỂ BỐC THĂM NGẪU NHIÊN BÀI HÁT LÚC LOAD TRANG
     let currentSongIndex = Math.floor(Math.random() * songs.length);
     let isPlaying = false;
 
@@ -470,79 +362,49 @@
       playMusic();
     }
 
-    btnPlay.addEventListener("click", () => {
-      isPlaying ? pauseMusic() : playMusic();
-    });
-
-    btnNext.addEventListener("click", () => {
-      currentSongIndex = (currentSongIndex + 1) % songs.length;
-      playSpecificSong(currentSongIndex);
-    });
-
-    btnPrev.addEventListener("click", () => {
-      currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
-      playSpecificSong(currentSongIndex);
-    });
+    btnPlay.addEventListener("click", () => { isPlaying ? pauseMusic() : playMusic(); });
+    btnNext.addEventListener("click", () => { currentSongIndex = (currentSongIndex + 1) % songs.length; playSpecificSong(currentSongIndex); });
+    btnPrev.addEventListener("click", () => { currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length; playSpecificSong(currentSongIndex); });
 
     audioPlayer.addEventListener("timeupdate", () => {
       if(audioPlayer.duration) {
-        const progressPercent = (audioPlayer.currentTime / audioPlayer.duration) * 100;
-        progressBar.value = progressPercent;
-        
+        progressBar.value = (audioPlayer.currentTime / audioPlayer.duration) * 100;
         let currentMins = Math.floor(audioPlayer.currentTime / 60);
         let currentSecs = Math.floor(audioPlayer.currentTime % 60);
-        if(currentSecs < 10) currentSecs = "0" + currentSecs;
-        currentTimeEl.textContent = `${currentMins}:${currentSecs}`;
+        currentTimeEl.textContent = `${currentMins}:${currentSecs < 10 ? "0" + currentSecs : currentSecs}`;
       }
     });
 
     audioPlayer.addEventListener("loadeddata", () => {
       let durationMins = Math.floor(audioPlayer.duration / 60);
       let durationSecs = Math.floor(audioPlayer.duration % 60);
-      if(durationSecs < 10) durationSecs = "0" + durationSecs;
-      totalTimeEl.textContent = `${durationMins}:${durationSecs}`;
+      totalTimeEl.textContent = `${durationMins}:${durationSecs < 10 ? "0" + durationSecs : durationSecs}`;
     });
 
-    progressBar.addEventListener("change", () => {
-      audioPlayer.currentTime = (progressBar.value * audioPlayer.duration) / 100;
-    });
-
+    progressBar.addEventListener("change", () => { audioPlayer.currentTime = (progressBar.value * audioPlayer.duration) / 100; });
     audioPlayer.volume = volumeBar.value / 100;
-    volumeBar.addEventListener("input", () => {
-      audioPlayer.volume = volumeBar.value / 100;
-    });
-
-    audioPlayer.addEventListener("ended", () => {
-      btnNext.click();
-    });
+    volumeBar.addEventListener("input", () => { audioPlayer.volume = volumeBar.value / 100; });
+    audioPlayer.addEventListener("ended", () => { btnNext.click(); });
 
     loadSong(currentSongIndex);
-    
-// --- LỆNH ÉP TỰ ĐỘNG PHÁT NHẠC MỘT CÁCH THÔNG MINH ---
+
     let playPromise = audioPlayer.play();
     if (playPromise !== undefined) {
       playPromise.then(_ => {
-        // Trường hợp 1: Trình duyệt dễ tính, cho phép tự phát luôn
-        isPlaying = true;
-        btnPlay.textContent = "⏸";
-        musicToggle.classList.add("playing");
+        isPlaying = true; btnPlay.textContent = "⏸"; musicToggle.classList.add("playing");
       }).catch(error => {
-        // Trường hợp 2: Bị trình duyệt chặn. Sẽ phát ngay khi người dùng chạm/click vào web
         const startMusicOnInteract = () => {
           if (!isPlaying) playMusic();
-          // Phát xong thì xóa lệnh này đi để không bị lặp lại
           document.removeEventListener("click", startMusicOnInteract);
           document.removeEventListener("touchstart", startMusicOnInteract);
         };
-        // Lắng nghe sự kiện click chuột hoặc chạm ngón tay trên điện thoại
         document.addEventListener("click", startMusicOnInteract);
         document.addEventListener("touchstart", startMusicOnInteract);
       });
     }
-    // -----------------------------------------------------
-    // ==========================================
+
+
     // 2. LOGIC HIỂN THỊ THẺ NHÂN VẬT VÀ LỌC BẢNG
-    // ==========================================
     const grid = document.getElementById("character-grid");
     const searchInput = document.getElementById("search-input");
     const categoryFilter = document.getElementById("category-filter");
@@ -575,10 +437,13 @@
       const selectedCategory = categoryFilter.value;
 
       const filtered = characters.filter(char => {
-        const matchesKeyword = char.name.toLowerCase().includes(keyword) || (char.intro || "").toLowerCase().includes(keyword) || (char.content || "").toLowerCase().includes(keyword) || (char.tags || []).some(tag => tag.toLowerCase().includes(keyword)) || (char.khu || "").toLowerCase().includes(keyword);
-        const matchesCategory = selectedCategory === "all" || (char.khu || "").toLowerCase() === selectedCategory.toLowerCase();
+        // Hỗ trợ cả Khu dạng Chuỗi và dạng Mảng
+        const charKhuArray = Array.isArray(char.khu) ? char.khu : (char.khu ? [char.khu] : [""]);
+        
+        const matchesKeyword = char.name.toLowerCase().includes(keyword) || (char.intro || "").toLowerCase().includes(keyword) || (char.content || "").toLowerCase().includes(keyword) || (char.tags || []).some(tag => tag.toLowerCase().includes(keyword)) || charKhuArray.some(k => k.toLowerCase().includes(keyword));
+        const matchesCategory = selectedCategory === "all" || charKhuArray.some(k => k.toLowerCase() === selectedCategory.toLowerCase());
         const matchesTag = !selectedTag || (char.tags || []).includes(selectedTag);
-        const matchesKhu = !selectedKhu || char.khu === selectedKhu;
+        const matchesKhu = !selectedKhu || charKhuArray.includes(selectedKhu);
         return matchesKeyword && matchesCategory && matchesTag && matchesKhu;
       });
 
@@ -591,13 +456,18 @@
 
       grid.innerHTML = filtered.map(char => {
         const tagsHTML = (char.tags || []).map(tag => `<button class="character-tag ${selectedTag === tag ? "active" : ""}" type="button" onclick="event.stopPropagation(); filterByTag('${tag.replace(/'/g, "\\'")}')">${tag}</button>`).join("");
+        
+        // Render 1 hoặc nhiều thẻ Khu
+        const charKhuArray = Array.isArray(char.khu) ? char.khu : (char.khu ? [char.khu] : ["Chưa phân khu"]);
+        const khuHTML = charKhuArray.map(k => `<button class="character-khu ${selectedKhu === k ? "active" : ""}" type="button" onclick="event.stopPropagation(); filterByKhu('${k.replace(/'/g, "\\'")}')">🏰 ${k}</button>`).join("");
+
         return `
           <article class="character-card" onclick="openModal(${char.id})">
             <div class="character-art"><img src="${char.image}" loading="lazy" onerror="this.src='https://via.placeholder.com/300x180/DDEEDB/639B70?text=Gà+Bông'"></div>
             <div class="character-info">
               <h3>${char.name}</h3><p class="character-intro">${char.intro || ""}</p><p class="character-description">${char.content || ""}</p>
               <div class="character-tags">${tagsHTML}</div>
-              <button class="character-khu ${selectedKhu === char.khu ? "active" : ""}" type="button" onclick="event.stopPropagation(); filterByKhu('${(char.khu || "").replace(/'/g, "\\'")}')">🏰 ${char.khu || "Chưa phân khu"}</button>
+              <div class="khu-container">${khuHTML}</div>
               <button class="choose-button" type="button" onclick="event.stopPropagation(); openModal(${char.id})">📖 Xem chi tiết nội dung</button>
             </div>
           </article>
