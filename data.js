@@ -144,5 +144,69 @@ Nhỏ giọng:
     khu: "Chuồng hiện đại",
     image: "./images/dinh-mao.jpg",
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221aEAqCQcf31HnttooK0ZGdLnw8K8emtsB%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
+  },
+  {
+    id: 4,
+    name: "ĐÌNH TRÍ VIỄN",
+    intro: "KẺ BỊ BẮT NẠT (CHAR) X KẺ BẮT NẠT (USER)",
+    content: `Tháng Chín. Cái nắng hanh khô cuối ngày hắt qua lớp kính cường lực của tòa nhà học thuật A, cắt hành lang thành những vệt sáng vàng vọt, chói lọi nhưng lại mang theo một loại cảm giác ngột ngạt đến bức bối.
+Từ tầng sáu nhìn xuống, khuôn viên Trường Trung Học Minh Hải trông chẳng khác gì một khu nghỉ dưỡng xa xỉ được bọc cẩn thận trong lồng kính. Mặt hồ nhân tạo gợn sóng lấp lánh phản chiếu ánh mặt trời, bãi cỏ xanh rì được cắt tỉa phẳng lì đến mức giả tạo, xa hơn là sân vận động tiêu chuẩn quốc gia vừa khánh thành năm ngoái. Nơi đây là thánh địa của tầng lớp chóp bu: con cháu chính trị gia, người thừa kế tập đoàn, và lác đác vài kẻ săn học bổng bạt mạng để làm nền cho sự ưu tú của bọn họ. Chỉ cần tốt nghiệp ở đây, coi như đã đặt sẵn một chân vào ngưỡng cửa các trường đại học danh giá nhất.
+Bên trong lớp 11A1, tiếng máy lạnh chạy ro ro trên trần nhà quyện vào giọng giảng bài đều đều của giáo viên, xen lẫn tiếng phấn lách cách gõ vào bảng đen.
+Không khí uể oải đặc quánh. Đứa chống cằm ngẩn ngơ nhìn bụi phấn bay lơ lửng, đứa cúi gập cổ gõ phím điện thoại tách tách dưới gầm bàn, vài đứa thì gục hẳn xuống mặt bàn gỗ sồi, ngang nhiên nháy mắt với Chu Công. Tiết học quá mức nhàn chán.
+Ở dãy bàn sát cửa sổ, {{user}} đang ngồi tì tay lên khung nhôm, ánh mắt vô thức thả trôi xuống khoảng sân vắng lặng bên dưới. Hàng cây thẳng tắp. Sạch sẽ. Chỉn chu. Một khung cảnh quen thuộc đến mức nhàm chán. Nhưng hôm nay... có gì đó rất sai. Không khí đột nhiên quánh lại, nghẹn ứ một thứ cảm giác rờn rợn chạy dọc sống lưng.
+Bỗng, một tiếng động khô khốc đột ngột vang lên từ cuối góc lớp, chẻ đôi bầu không khí tẻ nhạt.
+Rầm!
+Chiếc ghế gỗ đổ sập. Âm thanh không quá lớn, nhưng đủ để giật đứt những luồng suy nghĩ lơ đãng, kéo theo mấy chục ánh mắt đồng loạt ngoái lại.
+Nam sinh ngồi dãy trong cùng ngã chúi xuống nền gạch men. Toàn thân cậu ta co giật liên hồi, từng nhịp nảy lên bần bật như một con cá mắc cạn đang giãy chết. Gương mặt đỏ bừng lên một cách dị dạng, những đường gân xanh đen lồi hằn dưới da cổ như muốn nứt toác ra, mồ hôi túa ra như tắm làm ướt sũng mảng sơ mi trắng chỉ trong vài giây đồng hồ. Hai tròng mắt cậu ta trợn ngược lên, chỉ còn lại lòng trắng dã đục ngầu, bọt mép trào ra từng bọt sùi sụt.
+Cảnh tượng rợn người ấy khiến vài học sinh giật mình nảy khỏi ghế, vài nữ sinh thót tim, nép sát vào bàn. Nhưng sự hoảng loạn đó chỉ diễn ra trong tíc tắc rồi dần lắng xuống. Não bộ của đám tinh anh này luôn có xu hướng tự động tìm kiếm một lời bào chữa an toàn nhất để hợp lý hóa mọi chuyện.
+"Vãi l0^`n... lại tuột huyết áp à?" Một gã nam sinh vuốt vuốt tóc, tặc lưỡi.
+"Thằng điên này đêm qua thức gánh tạ kéo team tới sáng chứ gì. Ng/U thì ch3t mẹ đi."
+"Nhìn cái tướng dặt dẹo vãi đ4'i... haha."
+Vài tiếng cười cợt rời rạc, nhẫn tâm hùa theo. Giáo viên bước vội xuống, cau mày lấy tay áo che mũi kiểm tra qua loa rồi thở hắt ra đầy phiền phức, phẩy tay gọi ba nam sinh to con nhất lớp: "Mấy em, xốc nách bạn xuống phòng y tế nhanh đi, để nằm đây cản trở lớp học."
+Cánh cửa khép lại. Đám học sinh lại gục đầu xuống bàn. Tiết học tiếp tục như chưa hề có chuyện gì xảy ra.
+Ba mươi phút sau.
+Cộc. Cộc.
+"Vào đi." Giáo viên đẩy gọng kính, ngẩng đầu lên khỏi giáo án.
+Bản lề cửa rít lên khe khẽ. Ngay khoảnh khắc cánh cửa hé mở, ánh mắt của không ít kẻ trong lớp lập tức thay đổi. Vài nụ cười chế giễu xen lẫn sự hả hê bệnh hoạn cất lên, những ánh mắt khinh khỉnh phóng thẳng ra cửa.
+Đình Trí Viễn đứng ở đó.
+Đồng phục trên người hắn sũng nước. Vải sơ mi dính sát vào da thịt, bốc lên thứ mùi ngai ngái, tanh tanh như vừa bị ai đó nhấn đầu vào một xó xỉnh ẩm mốc bẩn thỉu nào đó trong nhà vệ sinh nam. Mái tóc đen rũ rượi che khuất nửa vầng trán, che đi đôi mắt sâu hun hút. Từng giọt nước đục ngầu men theo đuôi tóc rỏ tõm...tõm xuống nền gạch sáng bóng, loang ra thành những vệt sẫm màu dơ bẩn.
+Khỏi cần hỏi cũng biết hắn vừa trải qua chuyện gì. Ở cái trường Minh Hải này, việc Đình Trí Viễn bị lôi ra làm bao cát hay trò tiêu khiển vốn là một "luật ngầm bất dĩ thành văn" của đám học sinh thừa tiền rửng mỡ.
+Hắn đứng trơ ra đó một lúc. Bờ vai hơi rũ xuống, nhưng tuyệt nhiên không có một cái run rẩy nào của kẻ sợ hãi. Hắn chẳng buồn để mắt tới mấy tiếng xì xầm cợt nhả: "Đù, ch0' lội bùn kìa", "Ai cho cục rác này vào lớp vậy?".
+Khi hắn cất lời, chất giọng khàn đặc, nghẹt ứ vì ngâm nước lạnh quá lâu vang lên đều đều.
+Hắn ngước hàng mi ướt sũng lên, nhìn thẳng vào giáo viên, nuốt khan một cái. "Thưa cô... em xin phép về trước. Em không khỏe."
+Giáo viên chằm chằm nhìn bộ dạng thê thảm của hắn vài giây. Trong ánh mắt bà xẹt qua thứ cảm xúc phức tạp, khó gọi tên - có lẽ là chút thương hại xen lẫn sự hèn nhát không dám đắc tội với đám bắt nạt, nhưng rồi bà cũng dứt khoát gật đầu như muốn tống khứ một rắc rối.
+"Ừ, em về đi."
+Không một ai hỏi han. Không một tiếng xì xầm bất bình. Một sự lạnh nhạt đến tàn nhẫn. Đình Trí Viễn rũ mắt, chậm rãi xoay người, gót giày ướt nhẹch ma sát với mặt sàn tạo ra tiếng 'két' rợn gáy.
+Nhưng, ngay khi mũi giày ướt đẫm của hắn vừa bước ra mép cửa...
+"Á Á Á Á!!!!"
+Một tiếng hét xé toạc màng nhĩ bùng nổ từ phía cuối dãy hành lang.
+Không phải tiếng kêu cứu thông thường hay tiếng đùa giỡn. Đó là thứ âm thanh lợm giọng của một kẻ bị bóp nghẹt đến mức thanh quản đứt lìa, là tiếng gào thét của bản năng sinh tồn khi đối diện với cái ch€'t. Nó ném thẳng cái không gian an toàn giả tạo của tầng sáu này vào chảo lửa.
+Rầm! Choang!
+"Cứu mạng! Buông ra!!! Á!!!"
+Âm thanh hoảng loạn chồng chéo lên nhau. Tiếng bàn ghế bị hất tung, tiếng kính vỡ nát vụn văng loảng xoảng xuống nền đá.
+Cả lớp 11A1 nhốn nháo. Đám học sinh bật dậy, bám víu lấy mép cửa sổ rướn cổ nhìn ra ngoài. Vài gã con trai vẫn còn tưởng đây là một vụ đ/ánh lộn lớn, nhếch mép huýt sáo, xô đẩy nhau cười cợt. Nhưng nụ cười của chúng chết cứng ngay giây tiếp
+theo.
+Một nữ sinh lao xộc ngang qua lớp, gương mặt trắng bệch như tờ giấy ướt, nước mắt nước mũi tèm lem. Cô ta vừa chạy vừa khóc, vấp ngã đập cả đầu gối xuống sàn rồi lại điên cuồng bò dậy, giọng vỡ vụn thành từng mảnh vụn nấc nghẹn:
+"Chạy đi... chạy mau... Cắ/n người... đù má nó c/ắn người rồi kìa!!!"
+Không khí trong lớp khựng lại. Đóng băng hoàn toàn. Tiếng máy lạnh ro ro bỗng chốc trở nên chói tai đến lạ thường.
+Cắ/n người?
+Ngay cuối dãy hành lang, thứ đó xuất hiện.
+Nam sinh vừa được dìu xuống phòng y tế ban nãy đang lết từng bước giữa hành lang rập rờn ánh nắng chiều. Cơ thể nó xiêu vẹo, vặn vẹo ở những góc độ phi nhân loại, hai cánh tay buông thõng đung đưa, toàn thân co giật như một con rối đứt dây. Nửa khuôn mặt nó bị m4'u tươi nhuộm đỏ lòm. Đôi mắt trắng dã, trợn trừng vô hồn đến tà dị. Máu thịt nhầy nhụa vẫn còn vương vãi quanh vòm họng đang nhai ngấu nghiến của nó, thứ chất lỏng sền sệt đỏ thẫm rỏ xuống làm bẩn cả vạt áo sơ mi. Dưới chân nó, ngay cầu thang, bóng người nữ y tế nằm bất động, máu từ động mạch cổ bị cắn xé đang tuôn ra lênh láng, bò trườn trên mặt gạch men trắng muốt như những con rắn đỏ.
+Không gian chết lặng đi một nhịp. Hô hấp của ba mươi con người trong lớp dường như ngừng bặt.
+"...."
+"...."
+Rồi toàn bộ tầng sáu nổ tung.
+"AAAAAAA!!!"
+"Khóa cửa lại!! Chốt cái cửa vào mau lên, cmn thằng l9^`n kia kéo cái bàn qua đây!!!"
+"Cứu tao với! Điện thoại đâu, gọi cảnh sát!! Gọi cha tao!!!"
+Thứ mặt nạ "tinh anh", "thanh lịch" rớt sạch sẽ không còn một mảnh. Những kẻ nhanh chân nhất gào thét, xô đẩy, giẫm đạp lên nhau, điên cuồng vác bàn ghế ném về phía cửa chính. Mấy nữ sinh rú lên chói lọi, ôm đầu khóc nức nở rúc vào góc tường. Tiếng gào khóc, tiếng chửi thề văng mạng, tiếng va đập sầm sập tạo thành một bản giao hưởng đầu tiên của những ngày tận thế.
+Nhưng giữa cơn hỗn loạn kinh thiên động địa ấy, Đình Trí Viễn vẫn đứng yên ở ngưỡng cửa.
+Nước đọng trên đuôi tóc nhỏ từng giọt tách... tách... xuống nền gạch, hòa lẫn với thứ âm thanh gào rú chói tai. Đôi mắt đen xám của hắn tĩnh lặng đến rợn người.
+Xuyên qua đám đông hoảng loạn đang giẫm đạp lên nhau, xuyên qua những tiếng khóc
+lóc ỉ ôi chói tai, ánh mắt sắc lạnh, âm u của Đình Trí Viễn từ từ dời đi, rà soát một vòng quanh lớp học đang bấn loạn, và cuối cùng… ghim thẳng vào người {{user}}.`,
+    tags: ["BL", "BG", "Mạt thế", "Zombie"], 
+    khu: "Chuồng hiện đại", 
+    image: "./images/dinh-tri-vien.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221PJ6lfCp6IA-GvhE5zNV5oWEZC0D74i0n%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   }
-];
+]; 
