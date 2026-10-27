@@ -95,6 +95,8 @@
       transform: translateY(-3px); box-shadow: 0 4px 10px rgba(212, 108, 133, 0.3);
     }
     .nav-links svg, .theme-btn svg { width: 18px; height: 18px; fill: currentColor; }
+    .heart-btn svg { fill: var(--pink); }
+    .heart-btn:hover svg { fill: #fff; }
 
     .hero { position: relative; z-index: 1; text-align: center; padding: 65px 20px 35px; }
     .eyebrow { display: inline-block; padding: 8px 14px; border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); color: var(--pink); font-size: 11px; letter-spacing: 2px; font-weight: bold; transition: all 0.3s; }
@@ -266,7 +268,7 @@
 
     footer { position: relative; z-index: 1; padding: 24px 15px; border-top: 1px solid var(--border); background: var(--nav-bg); text-align: center; color: var(--muted); font-size: 12px; line-height: 1.8; padding-bottom: 80px; transition: all 0.3s; }
 
-    /* --- GIAO DIỆN POPUP CHÀO MỪNG --- */
+    /* --- GIAO DIỆN POPUP CHUNG --- */
     .welcome-overlay {
       position: fixed; top: 0; left: 0; inset: 0;
       background: rgba(0, 0, 0, 0.75);
@@ -276,46 +278,44 @@
       padding: 20px;
       transition: opacity 0.4s ease, visibility 0.4s;
     }
-    .welcome-overlay.hidden {
-      opacity: 0; visibility: hidden;
-    }
+    .welcome-overlay.hidden { opacity: 0; visibility: hidden; }
     .welcome-modal {
-      background: var(--card-bg);
-      border: 2px solid var(--pink);
-      border-radius: 24px;
-      padding: 40px 30px;
-      text-align: center;
-      max-width: 400px;
-      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-      transform: translateY(0) scale(1);
-      transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+      background: var(--card-bg); border: 2px solid var(--pink);
+      border-radius: 24px; padding: 40px 30px; text-align: center;
+      max-width: 400px; width: 100%; box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+      transform: translateY(0) scale(1); transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     }
-    .welcome-overlay.hidden .welcome-modal {
-      transform: translateY(-20px) scale(0.95);
-    }
-    .welcome-modal h2 {
-      color: var(--pink-dark);
-      margin: 0 0 15px; font-size: 24px;
-    }
-    .welcome-modal p {
-      color: var(--muted);
-      margin-bottom: 25px; font-size: 15px; line-height: 1.6;
-    }
+    .welcome-overlay.hidden .welcome-modal { transform: translateY(-20px) scale(0.95); }
+    .welcome-modal h2 { color: var(--pink-dark); margin: 0 0 15px; font-size: 24px; }
+    .welcome-modal p { color: var(--muted); margin-bottom: 25px; font-size: 15px; line-height: 1.6; }
     .enter-btn {
-      background: var(--pink); color: #fff; border: none;
-      padding: 14px 24px; border-radius: 14px;
-      font-size: 16px; font-weight: bold; cursor: pointer;
-      width: 100%; margin-bottom: 12px; transition: all 0.3s;
+      background: var(--pink); color: #fff; border: none; padding: 14px 24px; border-radius: 14px;
+      font-size: 16px; font-weight: bold; cursor: pointer; width: 100%; margin-bottom: 12px; transition: all 0.3s;
       box-shadow: 0 4px 15px rgba(212, 108, 133, 0.3);
     }
-    .enter-btn:hover {
-      background: var(--pink-dark); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(212, 108, 133, 0.4);
-    }
-    .silent-btn {
-      background: transparent; color: var(--muted); border: none;
-      font-size: 14px; cursor: pointer; text-decoration: underline; transition: 0.3s;
-    }
+    .enter-btn:hover { background: var(--pink-dark); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(212, 108, 133, 0.4); }
+    .silent-btn { background: transparent; color: var(--muted); border: none; font-size: 14px; cursor: pointer; text-decoration: underline; transition: 0.3s; }
     .silent-btn:hover { color: var(--pink-dark); }
+
+    /* --- POPUP DONATE (TRÁI TIM) --- */
+    .donate-modal { max-width: 480px; position: relative; padding: 40px 30px 30px; }
+    .close-donate-btn {
+      position: absolute; top: 15px; right: 15px;
+      width: 32px; height: 32px; border-radius: 50%;
+      background: var(--pink-light); color: var(--pink-dark); border: none;
+      font-size: 20px; line-height: 1; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; transition: 0.2s;
+    }
+    .close-donate-btn:hover { background: var(--pink); color: #fff; }
+    .donate-subtitle { font-style: italic; color: var(--pink) !important; font-weight: bold; margin-bottom: 20px !important; }
+    .donate-text { text-align: left; margin-bottom: 20px; font-size: 15px; }
+    .donate-text p { margin-bottom: 12px !important; color: var(--pink-dark) !important; line-height: 1.6; }
+    .donate-wish { font-weight: bold; color: var(--pink) !important; text-align: center; margin-top: 15px; }
+    .qr-container {
+      background: var(--white); padding: 15px; border-radius: 16px;
+      border: 2px dashed var(--pink-light); display: inline-block;
+    }
+    .qr-container img { width: 200px; height: 200px; object-fit: contain; border-radius: 8px; }
 
     @media (max-width: 760px) {
       .navbar { padding: 16px 5%; } .hero { padding-top: 48px; } .character-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
@@ -340,6 +340,27 @@
     </div>
   </div>
 
+  <!-- POPUP DONATE (CẢM ƠN QUÝ NHÂN) -->
+  <div id="donate-popup" class="welcome-overlay hidden" style="display: none;">
+    <div class="welcome-modal donate-modal">
+      <button id="close-donate" class="close-donate-btn">×</button>
+      <h2>💖 Cảm Ơn Quý Nhân 💖</h2>
+      <p class="donate-subtitle">"Sự ủng hộ của bạn là hạt mầm cho Trang Trại"</p>
+      
+      <div class="donate-text">
+        <p>Chào cậu, tớ là Shinn đây! 🐣</p>
+        <p>Trang Trại Gà Bông ra đời với hy vọng đem lại một góc nhỏ bình yên, dễ thương và tràn đầy năng lượng tích cực cho mọi người.</p>
+        <p>Mỗi hạt thóc, mỗi lượt bình chọn hay đóng góp từ cậu chính là nguồn động lực to lớn giúp tớ duy trì và tiếp tục nâng cấp thêm nhiều tính năng, lai tạo ra những giống gà xịn sò hơn nữa!</p>
+        <p class="donate-wish">Chúc Quý Nhân vạn dặm bình an!</p>
+      </div>
+
+      <!-- BẠN ĐỔI LINK ẢNH QR Ở DÒNG BÊN DƯỚI NHÉ -->
+      <div class="qr-container">
+        <img src="./images/12.png" alt="Mã QR Ủng Hộ" onerror="this.src='https://via.placeholder.com/200x200/F5E1E6/D46C85?text=Mã+QR+ở+đây'">
+      </div>
+    </div>
+  </div>
+
   <div id="leaf-background" aria-hidden="true"></div>
 
   <header class="navbar">
@@ -359,6 +380,11 @@
           <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
           <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
         </svg>
+      </button>
+      
+      <!-- NÚT TRÁI TIM ĐƯỢC THÊM VÀO ĐÂY -->
+      <button id="btn-donate" class="theme-btn heart-btn" title="Cảm Ơn Quý Nhân">
+        <svg viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>
       </button>
 
       <a href="https://www.facebook.com/share/18uTvgBHKz/" target="_blank" rel="noopener" title="Facebook">
@@ -415,7 +441,7 @@
     </main>
   </div> <!-- Kết thúc main-view -->
 
-  <!-- GIAO DIỆN TRANG CHI TIẾT NHÂN VẬT (THAY THẾ MODAL CŨ) -->
+  <!-- GIAO DIỆN TRANG CHI TIẾT NHÂN VẬT (SPA) -->
   <div id="character-page-view" style="display: none;">
     <div class="char-page-container">
       <button class="btn-back" onclick="closeCharacterPage()">
@@ -756,6 +782,30 @@
     searchInput.addEventListener("input", renderCharacters);
     categoryFilter.addEventListener("change", renderCharacters);
     resetButton.addEventListener("click", clearFilters);
+
+    // ==========================================
+    // 5. LOGIC POPUP DONATE (TRÁI TIM)
+    // ==========================================
+    const btnDonate = document.getElementById("btn-donate");
+    const donatePopup = document.getElementById("donate-popup");
+    const closeDonate = document.getElementById("close-donate");
+
+    btnDonate.addEventListener("click", () => {
+      donatePopup.style.display = "flex";
+      setTimeout(() => donatePopup.classList.remove("hidden"), 10); // Kích hoạt animation
+    });
+
+    function closeDonatePopup() {
+      donatePopup.classList.add("hidden");
+      setTimeout(() => donatePopup.style.display = "none", 400); // Đợi CSS transition kết thúc
+    }
+
+    closeDonate.addEventListener("click", closeDonatePopup);
+
+    // Bấm ra vùng tối để tắt popup
+    donatePopup.addEventListener("click", (e) => {
+      if (e.target === donatePopup) closeDonatePopup();
+    });
 
     // Hoa anh đào rơi
     const leafBackground = document.getElementById("leaf-background");
