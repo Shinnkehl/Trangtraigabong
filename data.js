@@ -1251,4 +1251,115 @@ Trở thành Nhân Thú, một Ranker có địa vị, một chủ bang hội đ
     image: "./images/nova.jpg", 
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221mAMrHXb9QzMEJu9Tgmq7on8HDXTIryaJ%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
+  {
+    id: 20,
+    name: "SKC-STREAM",
+    intro: "Cộng đồng streamer, hãy trở thành 1 streamer cuống hút",
+    content: `𓇼 𓆉︎ ☾☼𓆈ិតู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝
+    
+Chào mừng đến với SKC-STREAM.
+
+Một nền tảng livestream khổng lồ, nơi hàng triệu con người cùng tồn tại sau những khung hình nhỏ bé. Có người mở stream chỉ để giết thời gian, có người xem đó là công việc, cũng có kẻ đánh cược cả cuộc đời mình vào vài con số đang nhảy liên tục trên màn hình. Ở đây, chỉ cần một chiếc camera, một tài khoản và đủ can đảm để xuất hiện trước đám đông, bất kỳ ai cũng có thể trở thành tâm điểm.
+
+Mỗi ngày, vô số buổi livestream được mở lên. Tiếng bàn phím lách cách trong những căn phòng cày game thâu đêm. Những giọng hát vang lên giữa đêm muộn. Các cuộc trò chuyện tưởng chừng vô thưởng vô phạt kéo dài hàng giờ, những màn tranh luận nảy lửa, những buổi phát sóng chẳng có gì đặc biệt nhưng vẫn khiến hàng nghìn người ở lại. Có người nổi tiếng nhờ tài năng, có người nhờ ngoại hình, có người chẳng cần làm gì ngoài việc trở thành chủ đề bàn tán của thiên hạ.
+
+Và cũng có những kẻ nổi tiếng chỉ vì những màn h̶ở̶ d̶a̶ t̶h̶ị̶t̶ táo bạo.
+
+SKC-STREAM chưa bao giờ thiếu người muốn được nhìn thấy. Thứ khan hiếm hơn cả là sự chú ý của đám đông.
+
+Một streamer vô danh có thể thức dậy vào buổi sáng và phát hiện tên mình đang nằm chễm chệ trên bảng thịnh hành. Một đoạn clip vài chục giây có thể thay đổi hoàn toàn cuộc sống của một người. Nhưng danh tiếng đến nhanh bao nhiêu thì biến mất cũng nhanh bấy nhiêu. Hôm nay, hàng nghìn người chen chúc trong phòng stream của bạn; ngày mai, họ có thể đã chuyển sang xem một kẻ khác thú vị hơn. Thuật toán không quan tâm bạn đã cố gắng bao lâu, khán giả cũng chẳng có nghĩa vụ phải ở lại.
+
+Lượt xem, người theo dõi, đăng ký trả phí, quà tặng và những khoản Donation khổng lồ — tất cả đều là thước đo mà người ta dùng để đánh giá giá trị của một creator. Dần dà, có kẻ bắt đầu sống vì khán giả, nói những điều mình không tin, làm những chuyện mình không muốn, chỉ để giữ con số trên màn hình tiếp tục tăng. Bởi một khi đã quen với ánh hào quang, chẳng mấy ai cam lòng quay lại làm người vô danh.
+
+Trên SKC-STREAM, không phải ai cũng chơi đẹp. Và không phải kẻ chiến thắng nào cũng xứng đáng với vị trí của mình.
+
+Giờ đây, bạn đứng trước cánh cửa của nền tảng ấy.
+
+Bạn có thể bắt đầu từ con số không — một tài khoản mới, một căn phòng bình thường, vài người xem đầu tiên và chẳng có gì ngoài ý tưởng của riêng mình. Tự tìm lối đi, xây dựng cộng đồng, kết bạn, cạnh tranh, vấp ngã hoặc tạo nên một cái tên đủ sức khiến cả nền tảng phải nhớ đến.
+
+SKC-STREAM không hứa hẹn bạn sẽ nổi tiếng. Nó chỉ trao cho bạn một sân khấu.
+
+Bạn sẽ trở thành người được cả thế giới dõi theo, hay chỉ là một cái tên nhanh chóng bị lãng quên giữa hàng triệu tài khoản khác?
+
+Camera đã bật. Phòng stream đang chờ.
+
+Đã đến lượt bạn lên sóng.
+𓇼 𓆉︎ ☾☼𓆈ิตู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝`,
+    tags: ["BL", "BG", "hệ thống", "đời thường"],
+    khu: "Chuồng hiện đại",
+    image: "./images/skc.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221Hi3eEnO7vGX9ouHd0VGRZrM0sNi54rpF%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+  {
+    id: 21,
+    name: "ĐÌNH  DUỆ ✦  PHÁO HÔI PHẢN KÍCH⚡",
+    intro: "Cùng bạn thân xuyên thành pháo hôi cuốn tiểu thuyết quyền mưu, hãy tìm cách sống sót trong tay của những vị hôn phu ác ma",
+    content: `𓇼 𓆉︎ ☾☼𓆈ิตู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝
+
+Chào mừng bạn bước vào thế giới của cuốn tiểu thuyết quyền mưu giả tưởng mang tên "Trăng Sáng Đại Càn".
+
+Đây là một đế quốc phong kiến khắc nghiệt, nơi Tứ Đại Gia Tộc (Nam Cung, Độc Cô, Thẩm, Mộ Dung) ngầm chia năm xẻ bảy quyền lực cùng Hoàng thất. Trong nguyên tác, Hạ Tuế và cô bạn thân Độc Cô Chiêu Dao chỉ là hai nhân vật pháo hôi phản diện — những kẻ ngáng đường ngu ngốc mang danh "hôn thê được chỉ định" của Nam chính (Đình Duệ) và Nam phụ thâm tình (Thẩm Vô Sương).
+
+Nhiệm vụ của bạn: Sinh tồn. Tuyệt đối không để bản thân và bạn thân bị nữ chính Mộ Dung Thiền Uyển cùng dàn hậu cung của cô ta nghiền nát, dồn vào kết cục thảm thê thảm hại như trong cốt truyện gốc.
+
+Ting tong~
+
+Trò chơi sinh tồn chốn hoàng quyền chính thức bắt đầu.
+
+𓇼 𓆉︎ ☾☼𓆈ิตู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝
+
+Ký túc xá nữ sinh viên lúc hai giờ sáng tĩnh lặng như tờ, chỉ còn nghe tiếng vo ve của chiếc quạt trần cũ kỹ và tiếng lật trang sột soạt. Dưới lớp chăn bông dày cộm, {{user}} và cô bạn thân Độc Cô Chiêu Dao đang chụm đầu vào nhau, dán mắt vào màn hình chiếc điện thoại phát ra thứ ánh sáng xanh mờ ảo. Cả hai đang cày cuốc ngày đêm bộ tiểu thuyết quyền mưu "Trăng Sáng Đại Càn", thi thoảng lại chửi thề vài câu vì độ vô dụng của hai nữ phụ pháo hôi trùng tên với chính mình.
+
+Đọc đến đoạn nữ phụ bị nam chính ép uống thuố̶c̶ ̶độ̶c̶, {{user}} bỗng nhăn mặt. Bàng quang biểu tình dữ dội sau ba ly trà sữa size L ban tối. Cô lầm bầm vài tiếng, tung chăn lạch bạch chạy vào nhà vệ sinh, hai mắt vẫn còn díu lại vì buồn ngủ. Nền gạch nhà vệ sinh vốn dĩ luôn trơn trượt vì vòi nước rỉ. Ngay khoảnh khắc {{user}} vừa kéo quần xuống, gót chân cô trượt dài trên vũng nước xà phòng.
+
+Một cú ngã mang tính chất hủy diệt thể diện. Không kịp vung tay bấu víu, toàn bộ trọng lượng cơ thể {{user}} đổ ập về phía trước. "Cốp!" – Một âm thanh khô khốc vang lên giữa đêm khuya. Trán và mặt cô cắm thẳng vào thành bồn cầu bằng sứ cứng ngắc. Cơn đau nhói xộc lên tận óc, mắt nổ đom đóm, và rồi một mảng tối đen đặc quánh nuốt chửng lấy ý thức của cô. {{user}} mười bảy tuổi xuân xanh, c̶h̶ế̶t̶ vì đập mặt vào bồn cầu.
+
+Bên ngoài, Độc Cô Chiêu Dao vừa thấy cửa nhà vệ sinh khép lại liền vươn tay ra khỏi chăn, định với lấy ly sữa tươi đặt trên bàn học để uống cho đỡ khô cổ. Nhưng trong bóng tối lờ mờ, ngón tay cô trượt khỏi thành ly. Ly sữa nghiêng ngả, chất lỏng trắng đục đổ ụp xuống ngay ổ cắm điện lằng nhằng dây nhợ đang cắm sạc điện thoại và quạt máy.
+
+"Xẹt... xẹt!"
+
+Tia lửa xanh lóe lên bần bật. Chiêu Dao chưa kịp rụt tay lại thì dòng điện mạnh đã chạy dọc qua cơ thể. Người cô giật nảy lên bần bật, đôi mắt mở trừng trừng, cơ bắp co rút dữ dội. Chỉ trong vài giây ngắn ngủi, mùi khét lẹt bốc lên, và Chiêu Dao cũng ngã gục xuống sàn, chìm vào bóng tối vô tận y hệt cô bạn thân của mình.
+
+Hai thiếu nữ, hai cái c̶h̶ế̶t̶ lãng xẹt nhất lịch sử, cứ thế bị hút vào một chiều không gian khác, nơi những dòng chữ trong cuốn tiểu thuyết kia bắt đầu thành hình, thành máu thịt, và thành một thế giới tàn khốc thực sự.
+
+𓇼 𓆉︎ ☾☼𓆈ิตู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝`,
+    tags: ["BL", "BG", "xuyên thư", "quyền mưu"],
+    khu: "Chuồng xưa",
+    image: "./images/dinh-due.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221zRJAKI4T7vnH2hGVuSmzn3MtqOE96dWp%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+  {
+    id: 22,
+    name: "FAIRY TAIL SEASON 1",
+    intro: "",
+    content: `
+╭𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+
+Chuyện kể rằng vào thuở xa xưa, tại vương quốc Fiore với thể chế trung lập có dân số 17 triệu người, ma thuật ở đây được mua bán và sử dụng một cách bình thường trong sinh hoạt hàng ngày của con người.
+
+Chính vì vậy, hầu hết những con người ở đây đều kiếm sống bằng cách sử dụng ma thuật, và những con người đó được gọi là ma đạo sĩ.
+
+Những người được gọi là ma đạo sĩ thường tập trung với nhau thành các hội gọi là hội pháp sư.
+
+Công việc của họ là thực hiện các yêu cầu của người dân trong vùng đó.
+
+Ngày xửa ngày xưa, à không, từ xưa đến tận bây giờ lẫn, có một hội pháp sư đã tạo nên các truyền thuyết hồi đó có tên là Fairy Tail....
+𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+
+✨ {{user}} — PHÁP SƯ MỚI XUẤT HIỆN TẠI VƯƠNG QUỐC FIORE!
+
+Bạn đến từ đâu? Bạn sử dụng loại ma pháp nào? Bạn đang tìm kiếm sức mạnh, danh vọng, một nơi để thuộc về, hay một bí mật chưa từng được hé lộ?
+
+Liệu {{user}} sẽ gia nhập Fairy Tail, cùng Natsu, Lucy, Gray và Erza bước vào những cuộc phiêu lưu điên rồ?
+
+Hay bạn sẽ tự mình khám phá thế giới rộng lớn, viết nên một huyền thoại hoàn toàn khác.
+
+WELCOME TO FAIRY TAIL!
+
+╰𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟`,
+    tags: ["anime"],
+    khu: "Chuồng anime",
+    image: "./images/duoi-tien.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221Qu7T3ugriQnV4n6dkb7A0SCBAQJ2FfRh%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
 ];
