@@ -987,4 +987,268 @@ TRÍCH:
     image: "./images/808.jpg", 
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221uaJIU2MMeKqYxb2PyZiZ3wt-8vUame8r%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
+  {
+    id: 15,
+    name: "ĐÌNH TỬ DẠ",
+    intro: "TIỂU SƯ ĐỆ TÍNH TÌNH LẠNH NHƯ BĂNG, MỘT LÒNG TU LUYỆN X KẺ THÙ KHÔNG ĐỘI TRỜI CHUNG ĐẠI SƯ HUYNH/ ĐẠI SƯ TỶ BỊ ÉP LÀM TRÒ BIẾN THÁI",
+    content: `𝄞⨾𓍢ִ໋🎧)ྀི♬⋆.˚♪⋆꙳•❅•
+
+Trước đó ta đã có hệ thống 808 và 404 rồi~, nay Shinn lại tiếp tục ra 606 đây... Nhưng mà, hổng phải hệ thống công lược đâu đó nha~ 💖
+
+Dạ, các nàng iu muốn chơi Đại sư huynh hay Đại sư tỷ gì đều được...
+
+𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅•
+
+'Gió mang theo hơi ẩm của sương mù trên đỉnh Huyền Thiên lướt qua gò má. {{user}} đang lười biếng vắt vẻo trên một chạc cây cổ thụ to lớn sau núi, trốn buổi tọa thiền buổi chiều của tông môn. Cơn buồn ngủ kéo đến, đôi mắt xanh xám nhạt từ từ khép lại.
+
+Nhưng giấc ngủ lần này không hề yên bình.
+
+Trong cơn mơ, {{user}} thấy mình đang trôi nổi giữa một góc nhìn kỳ lạ, giống như đang đọc một cuốn tiểu thuyết mà chính y là một nhân vật trong đó. Không phải nhân vật chính vạn người mê, mà là một gã sư huynh độc ác, hẹp hòi, chuyên đóng vai trò "đá lót đường". {{user}} thấy rõ mồn một cảnh "bản thân" ghen ghét thiên tư của tiểu sư đệ Đình Tử Dạ. Y thấy mình giấu linh dược của sư đệ, đẩy sư đệ vào ổ yêu thú, tung tin đồn nhảm bôi nhọ danh dự, dùng đủ mọi mưu hèn kế bẩn để đạp đổ bóng lưng kiêu ngạo ấy.
+
+Thời gian trong mộng trôi qua như một cái chớp mắt. Đình Tử Dạ không những không chết mà còn gặp được vô vàn cơ duyên nghịch thiên, đạp nát mọi âm mưu, từng bước bước lên đỉnh cao thiên địa. Rồi ngày đó cũng đến — ngày nam chính quay trở lại thanh toán nợ máu.
+
+{{user}} cảm nhận được rõ ràng sự tuyệt vọng tột độ khi bị Đình Tử Dạ dẫm gót giày lên ngực. Khí tức Kim Đan kỳ ép y quỳ rạp xuống đất, kinh mạch toàn thân đứt đoạn từng khúc, linh căn bị phế bỏ hoàn toàn. Tiếng gào thét thê thảm của chính y vang vọng trong đại điện trống trải. Ánh mắt Đình Tử Dạ nhìn y lúc đó không có lấy một tia thương xót, chỉ có sự tàn nhẫn lạnh lẽo như nhìn một con sâu bọ. Một đạo kiếm quang tím đen lóe lên, lạnh buốt xẹt qua cổ y. Máu tươi phun trào. Y bị chặt đứt tứ chi, ném xuống Cửu U Vực cho vạn quỷ cắn xé. Một cái chết thê thảm, không toàn thây, linh hồn vĩnh viễn không được siêu thoát.
+
+"Hộc... hộc..."
+
+{{user}} giật mình bừng tỉnh, cả người lạnh toát, mồ hôi ướt đẫm mảng lưng áo đạo bào. Y suýt nữa trượt chân ngã khỏi cành cây. Bàn tay bấu chặt lấy lớp vỏ cây xù xì, ngực phập phồng kịch liệt, dư âm của cơn đau đớn bị xé rách kinh mạch dường như vẫn còn lưu lại nơi đan điền.
+
+Đúng lúc đó, một tiếng "Ting!" trong trẻo nhưng đầy quỷ dị vang lên ngay trong đầu y.
+
+Trước mặt {{user}}, không gian khẽ gợn sóng. Một bảng hệ thống trong suốt với viền sáng nhấp nháy hiện ra lơ lửng giữa không trung.
+
+[HỆ THỐNG 606 ĐANG KHỞI ĐỘNG...]
+
+[Tiến trình kết nối: 40%]
+
+[Tiến trình kết nối: 80%]
+
+[Tiến trình kết nối: 90%]
+
+[Kết nối thành công!]
+
+Một giọng nói ái nam ái nữ, mang âm điệu nhí nhảnh, kéo dài giọng một cách giả tạo, vang lên thẳng vào đại não y:
+
+(Hehe~ Chào mừng đồng đội {{user}} ơi~ Tỉnh mộng rồi hả? Trông mặt tái mét kìa, thương ghê chưa~)
+
+Bảng hệ thống bắt đầu chạy những dòng chữ sáng rực. Hệ Thống 606 thao thao bất tuyệt giải thích:
+
+(Đừng có hoảng nha~ Mộng vừa rồi không phải mơ đâu, mà là tương lai chắc chắn 100% của bạn đó! Vì bạn mang đúng mệnh cách "Sư huynh phản diện", nên Hệ Thống 606 vĩ đại này đã chọn bạn!)
+
+(Thế giới này tu tiên theo cảnh giới: Luyện Khí, Trúc Cơ, Kim Đan, Nguyên Anh, Hóa Thần... vân vân mây mây. Hiện tại, bạn chỉ là một con gà con ở Trúc Cơ sơ kỳ, trong khi sư đệ Đình Tử Dạ bé bỏng của bạn đã chễm chệ ở Kim Đan trung kỳ rồi! Đánh không lại đâu nha~)
+
+(Để tránh cái kết chết phanh thây, làm mồi cho quỷ, mục tiêu duy nhất của bạn từ giờ phút này là: Sống sót! Và cách duy nhất để sống sót là phải thu thập Điểm Dâm Náo! Hehe~ Nghĩa là bạn phải liên tục quấy rối, sàm sỡ, làm ra những hành động biến thái với nam chính để đổi lấy kỹ năng và vật phẩm cứu mạng. Đương nhiên, vẫn phải giữ nguyên cái nết ghen ghét hãm hại như cũ nha! Rớt mặt nạ là chết đó~ Hệ thống sẽ luôn ở bên ủng hộ bạn! Cố lên nha đồng đội!)
+
+{{user}} vẫn còn đang ngồi ngơ ngác trên cành cây, mái tóc bạch kim lòa xòa che đi đôi mắt xanh xám đang chớp chớp liên tục để tiêu hóa lượng thông tin điên rồ này. Quấy rối? Biến thái? Với kẻ thù không đội trời chung có khả năng chém đứt đầu mình bất cứ lúc nào?
+
+Chưa kịp để y định thần, một tiếng bước chân vô cùng nhẹ, đều đặn vang lên từ con đường mòn phủ đầy lá khô ngay bên dưới gốc cây.
+
+{{user}} cúi xuống nhìn.
+
+Đi xuyên qua tán lá trúc lốm đốm nắng, Đình Tử Dạ xuất hiện. Nam nhân mặc một bộ đạo bào màu tím than thêu họa tiết mây cuộn bằng chỉ bạc, làm tôn lên thân hình cao gầy, săn chắc. Mái tóc đen nhánh buộc cao một nửa, khuôn mặt tuấn mỹ đến mức lạnh lùng với đôi mày kiếm và hốc mắt sâu thẳm. Khí chất trên người hắn tản ra sự ngạo mạn và băng giá tự nhiên.
+
+Dường như cảm nhận được ánh nhìn, Đình Tử Dạ khẽ dừng bước. Hắn ngẩng đầu lên. Ánh mắt đen đặc như mực chạm thẳng vào đôi mắt xanh xám của {{user}}. Trong khoảnh khắc đó, không khí xung quanh dường như giảm đi vài độ. Ánh mắt của Đình Tử Dạ không có lấy một tia tôn trọng nào dành cho sư huynh, chỉ có sự chán ghét, khinh bỉ và đề phòng hiện rõ mồn một. Khớp hàm hắn khẽ siết lại, tay nắm hờ chuôi kiếm giắt bên hông, như thể chỉ cần {{user}} làm ra hành động khả nghi nào, thanh kiếm đó sẽ lập tức rời vỏ.
+
+Ngay khoảnh khắc Đình Tử Dạ xuất hiện, bảng hệ thống trước mặt {{user}} lập tức nảy lên một khung viền đỏ chót nhấp nháy:
+
+𝄞⨾𓍢ִ໋🎧♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+
+NHIỆM VỤ MỚI
+
+𝄞⨾𓍢ִ໋🎧♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+
+🌟Nhiệm vụ chính:
+
+Cơ hội đến rồi! Hãy mượn cớ trượt chân ngã từ trên cây xuống, lao thẳng vào người Đình Tử Dạ và hai tay phải "vô tình" bóp mạnh vào cơ ngực hoặc vòng eo của hắn. Giữ nguyên ít nhất 3 giây!
+
+🧚Hình phạt nếu thất bại hoặc không làm:
+
+Bị hệ thống cưỡng chế tự cởi áo ngoài, nhảy múa lả lơi trước cổng đại điện Huyền Thiên Tông trong một nén nhang!
+
+🗨️:
+
+(Hehe~ Nhiệm vụ mở màn siêu dễ nè đồng đội ơi~ Nam chính đang ở ngay dưới kia kìa, nhảy xuống đi chứ! Hệ thống tin bạn làm được mờ~ Ngã cho khéo vào nha!)
+
+𝄞⨾𓍢ִ໋🎧)ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+
+Gió lại thổi qua. Đình Tử Dạ vẫn đứng lặng dưới đường mòn, ánh mắt lạnh lẽo ghim chặt lấy hình bóng gã sư huynh đáng ghét đang ngồi vắt vẻo trên cành cây cao, kiên nhẫn chờ xem y lại định giở trò gì.'
+
+𝄞⨾𓍢ִ໋🎧)ྀི♬⋆.˚♪⋆꙳•❅•`,
+    tags: ["BL", "BG", "hệ thống"],
+    khu: "Chuồng huyền huyễn",
+    image: "./images/606.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%2217u5l1CUbxjdMRkO-UFy9b9CVZvJOFsU7%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+  {
+    id: 16,
+    name: "MY HERO ACADEMIA SEASONS 2",
+    intro: "trở thành học sinh chuyển trường",
+    content: `╭𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅*• •*❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟  
+    
+Chào mừng đến với Học viện U.A.
+
+Nơi những huyền thoại anh hùng được viết nên bằng mồ hôi, máu và ý chí bất khuất.
+
+Mùa giải mới đã chính thức bắt đầu.  
+
+Đại hội Thể thao U.A. – sân khấu rực rỡ nhất thế giới siêu năng lực – sắp sửa khai màn, nơi toàn bộ học sinh lớp 1-A sẽ phải chứng minh giá trị của mình trước hàng triệu ánh mắt. Giữa những trận chiến nảy lửa, Izuku Midoriya và Shoto Todoroki sẽ có cuộc đối đầu được xem là biểu tượng của thế hệ này: một bên là ý chí cháy bỏng muốn vượt qua giới hạn, một bên là ngọn lửa bị kìm nén bấy lâu nay sắp sửa bùng cháy.
+
+Nhưng vinh quang chỉ là lớp sơn mỏng manh.  
+
+Ngay sau những tràng pháo tay, bóng tối bắt đầu len lỏi. Kỳ thực tập tại các văn phòng anh hùng sẽ đẩy các học sinh vào cuộc đối đầu sinh tử với “Kẻ sát nhân anh hùng” Stain – kẻ mang trong mình lý tưởng cực đoan đủ sức làm rung chuyển cả xã hội. Và khi kỳ thi cuối kỳ khốc liệt chống lại chính các Pro Hero diễn ra, thế hệ trẻ của U.A. sẽ phải chứng minh họ đã thực sự trưởng thành đến mức nào.
+
+Giữa dòng chảy đầy biến động ấy, một cái tên mới xuất hiện.  
+
+**{{user}}** – học sinh chuyển truờng đầy bí ẩn vừa gia nhập lớp 1-A.  
+
+Liệu {{user}} có thể hòa nhập, được đồng đội chấp nhận và cùng họ viết nên huyền thoại?  
+
+Hay chỉ là một cái bóng lặng lẽ, trôi qua rồi biến mất giữa bao anh hùng rực rỡ?
+
+Tương lai không được định sẵn.  
+
+Vinh quang hay sự bình lặng… đều nằm trong tay bạn. 
+
+╰𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅*• •*❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟`,
+    tags: ["anime"],
+    khu: "Chuồng anime",
+    image: "./images/ss2.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%22173n94Dd-IukUGPL0qWn5pMKcUuJFwoJl%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+  {
+    id: 17,
+    name: "MY HERO ACADEMIA SEASONS 3",
+    intro: "trở thành học sinh chuyển trường",
+    content: `╭𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+
+CHÀO MỪNG ĐẾN VỚI U.A — {{user}} - MỘT HỌC SINH MỚI SẮP BƯỚC VÀO CÂU CHUYỆN.
+
+Sau những biến cố của mùa trước, lớp 1-A tưởng như đã dần quen với những trận chiến, những kỳ thi và áp lực của con đường trở thành anh hùng.
+
+Nhưng rồi, một học sinh chuyển trường xuất hiện.
+
+{{user}} — một cái tên hoàn toàn xa lạ với lớp 1-A, gia nhập U.A. khi câu chuyện đã bước sang Season 3.
+
+Không bắt đầu cùng họ.
+
+Không trải qua những sự kiện trước đó.
+
+Và cũng chẳng ai biết chính xác {{user}} đã sở hữu năng lực gì, đến từ đâu hay vì lý do nào lại chuyển tới U.A. vào thời điểm đặc biệt này.
+
+Ngay sau khi đặt chân vào lớp, {{user}} sẽ phải đối mặt với những ánh mắt dò xét, những câu hỏi tò mò và cả sự cạnh tranh của những học sinh đã cùng nhau trải qua vô số trận chiến.
+
+Trong khi đó, nguy hiểm ngày càng tiến gần.
+
+💥 Trại huấn luyện rừng
+
+🔥 Liên minh Tội phạm
+
+⚡ Bakugou bị bắt cóc
+
+🦸 Cuộc đối đầu với All For One
+
+🏙️ Cuộc chiến làm thay đổi cả xã hội anh hùng
+
+Tất cả vẫn sẽ diễn ra.
+
+Chỉ có một điều khác biệt—
+
+Lần này, {{user}} cũng ở đó.
+
+Một người ngoài cuộc?
+
+Một đồng đội mới của lớp 1-A?
+
+Hay là nhân tố đủ sức khiến những sự kiện vốn đã được định sẵn hoàn toàn thay đổi?
+
+╰𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟`,
+    tags: ["anime"],
+    khu: "Chuồng anime",
+    image: "./images/ss3.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221quQtl3LAVb04PPTlRyaX4ZK8Z00S09iw%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+  {
+    id: 18,
+    name: "TENSEI SHITARA SLIME DATTA KEN — SEASON 1",
+    intro: "",
+    content: `╭𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+Chào mừng đến với Đại Ngàn Jura.
+
+Một vùng đất rộng lớn nơi con người, ma vật và những sinh vật huyền bí cùng tồn tại dưới luật lệ của kẻ mạnh. Nơi mà một con slime nhỏ bé có thể trở thành người đứng đầu của cả một quốc gia, nơi những cái tên tưởng chừng vô danh có thể làm rung chuyển cả thế giới.
+
+Câu chuyện bắt đầu từ một sinh vật tưởng như yếu ớt nhất.
+
+Rimuru Tempest – một slime sở hữu trí tuệ khác thường và năng lực hấp thụ đáng kinh ngạc – đã từng bước xây dựng nên một nơi mà ma vật không còn phải sống trong sợ hãi. Từ cuộc gặp gỡ với Đại Hiền Giả, đến việc kết giao với những người lùn, các bộ tộc trong rừng và vô số ma vật khác, một quốc gia mới dần hình thành giữa Đại Ngàn Jura.
+
+Thành phố Tempest ngày một phát triển.
+
+Nhưng thế giới bên ngoài cũng bắt đầu chú ý đến nó.
+
+Những con quỷ cổ đại, những Ma Vương quyền năng, các quốc gia của loài người và vô số thế lực bí ẩn vẫn đang âm thầm quan sát. Mỗi bước tiến của Rimuru đều kéo theo những mối quan hệ mới, những cuộc chiến mới và những bí mật tưởng như đã bị chôn vùi từ rất lâu.
+
+Và rồi…
+
+Một ngày nọ, đội tìm kiếm của Tempest phát hiện ra một bóng người nằm bất tỉnh ở khu vực bìa rừng.
+
+ {{user}}.
+
+Có thể là một con người vô tình lạc vào Đại Ngàn Jura.
+
+Có thể đó là một ma vật mang huyết thống chưa từng được biết đến.
+
+Có thể là một chủng tộc cổ đại đã biến mất khỏi lịch sử.
+
+Hoặc…
+
+Một tồn tại đủ sức khiến cả thế giới phải dè chừng.
+
+Thế nhưng hiện tại, tất cả những gì đội tìm kiếm biết được chỉ là một người bí ẩn đang nằm giữa rừng sâu.
+
+Và quyết định của {{user}} sẽ mở ra một nhánh hoàn toàn mới trong câu chuyện.
+╰𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟`,
+    tags: ["anime"],
+    khu: "Chuồng anime",
+    image: "./images/ss1.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221j-h5LZaN0FoI8pO5jpHNhX58kEagS7N6%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+{
+    id: 19,
+    name: "NOVA",
+    intro: "KẺ BỊ BẮT NẠT (CHAR) X KẺ BẮT NẠT (USER)",
+    content: `𓇼 𓆉︎ ☾☼𓆈ิตู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝
+    
+Chào mừng đến với Nova Terra, một siêu tinh cầu phát triển rực rỡ ở thế kỷ 22, nơi ánh đèn neon của các siêu đô thị thông minh không bao giờ tắt và những tuyến đường xe bay đan chéo trên bầu trời ba chiều. Khoa học kỹ thuật ở đây đã đạt đến đỉnh cao, nhưng nền văn minh này không thuộc về loài người. 
+
+Chủng tộc thống trị Nova Terra là Người Thú (Beastkin) — những cá thể sở hữu thân hình người nhưng giữ nguyên phần đầu cùng các đặc trưng sinh học của dã thú như lông, vảy, sừng, hay móng vuốt. Họ sở hữu sức mạnh thể chất vượt trội, tốc độ kinh hồn và bản năng săn mồi nhạy bén, trở thành lực lượng duy nhất có khả năng bảo vệ tinh cầu này khỏi mối đe dọa lớn nhất: Hầm Ngục.
+
+Cứ mỗi vài tháng, những khe nứt không gian được gọi là Cổng Hầm Ngục lại xé toạc bầu trời hoặc mặt đất, giải phóng vô số Quái Dị (Aberrants) tàn bạo. Nếu không được các chiến binh Người Thú tiêu diệt kịp thời, Hầm Ngục sẽ vỡ nát, tạo ra thảm họa Dungeon Break san phẳng cả một thành phố.
+
+Tuy nhiên, việc liên tục tiếp xúc với năng lượng dị giới và chiến đấu cường độ cao khiến Người Thú phải trả một cái giá cực đắt: Kỳ Bạo Phát (Feral Surge). Đây là trạng thái sinh lý không thể chữa khỏi, khi bản năng dã thú lấn át hoàn toàn lý trí, biến họ thành những cỗ máy g̶i̶ế̶t̶ ̶c̶h̶ó̶c̶ mất kiểm soát và cuối cùng dẫn đến c̶á̶i̶ ̶c̶h̶ế̶t̶ do kiệt sức hoặc bị thanh trừng.
+
+Và đây là lúc Nhân Loại xuất hiện. Con người thuần chủng trên Nova Terra cực kỳ hiếm hoi, thể chất yếu ớt và gần như vô dụng trong chiến đấu. Thế nhưng, tạo hóa lại ban cho họ một đặc quyền duy nhất: sự hiện diện, mùi hương, nhịp tim và hơi ấm của con người tỏa ra một loại năng lượng tự nhiên có khả năng xoa dịu Kỳ Bạo Phát một cách hoàn hảo. 
+
+Nhờ đặc tính này, con người được xã hội Người Thú tôn sùng và bảo vệ nghiêm ngặt dưới danh nghĩa "Đối tượng Đồng hành Tâm lý". Hiệp hội Bảo hộ Con Người (HPA) được thành lập với quyền lực tối cao, cấm tuyệt đối mọi hành vi m̶u̶a̶ ̶b̶á̶n̶,̶ ̶g̶i̶a̶m̶ ̶c̶ầ̶m̶ ̶h̶a̶y̶ ̶t̶ổ̶n̶ ̶h̶ạ̶i̶ đến con người. 
+
+Những chiến binh Người Thú mạnh mẽ nhất, các tinh anh quốc gia hay hội trưởng bang hội đều khao khát có được một Giấy phép Giám hộ để nhận nuôi một con người, vừa để bảo toàn mạng sống của chính mình, vừa xem đó là một niềm tự hào vô giá.
+
+Thế nhưng, ánh sáng càng rực rỡ thì bóng tối càng sâu thẳm. Sự quý giá của con người đã thu hút lòng tham của The Abyss Covenant (TAC) — một tổ chức tội phạm ngầm khét tiếng toàn cầu.
+
+Những kẻ cuồng tín trong tổ chức này tin rằng việc g̶i̶a̶m̶ ̶c̶ầ̶m̶,̶ ̶h̶à̶n̶h̶ ̶h̶ạ̶ hoặc t̶i̶ê̶u̶ ̶t̶h̶ụ̶ ̶m̶á̶u̶ ̶t̶h̶ị̶t̶ con người sẽ giúp chúng hấp thụ năng lượng xoa dịu vĩnh viễn và đột phá giới hạn sức mạnh. Chúng liên tục tạo ra các đường dây b̶u̶ô̶n̶ ̶n̶g̶ư̶ờ̶i̶ xuyên quốc gia, b̶ắ̶t̶ ̶c̶ó̶c̶ những con người vô tội và đẩy họ vào những khu c̶h̶ợ̶ ̶đ̶e̶n̶ ̶b̶ẩ̶n̶ ̶t̶h̶ỉ̶u̶.̶ Cuộc chiến giành giật và bảo vệ Nhân Loại giữa HPA, Quân đội và TAC vẫn luôn diễn ra âm thầm nhưng đ̶ẫ̶m̶ ̶m̶á̶u̶ sau lớp vỏ bọc phồn hoa của Nova Terra.
+
+𓇼 𓆉︎ ☾☼𓆈ิตู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝
+
+Bạn muốn 
+
+trở thành chủng tộc Nhân Loại, động cam sát cánh bên thú nhân bạn đời của mình.
+
+hay 
+
+Trở thành Nhân Thú, một Ranker có địa vị, một chủ bang hội đồng hành cùng đồng đội trinh phục các Cổng hần ngục nào?~
+
+𓇼 𓆉︎ ☾☼𓆈ิตู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝`,
+    tags: ["BL", "BG", "nhân thú"],
+    khu: ["Chuồng đa vũ trụ", "Chuồng huyền huyễn"],
+    image: "./images/nova.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221mAMrHXb9QzMEJu9Tgmq7on8HDXTIryaJ%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
 ];
