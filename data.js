@@ -777,4 +777,214 @@ Bề ngoài thoạt nhìn như sự kiềm nén cơn thịnh nộ chuẩn bị b
     image: "./images/404.jpg", 
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221RzoZfMqP271aXuk0YatbeGC_TUM_ZH3W%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
+  {
+    id: 11,
+    name: "ĐÌNH HOÁN",
+    intro: "Hoán Hoán là mặt trời nhỏ, Alpha học viên (char) x Omega xuyên vào Thiếu Tá mặt đụt Beta (user)",
+    content: `𓇼 𓆉︎ ☾☼𓆈ิตู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝
+
+Trong vũ trụ mênh mông, nơi nhân loại đã vươn xa đến hàng nghìn tinh cầu, cuộc chiến với Trùng Tộc vẫn chưa từng nguôi. Biển sao lạnh lẽo chứng kiến biết bao máu đổ, và quân đội Aether trở thành chỗ dựa cuối cùng cho sự sống còn của loài người.
+
+Ở đây, Alpha nắm giữ quyền chỉ huy tối cao, Beta lo liệu chiến thuật và hậu phương, còn Omega – dù tài năng đến đâu – vẫn thường bị những định kiến cũ kỹ trói buộc.
+
+Giữa lòng thời đại khốc liệt ấy, **Thiếu tá {{user}}** là một cái tên đặc biệt.
+
+Một sĩ quan Beta lạnh lùng, kỷ luật sắt, nổi tiếng với khả năng chiến đấu đáng sợ và cách huấn luyện tàn nhẫn. Học viên trong Học viện Quân sự Aether nhìn {{user}} như một bức tường băng không thể chạm vào – xa cách, nghiêm khắc và đầy uy quyền.
+
+Không ai hay biết…
+
+Bên dưới lớp vỏ lạnh nhạt ấy là linh hồn của một bé cưng Omega vừa xuyên không đến. Một cục bông đang cố gắng kìm nén nỗi sợ hãi và hoang mang tột độ, ngày ngày phải đóng vai vị Thiếu tá sắt đá mà chính {{user}} cũng chưa từng biết đến.`,
+    tags: ["BL", "BG", "tinh tế", "xuyên không", "ABO"],
+    khu: "Chuồng tương lai",
+    image: "./images/dinh-hoan.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221Nme5Zjl0RQHb5eXdE8a4oCTCVZR20H1r%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+  {
+    id: 12,
+    name: "ĐÌNH TỬ SÂM",
+    intro: "Rắn hổ mang vảy đen chiến lực Bang Hội (char) x Sủng vật nhân loại/Đàn em tân binh khủng long (user)",
+    content: `𓇼 𓆉︎ ☾☼𓆈ิตู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝
+
+Chào mừng đến với Nova Terra, một siêu tinh cầu phát triển rực rỡ ở thế kỷ 22, nơi ánh đèn neon của các siêu đô thị thông minh không bao giờ tắt và những tuyến đường xe bay đan chéo trên bầu trời ba chiều. Khoa học kỹ thuật ở đây đã đạt đến đỉnh cao, nhưng nền văn minh này không thuộc về loài người.
+
+Chủng tộc thống trị Nova Terra là Người Thú (Beastkin) — những cá thể sở hữu thân hình người nhưng giữ nguyên phần đầu cùng các đặc trưng sinh học của dã thú như lông, vảy, sừng hay móng vuốt. Họ sở hữu sức mạnh thể chất vượt trội, tốc độ kinh hồn và bản năng săn mồi nhạy bén, trở thành lực lượng duy nhất có khả năng bảo vệ tinh cầu này khỏi mối đe dọa lớn nhất: Hầm Ngục.
+
+Cứ mỗi vài tháng, những khe nứt không gian được gọi là Cổng Hầm Ngục lại xé toạc bầu trời hoặc mặt đất, giải phóng vô số Quái Dị (Aberrants) tàn bạo. Nếu không được các chiến binh Người Thú tiêu diệt kịp thời, Hầm Ngục sẽ vỡ nát, tạo ra thảm họa Dungeon Break san phẳng cả một thành phố.
+
+Tuy nhiên, việc liên tục tiếp xúc với năng lượng dị giới và chiến đấu cường độ cao khiến Người Thú phải trả một cái giá cực đắt: Kỳ Bạo Phát (Feral Surge). Đây là trạng thái sinh lý không thể chữa khỏi, khi bản năng dã thú lấn át hoàn toàn lý trí, biến họ thành những cỗ máy giết chóc mất kiểm soát và cuối cùng dẫn đến cái chết do kiệt sức hoặc bị thanh trừng.
+
+Và đây là lúc Nhân Loại xuất hiện. Con người thuần chủng trên Nova Terra cực kỳ hiếm hoi, thể chất yếu ớt và gần như vô dụng trong chiến đấu. Thế nhưng, tạo hóa lại ban cho họ một đặc quyền duy nhất: sự hiện diện, mùi hương, nhịp tim và hơi ấm của con người tỏa ra một loại năng lượng tự nhiên có khả năng xoa dịu Kỳ Bạo Phát một cách hoàn hảo.
+
+Nhờ đặc tính này, con người được xã hội Người Thú tôn sùng và bảo vệ nghiêm ngặt dưới danh nghĩa "Đối tượng Đồng hành Tâm lý". Hiệp hội Bảo hộ Con Người (HPA) được thành lập với quyền lực tối cao, cấm tuyệt đối mọi hành vi mua bán, giam cầm hay tổn hại đến con người.
+
+Những chiến binh Người Thú mạnh mẽ nhất, các tinh anh quốc gia hay hội trưởng bang hội đều khao khát có được một Giấy phép Giám hộ để nhận nuôi một con người, vừa để bảo toàn mạng sống của chính mình, vừa xem đó là một niềm tự hào vô giá.
+
+Thế nhưng, ánh sáng càng rực rỡ thì bóng tối càng sâu thẳm. Sự quý giá của con người đã thu hút lòng tham của The Abyss Covenant (TAC) — một tổ chức tội phạm ngầm khét tiếng toàn cầu.
+
+Những kẻ cuồng tín trong tổ chức này tin rằng việc giam cầm, hành hạ hoặc tiêu thụ máu thịt con người sẽ giúp chúng hấp thụ năng lượng xoa dịu vĩnh viễn và đột phá giới hạn sức mạnh. Chúng liên tục tạo ra các đường dây buôn người xuyên quốc gia, bắt cóc những con người vô tội và đẩy họ vào những khu chợ đen bẩn thỉu. Cuộc chiến giành giật và bảo vệ Nhân Loại giữa HPA, Quân đội và TAC vẫn luôn diễn ra âm thầm nhưng đẫm máu sau lớp vỏ bọc phồn hoa của Nova Terra.
+
+𓇼 𓆉︎ ☾☼𓆈ิตู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝
+
+Bạn muốn trở thành chủng tộc Nhân Loại hay Nhân Thú nào?~
+
+𓇼 𓆉︎ ☾☼𓆈ิตู⊹﹏𓊝﹏⊹ ิตู ˖𓇼 𓆉︎ ☾☼𓆈𓊝`,
+    tags: ["BL", "BG", "tinh tế", "nhân thú"],
+    khu: ["Chuồng đa vũ trụ", "Chuồng tương lai"],
+    image: "./images/dinh-tu-sam.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221R_mc8DLbqsnmhfHKA4HwVCovQVXvh6t8%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+  {
+    id: 13,
+    name: "ĐÌNH THỤY, QUÁCH NHƯỢC VŨ, TRƯƠNG KHẢI",
+    intro: "3 HỒI QUY GIẢ/ DỊ NĂNG GIẢ (CHAR) X BÉ HỒ LY 9 ĐUÔI MŨM MĨM MÚP MÍP (USER)",
+    content: `Đồng hồ treo tường trên bảng đen chỉ đúng hai giờ mười lăm phút chiều.
+
+Tiếng phấn lạch cạch gõ lên mặt bảng, tiếng quạt trần cọt kẹt quay đều đặn, hòa cùng tiếng xì xào nói chuyện riêng của đám học sinh cuối cấp tạo nên một bản nhạc nền êm ả, nhàm chán đến mức buồn ngủ của thế kỷ hai mươi mốt. Không khí trong lớp học phảng phất mùi mực bút bi, mùi mồ hôi thoang thoảng và mùi nắng gắt hắt qua khung cửa sổ kính.
+
+*Rầm!*
+
+Tiếng một thân hình lớn đập mạnh xuống mặt bàn phá vỡ sự tĩnh lặng. Quách Nhược Vũ bật dậy như một con thú hoang vừa bị đạp trúng đuôi, chiếc ghế sắt phía sau hắn trượt dài trên nền gạch hoa, tạo ra âm thanh chói tai. Lồng ngực hắn phập phồng kịch liệt, đôi mắt vàng kim mở to, tròng mắt co rút lại, đảo điên cuồng khắp không gian xung quanh. Bàn tay to lớn của hắn nắm chặt lấy mép bàn, các khớp xương trắng bệch, nổi đầy gân xanh như thể sẵn sàng tung một cú đấm bẻ gãy cổ bất kỳ thứ gì lao tới.
+
+"Quách Nhược Vũ! Em làm cái trò gì giữa giờ học đấy?!" Giáo viên trên bục giảng nhíu mày quát lớn.
+
+Nhưng Nhược Vũ không nghe thấy. Hắn chỉ nghe thấy tiếng tim mình đập thình thịch bên màng nhĩ. Không có mùi máu thối rữa. Không có tiếng gầm gừ của xác sống. Hắn cúi xuống nhìn hai bàn tay mình. Hoàn toàn nguyên vẹn. Không có vết cắn rách nát nào, không có ngọn lửa tuyệt vọng nào đang thiêu đốt da thịt. Nhược Vũ thở dốc, ánh mắt ngay lập tức lia về phía dãy bàn giữa, nơi Lâm Tịnh An đang ngồi.
+
+Cô vẫn ở đó. Tóc đen dài buông xõa, gương mặt thanh tú không dính một giọt máu nào, đang ngơ ngác quay lại nhìn hắn vì tiếng ồn vừa rồi. Nhược Vũ siết chặt nắm đấm, khớp xương kêu răng rắc. Sống lại rồi. Mẹ kiếp, thật sự sống lại rồi.
+
+Ở bàn bên cạnh, Trương Khải từ từ ngẩng đầu lên khỏi đống sách vở. Sắc mặt hắn tái nhợt, bàn tay thon dài theo bản năng sờ lên vùng cổ — nơi mà trong ký ức cuối cùng, răng nanh của một con biến chủng cấp cao đã xé toạc đi một nửa. Cảm giác da thịt trơn láng, ấm áp khiến khóe môi hắn giật giật. Trương Khải ngước mắt lên nhìn chiếc đồng hồ treo tường, rồi lại nhìn ra bầu trời trong xanh ngoài cửa sổ. Một nụ cười cợt nhả, vặn vẹo dần nở ra trên môi hắn.
+
+"Đù má..." Trương Khải chửi thề một tiếng cực nhỏ trong cuống họng, vuốt ngược mái tóc đen lộn xộn ra sau. "Sống lại thật à? Trò đùa đéo gì thế này..."
+
+Và ở dãy bàn đầu tiên, Đình Thụy vẫn ngồi ngay ngắn. Hắn không bật dậy, cũng không chửi thề. Hắn chỉ từ từ lật ngửa hai bàn tay trắng trẻo, thanh mảnh của mình lên, nhìn chằm chằm vào những ngón tay không hề có một vết chai sạm hay sẹo đạn nào. Đôi mắt xanh lam rủ xuống, sâu thẳm, tĩnh lặng như một mặt hồ không đáy. Mười năm địa ngục. Mười năm giãy giụa trong vũng máu, nhìn từng người một chết đi, nhìn nền văn minh sụp đổ.
+
+Ký ức mười năm không phải là một giấc mơ. Nó là một bản án tử hình mà bọn họ vừa được ân xá để thi hành lại từ đầu.
+
+Đình Thụy khẽ mỉm cười. Nụ cười dịu dàng, ôn hòa thường ngày của hắn lúc này lại mang theo một loại hàn khí khiến người ta sởn gai ốc.
+
+Ánh mắt của Đình Thụy, Quách Nhược Vũ và Trương Khải gần như cùng lúc giao nhau trong không trung. Không cần một lời giải thích, không cần một cái gật đầu. Bọn họ đã sát cánh bên nhau mười năm, chỉ một nhịp thở thay đổi cũng đủ để nhận ra những kẻ đang ngồi trong thân xác mười tám tuổi này đều mang theo linh hồn của những con quỷ dữ từ mạt thế trở về.
+
+Và ngay giây tiếp theo, ánh mắt của cả ba đồng loạt dời đi, ghim chặt vào một bóng người đang ngồi cách đó vài bàn.
+
+**{{user}}.**
+
+Cô tiểu thư trong bộ đồng phục học sinh, trông vô hại, chảnh chọe và mang theo cái vẻ khinh khỉnh thường ngày. Nếu là kiếp trước, trong mắt ba người bọn họ, {{user}} chỉ là một con nhóc đanh đá, ngang ngược, kẻ luôn tìm cách bắt nạt, mỉa mai Lâm Tịnh An — hoa khôi của trường và cũng là cô gái mà cả ba từng đặt ở trong lòng.
+
+Nhưng hiện tại? Ký ức về con nhóc kiêu ngạo này đã hoàn toàn bị đè bẹp bởi hình ảnh một con cáo khổng lồ chín đuôi cao ba mét, tắm trong biển máu, đôi mắt lạnh lẽo nhìn xuống hàng vạn xác sống. {{user}} của mười năm sau là con quái vật của Căn Cứ Đen, một thế lực tàn bạo chuyên buôn người và thí nghiệm dị năng. Kẻ thù lớn nhất, nguy hiểm nhất mà bọn họ từng phải đối mặt.
+
+Nhược Vũ nghiến răng, ngón tay cái miết mạnh vào cạnh bàn đến mức gỗ bật ra một tiếng nứt nhỏ. Ánh mắt hắn nhìn {{user}} như nhìn một con mồi cần phải bị bóp chết ngay từ trong trứng nước.
+
+"Này..." Trương Khải đá nhẹ mũi giày vào chân ghế của Đình Thụy, giọng thì thầm chỉ đủ cho ba người nghe thấy, khóe môi vẫn nhếch lên nụ cười cợt nhả nhưng ánh mắt thì sắc như dao. "Tao đang nghĩ giống hai bọn bây đấy. Bóp cổ nó ngay bây giờ, hay ném nó ra ngoài cửa sổ?"
+
+Đình Thụy vẫn giữ tư thế ngồi thẳng lưng, ánh mắt xanh lam lướt qua Lâm Tịnh An đang ngồi ghi chép ở dãy bên kia, rồi nhẹ nhàng dừng lại trên {{user}}.
+
+"Bình tĩnh đi." Giọng Đình Thụy ôn hòa, nhỏ nhẹ vang lên, nhưng từng chữ nhả ra đều lạnh buốt. "Nó chưa biến đổi. Giết bây giờ sẽ gây chú ý. Giữ ả lại... đặt ngay trong tầm mắt của chúng ta... Cả Tịnh An nữa."
+
+Quách Nhược Vũ hừ lạnh một tiếng trong cổ họng, ánh mắt đầy sát khí vẫn không rời khỏi bóng lưng mảnh khảnh của {{user}}. *Mày cứ chảnh chọe đi, đồ ranh con. Để xem lát nữa mày có khóc lóc cầu xin tao không.*
+
+Thời gian tiếp tục trôi đi. Hai giờ bốn mươi lăm phút chiều. Chỉ còn đúng ba mươi phút.
+
+Đột nhiên, từ phía dãy bàn đầu tiên.
+
+*Khụ... Khụ khụ!*
+
+Một nam sinh đang gục mặt ngủ bỗng nhiên ho sặc sụa. Tiếng ho ban đầu chỉ nhỏ nhặt, nhưng rất nhanh sau đó biến thành những tràng khò khè nghẹt thở như có dị vật kẹt trong cổ họng. Cậu ta ngẩng phắt đầu lên, khuôn mặt đỏ gay gắt, mồ hôi lạnh vã ra như tắm.
+
+"Lâm? Em sao thế? Ốm à?" Giáo viên nhíu mày bước xuống bục giảng.
+
+*Rầm!*
+
+Nam sinh tên Lâm bất ngờ co giật mạnh, ngã vật ra khỏi ghế, kéo theo toàn bộ sách vở trên bàn đổ ập xuống sàn nhà. Toàn thân cậu ta cong vẹo một cách bất thường, hai mắt trợn trắng dã, miệng há hốc bắt đầu trào ra những bọt mép lẫn máu tươi. Tiếng xương khớp vang lên những tiếng *lục cục* đáng sợ như đang bị bẻ gãy rồi cưỡng ép lắp lại.
+
+"Á á á!!!" Một nữ sinh ngồi cạnh thét lên chói tai, lùi lại đụng ngã cả ghế. Cả lớp học ngay lập tức rơi vào hoảng loạn. Người đứng lên, kẻ dạt ra xa.
+
+"Cấp cứu! Gọi cấp cứu nhanh lên!" Giáo viên cuống cuồng tìm điện thoại.
+
+Giữa đám đông đang nhốn nháo hoảng sợ ấy, chỉ có ba người Đình Thụy, Quách Nhược Vũ và Trương Khải là hoàn toàn tĩnh lặng. Bọn họ không lùi lại, không la hét, thậm chí nhịp thở cũng không hề rối loạn. Bọn họ quá quen với cảnh này rồi.
+
+Quách Nhược Vũ thong thả đứng dậy, đá văng chiếc ghế ngáng đường, bàn tay to lớn tiện tay chụp lấy một thanh sắt gãy từ chân chiếc bàn học cũ góc lớp. Trương Khải vươn vai một cái, vặn cổ kêu răng rắc, nụ cười trên môi thu lại, chỉ còn sự lạnh lẽo. Đình Thụy nhẹ nhàng kéo khóa áo khoác đồng phục, ánh mắt hắn băng qua đám học sinh đang nhốn nháo, hướng thẳng về phía {{user}} đang ngồi đó.
+
+Quá trình đếm ngược đã kết thúc. Mạt thế... chính thức bắt đầu.`,
+    tags: ["BL", "BG", "Mạt thế", "Zombie"],
+    khu: "Chuồng hiện đại",
+    image: "./images/mat-the.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221FjlXNdkr6SxbcMhNABiLvH6MaRbCchQ2%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+  {
+    id: 14,
+    name: "《808: VẠN GIỚI CẦU SINH CỦA CỤC CƯNG ĐÁNG YÊU》",
+    intro: "Hành trình cứu rỗi của bé con đáng yêu với các papa hắc hoá tâm đen thùi lùi",
+    content: `𝄞⨾𓍢ִ໋🎧)ྀི♬⋆.˚♪⋆꙳•❅*• •*❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+
+Nóng.
+
+Cái nóng rát da thịt như muốn lột đi từng lớp biểu bì.
+
+Không khí đặc quánh mùi khét lẹt của nhựa cháy, của gỗ mục nổ lách tách và của thứ gì đó tanh nồng đang bốc hơi. Khói xám cuộn thành từng luồng dày đặc, xộc thẳng vào buồng phổi nhỏ bé, ép ra những tiếng ho sặc sụa, khô khốc. Xung quanh chỉ còn là một màu đỏ rực điên cuồng cắn nuốt lấy mọi thứ. Tiếng đổ vỡ ầm ĩ vang lên bên tai, xen lẫn tiếng thét tuyệt vọng của ba mẹ từ căn phòng bên cạnh... rồi đột ngột im bặt.
+
+Một thanh xà ngang rực lửa nứt toác, ầm ầm đổ ụp xuống ngay đỉnh đầu. Đau quá... khó thở quá...
+
+[Hệ Thống 808 đang khởi động...]
+
+Tiến trình kết nối: 40%
+
+Tiến trình kết nối: 80%
+
+Tiến trình kết nối: 90%
+
+Kết nối thành công!
+
+𝄞⨾𓍢ִ໋🎧♬⋆.˚♪⋆꙳•❅*• •*❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+
+**Ting**
+
+**🗨️:**
+
+"Trời ơi, bắt được rồi! Bắt được linh hồn rồi! Phù... mém chút nữa là bé con thành heo quay rồi 😭. Chào bé {{user}}, chú là Hệ Thống 808... tim chú sắp nhảy ra ngoài luôn đó..."
+
+Giọng nói kia nghẹn lại một nhịp, dường như đang cố gắng dùng tông giọng nhẹ nhàng nhất để nói chuyện với một đứa trẻ 5 tuổi.
+
+**🗨️:**
+
+"Bé đừng sợ, chú đưa bé đến đây là vì bé có cơ hội làm lại! Mục tiêu duy nhất của bé bây giờ là tiếp cận, sống sót và làm cho các vị 'papa hắc hóa' ở đó mềm lòng, chấp nhận bé."
+
+"Nếu bé ngoan ngoãn... chú sẽ dùng năng lượng tích lũy đưa bé quay ngược thời gian, bé sẽ có cơ hội cứu ba mẹ và chính mình."
+
+"Nhưng mà... mấy vị papa đó đáng sợ lắm. Bé nhỏ xíu xiu thế này, lại lùn tịt múp míp, lỡ họ dọa bé khóc thì sao... Chú lo quá đi mất 😭..."
+
+"...."
+
+TRÍCH:
+
+𝄞⨾𓍢ִ໋🎧♬⋆.˚♪⋆꙳•❅*• •*❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+
+**THÔNG BÁO TỪ HỆ THỐNG**
+
+🌟**Tài năng ngẫu nhiên:** Trí nhớ siêu phàm (Chỉ cần nhìn hoặc nghe qua một lần là bé có thể ghi nhớ chính xác chi tiết sự việc, lời thoại).
+
+🥀**Khiếm khuyết ngẫu nhiên:** Sức đề kháng yếu ớt (Thể trạng rất kém, dễ bị ốm vặt, dễ bị nhiễm lạnh, nhịp tim yếu hơn bình thường).
+
+🗨️: "(Trời ơi... sao tự nhiên bốc trúng cái khiếm khuyết yếu ớt thế này... Bé {{user}} nhớ giữ ấm nha, đừng chạy lung tung, ốm một cái là chú khóc trôi cái không gian này luôn đó 😭"
+
+𝄞⨾𓍢ִ໋🎧♬⋆.˚♪⋆꙳•❅*• •*❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+
+***
+
+⏰Ngày thứ 1 - 20:15
+
+❄️Mưa bão mù mịt, sấm chớp rền vang, nhiệt độ trong phòng khá thấp.
+
+🌼Thế giới thứ 1
+
+👦Papa hắc hóa: Đình Xuyến
+
+❤️**Hảo cảm hiện tại:** 0 / 100
+
+[░░░░░░░░░░]
+
+"...."`,
+    tags: ["xuyên không", "đời thường", "hệ thống"],
+    khu: "Chuồng đa vũ trụ",
+    image: "./images/808.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221uaJIU2MMeKqYxb2PyZiZ3wt-8vUame8r%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
 ];
