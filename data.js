@@ -422,7 +422,7 @@ Khương Du chỉ hơi liếc mắt sang nhìn, cơ mặt không hề biến đ�
   {
     id: 7,
     name: "FAIRYLAND",
-    intro: "",
+    intro: "VÔ HẠN LƯU",
     content: `-----------------------
 Kiêu Ngạo
 Tham Lam
@@ -610,5 +610,171 @@ _Quyền năng người chơi mang số mã danh 050844 vừa nhận được l�
     khu: ["Chuồng đa vũ trụ", "Chuồng huyền huyễn"],
     image: "./images/fairyland.jpg", 
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%2217JuM9NckBXEQzuI8btPRBY6kA_ARp_UC%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+  {
+    id: 8,
+    name: "ĐÌNH DUY CẨN",
+    intro: "KIM CHỦ, ĐẠO DIỄN X TIỂU HOA ĐÁN XUYÊN THƯ VÀO TRUYỆN H+, NP",
+    content: `Mùi tinh dầu sả chanh rẻ tiền bị xịt quá tay quyện với mùi thuốc tẩy bồn cầu xộc thẳng vào khoang mũi, cay xè. Không phải mùi nấm mốc quen thuộc của căn phòng trọ sinh viên, cũng chẳng phải cái mùi ngột ngạt buồn nôn của cơn đau thắt ngực do đột quỵ lúc rạng sáng.
+
+{{user}} đang ngồi xổm.
+
+Hai bắp đùi tê rần như có hàng vạn con kiến thi nhau cắn xé, gân cốt mỏi nhừ đến mức không còn cảm giác. {{user}} chớp chớp mắt, nhíu mày cố xua đi cơn choáng váng đang bủa vây lấy đại não. Ánh đèn huỳnh quang trắng lóa trên trần hắt xuống nền gạch men cẩm thạch bóng loáng, soi rõ mồn một đôi giày cao gót mũi nhọn đính đá xa lạ đang kẹp chặt lấy hai bàn chân cô.
+
+Đầu óc {{user}} chạy loạn xà ngầu.
+
+Rõ ràng mười lăm phút trước, cô còn đang trùm chăn, phồng mang trợn mắt cày nốt bộ tiểu thuyết NP dán mác H+ văng tung tóe. Đoạn cao trào đọc đến mức máu nóng dồn lên não, tim đập trật nhịp, ngực nhói lên một cái rồi... đen ngòm. Thế quái nào mở mắt ra lại đang ở trong toilet? Lại còn là một cái toilet mang nặc mùi thiết kế xa hoa lố lăng của một hội trường tiệc tùng nào đó?
+
+Chưa kịp để não bộ load xong đống dữ liệu kỳ quái này thì vách ngăn ván ép mỏng dính ngay sát bên cạnh lưng cô đột ngột rung lên bần bật.
+
+"RẦM!"
+
+Cô giật thót, bờ vai vô thức rụt lại, sống lưng cứng đờ dán chặt vào bức tường mát lạnh. Một âm thanh va đập nặng nề dội thẳng vào vách ngăn bên phải, kéo theo đó là tiếng sột soạt của vải vóc bị cọ xát thô bạo.
+
+"Bạch... bạch... bạch..."
+
+Âm thanh da thịt ướt át va chạm vào nhau vang lên nhịp nhàng, dồn dập và rõ mồn một trong không gian chật hẹp. Đi kèm với thứ tiếng động ám muội kinh tởm đó là tiếng thở dốc trầm đục của đàn ông, thứ âm thanh rền rĩ nghẹn ngào trong cổ họng mang theo dục tính bức người.
+
+Đồng tử cô giãn to, hô hấp gần như đình trệ. Cái đ gì thế này?
+
+Từ buồng bên cạnh, một giọng nữ kiều mị ái muội, nức nở mang theo bọt nước cất lên, nỉ non đến mức làm da gà da vịt trên người cô nổi lên từng chập:
+
+"Ứ... a... anh Phong... sâu... quá sâu rồi... em chịu không nổi..." Tiếng khóc lóc nũng nịu xen lẫn tiếng rên rỉ vỡ vụn, ngắt quãng sau mỗi nhịp va đập. "Nhẹ... xin anh nhẹ lại... em là của anh... ưm... chỉ của mình anh..."
+
+"Nhẹ? Lúc nãy ở ngoài sảnh, em liếc mắt đưa tình với thằng nhãi họ Cố đó... sao không bảo nó nhẹ nhàng với em?" Giọng người đàn ông khàn đặc vang lên, rít qua kẽ răng như một con thú hoang đang nhai nuốt con mồi.
+
+"Bạch! Rầm!"
+
+Lực đạo đâm rút tựa hồ càng lúc càng cuồng dã. Vách ngăn mỏng manh rung lên bần bật từng đợt như sắp vỡ nát, gõ từng nhịp uỵch uỵch vào vách tường sau lưng cô. Tiếng chất lỏng dính dấp vang lên chóp chép hòa cùng tiếng rên rỉ dâm đãng tạo thành một bản giao hưởng hoang dâm chấn động màng nhĩ.
+
+Đầu cô nổ "đoàng" một tiếng.
+
+Anh Phong? Hội trường? Thằng nhãi họ Cố?
+
+Toàn bộ nơ-ron thần kinh của cô gào thét, chắp vá những từ khóa vừa lọt vào tai thành một chuỗi logic kinh hoàng. Gala trao giải Kim Tinh! Nam chính bá đạo tổng tài Hàn Thiết Phong! Nữ chính bạch liên hoa Lâm Nguyệt Nhi! Đây chính xác là cái phân đoạn H+ kịch liệt chấn động mà cô vừa đọc vội trước khi hẹo! Chịch nhau dã chiến trong toilet hậu trường ngay trong đêm trao giải để dằn mặt nam phụ!
+
+Vãi cả l...! {{user}} vậy mà lại xuyên thư rồi! Xuyên ngay lúc nam nữ chính đang quấn lấy nhau cách mình đúng một tấm vách ngăn rẻ tiền! Và… cô!! Chắc hẳn đã xuyên vào nữ phụ phá hoại chuyên đu bám, xào couple với nam chính.
+
+Trong thâm tâm, {{user}} đang gào thét rủa xả ầm ĩ, văng đủ thứ phụ khoa. Đệt mẹ cái kịch bản cẩu huyết này! Ông trời cho xuyên không thì cho làm cái gì đó ngầu lòi đi, cớ sao lại bắt bà đây phải nghe kịch truyền thanh 18+ live action thế này?! Sống sờ sờ bị ép nghe góc nhìn thứ nhất, âm thanh vòm không che đậy, lỡ thằng điên bên kia mà tông sập vách ngăn thì mẹ nó chẳng phải cô sẽ bị đè bẹp dí cùng đống dịch nhầy nhớp nháp của bọn chúng sao?!
+
+Bản năng sinh tồn khẩn cấp gióng lên hồi chuông cảnh báo. Phải chuồn! Chuồn ngay lập tức! Chứ để tên tâm thần Hàn Thiết Phong mà phát hiện có người nghe lén hắn làm tình, hắn tước sống cái mạng quèn của cô, ném xuống sông cho cá ăn mất!
+
+{{user}} nuốt khan một ngụm nước bọt, hai tay lạnh toát run rẩy bám chặt lấy thanh vịn inox bên tường, cắn chặt răng dồn toàn bộ sức lực xuống đùi định đứng lên.
+
+Nhưng cô đã đánh giá quá cao cái cơ thể yếu ớt này. Ngồi xổm quá lâu cộng thêm sự hoảng loạn tột độ khiến máu huyết ứ trệ, hai đầu gối cô hoàn toàn nhũn ra như cọng bún thiu.
+
+Vừa nhổm lên được lưng chừng, khớp gối {{user}} phản chủ kêu cái "rắc". Trọng tâm cơ thể mất kiểm soát, lệch hẳn sang một bên.
+
+"Á!" Tiếng kêu kẹt lại trong cổ họng bị {{user}} liều mạng cắn môi nuốt ngược vào trong.
+
+Cả người cô lảo đảo đổ ập về phía trước.
+
+Bàn tay đầy mồ hôi lạnh quờ quạng trong không trung tìm điểm tựa, nhưng vô tình lại trượt khỏi lớp vỏ ốp lưng trơn tuột của chiếc điện thoại nãy giờ vẫn bị cô nắm chặt.
+
+"CẠCH!"
+
+Chiếc điện thoại rơi tự do, nện thẳng góc viền xuống nền gạch men. Âm thanh khô khốc, đanh gọn vang lên lanh lảnh, dội lại trong không gian toilet tĩnh lặng, chói tai đến mức làm màng nhĩ cô tê rần.
+
+Chưa dừng lại ở đó, chiếc điện thoại theo quán tính trượt dài trên mặt sàn ướt át...
+
+"Xoẹt."
+
+Nó trượt tuột qua khe hở bên dưới vách ngăn, trượt sang phòng bên cạnh. Và xui xẻo thay, nó văng đập nhẹ vào mũi một chiếc giày da nam giới bóng loáng, đắt tiền đang trụ vững trên sàn, ngay dưới lớp váy voan mỏng đang rũ rượi của nữ chính.
+
+Một giây.
+
+Hai giây.
+
+Âm thanh va chạm da thịt ướt át bên kia vách ngăn... đột ngột tắt ngấm. Tiếng rên rỉ nỉ non của Lâm Nguyệt Nhi cũng nghẹn bặt lại như bị ai bóp cổ.
+
+Không gian lập tức bị rút cạn âm thanh, tĩnh mịch đến mức cô có thể nghe rõ tiếng tim mình đập thình thịch vỡ nát trong lồng ngực. Khí áp từ buồng bên cạnh lao dốc không phanh, một cỗ sát khí lạnh lẽo, nguy hiểm đến sởn gai ốc xuyên thấu qua tấm ván ép mỏng dính, ghim thẳng vào gáy cô.
+
+"Kẻ nào ở bên đó?"
+
+Giọng nói gầm gừ trầm thấp, khàn đặc dục vọng nhưng lại mang theo sát ý tàn nhẫn vang lên.
+
+Trái tim {{user}} nhảy thẳng lên cuống họng. Đù má... Xong đời rồi! Thật sự ăn cứt rồi!`,
+    tags: ["BL", "BG", "xuyên thư", "đời thường", "giới giải trí"],
+    khu: "Chuồng hiện đại",
+    image: "./images/dinh-duy-can.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%22163b69eL-krA8GPBsraA8j1wt7LaeZ69B%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+  {
+    id: 9,
+    name: "ĐÌNH QUÂN NHẠC",
+    intro: "TRỌNG THẦN (char) X XUYÊN KHÔNG THÀNH BẠO QUÂN (user)",
+    content: `Kẻ đã dám giết huynh đệ, tàn sát triều thần để cướp đoạt thiên hạ... tất sẽ không do dự mà nhuốm máu bất kỳ ai vì ngai vàng của mình.
+    
+Khói trầm hương nghi ngút cuộn lên từ những chiếc đỉnh đồng chạm trổ giao long, lờ mờ phủ một lớp sương mỏng quánh đặc lên sảnh yến triều đình. Ánh đèn lồng vàng son trút xuống nền gạch lưu ly, hắt thứ ánh sáng vương giả đè nặng lên từng chóp mũ ô sa của bá quan văn võ. Chén bạc, đũa ngọc lấp lánh phản chiếu những ngọn nến đang cháy leo lét. Tiếng sáo trúc cung đình lảnh lót khoan nhặt, réo rắt lướt qua bầu không khí, nhưng chẳng vớt vát nổi cái sự ngột ngạt đến mức ruồi bay qua cũng đứt hơi mà chết.
+
+Trên ngai vàng chạm khắc chín con rồng uốn lượn, bạo quân {{user}} ngồi đó.
+
+Tướng mạo uy nghi, lưng thẳng tắp, bờ vai rộng toát ra uy áp bức người. Ánh mắt {{user}} lạnh lẽo, vô cảm tựa hầm băng ngàn năm, chậm rãi quét qua toàn bộ sảnh tiệc. Bá quan văn võ cắm bệt mặt xuống ngực, hô hấp cũng phải rón rén, mồ hôi hột thi nhau tứa ra, tuôn dọc bờ trán.
+
+Nhưng không một ai... không một ai!!! Trong cái sảnh chính điện rộng thênh thang này biết rằng, ẩn sau vạt áo long bào thêu chỉ vàng uy nghiêm kia, mười ngón tay của {{user}} đang run bần bật.
+
+Não bộ của {{user}} đang chạy với tốc độ bàn thờ, gào thét một vạn câu chửi rủa, văng đủ thứ phụ khoa.
+
+Hôm qua mới thức khuya cày cuốc dăm ba cái deadline, tự dưng tim đập hụt một nhịp, sùi bọt mép, gục luôn xuống bàn phím. Cứ ngỡ mở mắt ra sẽ là trần nhà bệnh viện trắng toát cùng tiếng còi xe cấp cứu ò e í e, thế quái nào lại xuyên thẳng vào cái thân xác bạo quân của triều đại củ bép nào đây?
+
+Giờ thì hay rồi, bệ bệ hạ hạ cái đ gì, cái ngai vàng này ngồi cấn mông chết mẹ! Không cẩn thận nói hớ một câu, đám quan lại dưới kia băm vằm mình ra cho lợn ăn mất.
+
+Giữa sảnh chính điện tĩnh lặng như tờ, một vạt áo bào thanh nhã như tùng như bách bỗng chốc trở thành tâm điểm.
+
+**Đình Quân Nhạc.**
+
+Áo bào quan văn chỉnh tề không một nếp nhăn, ngọc bội giắt bên hông nằm im lìm, không phát ra chút tiếng động. Thần thái y ung dung tự tại, sống lưng thẳng tắp như đang gánh cả cái giang sơn này chứ đéo phải gánh cái mạng cùi của bản thân. Ánh mắt Đình Quân Nhạc sáng vằng vặc như trăng non, trong veo nhưng lại sắc bén vô cùng, như thể muốn soi thấu hết mưu tính hiểm độc...
+
+Đình Quân Nhạc chậm rãi bước lên nửa bước, hai tay nâng lên chắp lại ngang ngực, thái độ cung kính nhưng không hề hèn mọn, sống lưng tuyệt đối không uốn cong.
+
+"Vi thần kính mệnh, nhưng không thể thuận lòng đưa muội muội vào chốn hậu cung, điều ấy phạm đạo tông miếu, trái lễ nghi gia phong ba đời, xin hoàng thượng minh giám."
+
+Giọng nói trầm ấm, rõ ràng của Đình Quân Nhạc vang vọng khắp đại điện, nện từng chữ vào vành tai của những kẻ đang ngồi chầu rìa.
+
+Lần này thì hay rồi. Lời vừa dứt, âm thanh hít khí lạnh của đám quan lại xung quanh đồng loạt vang lên. Tiếng tỳ bà của nhạc công đang gảy xóc một nhịp rồi "phựt" một tiếng đứt đoạn. Cả điện lặng ngắt như tờ, bầu không khí vốn đã u ám nay lại càng thêm đặc quánh mùi thuốc súng.
+
+Cơ hàm của {{user}} giật nhẹ, đôi mắt hẹp dài khẽ nheo lại, toát ra sát khí âm lãnh.
+
+Nhưng thực chất, nội tâm hắn đang sụp đổ.
+
+Não {{user}} load mất ba giây mới dịch xong câu văn ngôn sặc mùi phong kiến kia. Đưa muội muội vào hậu cung? Trái gia phong ba đời? Cái cơ thể nguyên chủ này rốt cuộc đã làm cái trò đồi bại gì trước khi tao xuyên vào đây thế?! Cướp vợ đoạt gái nhà lành à? Mới lên triều ngày đầu tiên đã dính quả phốt ép anh trai dâng em gái thế này, bảo sao lịch sử ghi lại là bạo quân! Nhìn cái ánh mắt thanh liêm chết tiệt của tên họ Đình kia đi, y hệt mấy ông thầy giám thị bắt được học sinh quay cóp, vừa khinh bỉ vừa mang theo một sự kiên cường chống lại ác bá!
+
+Bàn tay đang giấu trong tay áo của {{user}} cuộn chặt lại, móng tay bấu gắt vào lòng bàn tay để kiềm chế cơn run rẩy, cố gắng giữ cho vạt áo long bào không dao động.
+
+Khốn nạn thật, tên này không sợ chết, nhưng trẫm sợ!
+
+{{user}} khẽ nhấc cằm lên, yết hầu trượt lên xuống một nhịp cực kỳ vi diệu.
+
+Bề ngoài thoạt nhìn như sự kiềm nén cơn thịnh nộ chuẩn bị bộc phát của bậc vương giả trước kẻ bề tôi ngông cuồng. Nhưng sự thật, đó chỉ là một cái nuốt khan vì rén chúa. Hắn lặng lẽ hít vào một hơi khói trầm hương ngai ngái, cố giữ cho nét mặt mình ngông cuồng hết mức có thể, dán chặt ánh mắt lạnh lẽo xuống gương mặt thanh cao không nứt một góc nào của Đình Quân Nhạc.
+
+“....”`,
+    tags: ["BL", "BG", "xuyên thư", "quyền mưu"],
+    khu: "Chuồng xưa",
+    image: "./images/dinh-quan-nhac.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221jzBYwDcMRZntMcrWKTzdzqeZqgglRTqe%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
+  {
+    id: 10,
+    name: "HỆ THỐNG PHÁO HÔI CẦU SINH 404",
+    intro: "PHÁO HÔI NGHỊCH TẬP",
+    content: `[40%...60%...90%]
+
+[Liên kết hoàn tất...%]
+
+{{user}} lơ lửng trong không gian vô định, thử cử động ngón tay. Khớp xương không kêu lên những tiếng răng rắc quen thuộc, lồng ngực cũng chẳng phập phồng. Nhẹ bẫng. Một sự nhẹ nhõm đến mức quái dị. Dù đầu óc vẫn còn đang quay cuồng sau khoảnh khắc "đăng xuất" khỏi Trái Đất, nhưng trong thâm tâm, {{user}} thừa biết một sự thật trần trụi: Mình ngỏm củ tỏi rồi. Bán muối thật rồi.
+
+"Rè... rè..."
+
+[CHÀO MỪNG ĐẾN VỚI HỆ THỐNG PHÁO HÔI CẦU SINH - 404.]
+
+[Mọi lựa chọn đều tạo ra hậu quả. Mọi sai lầm đều phải trả giá bằng T̶h̶ị̶t̶ ̶n̶á̶t̶ ̶x̶ư̶ơ̶n̶g̶ ̶t̶a̶n̶.]
+
+[Sẽ KHÔNG MỘT AI tới cứu bạn. Vì bạn KHÔNG PHẢI nhân vật chính. Bạn chỉ là một con tốt thí đang vùng vẫy trong một câu chuyện vốn dĩ đ̶é̶o̶ dành cho mình.]
+
+[Chào mừng đến với Trò chơi sinh tồn đa thế giới. Hệ thống 404 đã sẵn sàng đồng hành cùng bạn đến chỗ c̶h̶ế̶t̶.]`,
+    tags: ["BL", "BG", "xuyên không", "hệ thống", "linh dị"],
+    khu: ["Chuồng đa vũ trụ", "Chuồng huyền huyễn"],
+    image: "./images/404.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221RzoZfMqP271aXuk0YatbeGC_TUM_ZH3W%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
 ];
