@@ -22,11 +22,6 @@
       --shadow: 0 8px 25px rgba(212, 108, 133, 0.12);
       --art-bg-1: #FAF0F3;
       --art-bg-2: #F5E1E6;
-      
-      /* Màu Mini Game */
-      --stat-green: #68D391;
-      --stat-yellow: #F6E05E;
-      --stat-red: #FC8181;
     }
 
     /* MÀU SẮC CHẾ ĐỘ TỐI (DARK MODE) - TONE HỒNG ĐEN */
@@ -233,63 +228,6 @@
     .char-page-body h3 { color: var(--pink); margin-top: 0; font-size: 22px; border-bottom: 2px dashed var(--border); padding-bottom: 15px; margin-bottom: 20px; }
     .desc-content { font-size: 16px; line-height: 1.8; color: var(--pink-dark); white-space: pre-wrap; }
 
-    /* --- HIỆU ỨNG ẢNH PIXEL CUTE --- */
-    .pet-image-wrapper {
-      margin: 10px 0; cursor: pointer; user-select: none;
-      transition: transform 0.2s; animation: petFloat 3s ease-in-out infinite;
-    }
-    .pet-image-wrapper:active { transform: scale(0.9); }
-    .pet-image-wrapper.shake { animation: petShake 0.5s; }
-    
-    .pet-image {
-      width: 100px; height: 100px; object-fit: contain;
-      image-rendering: pixelated; /* Hiệu ứng sắc nét cho ảnh pixel cổ điển */
-      filter: drop-shadow(0 8px 10px rgba(212, 108, 133, 0.3)); pointer-events: none;
-    }
-
-    @keyframes petFloat {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-8px); }
-    }
-    @keyframes petShake {
-      0% { transform: translateX(0); }
-      25% { transform: translateX(-5px) rotate(-5deg); }
-      50% { transform: translateX(5px) rotate(5deg); }
-      75% { transform: translateX(-5px) rotate(-5deg); }
-      100% { transform: translateX(0); }
-    }
-
-    /* --- MINI GAME CHĂM THÚ CƯNG BỐ CỤC CHUNG --- */
-    .pet-card {
-      background: var(--card-bg); border: 2px dashed var(--pink); border-radius: 16px; 
-      padding: 20px; margin-bottom: 25px; box-shadow: var(--shadow); 
-      backdrop-filter: blur(10px); display: flex; flex-direction: column; align-items: center;
-      transition: all 0.3s;
-    }
-    .pet-header { font-size: 16px; font-weight: bold; color: var(--pink-dark); margin-bottom: 15px; display: flex; align-items: center; gap: 8px; }
-    .pet-layout { display: flex; width: 100%; max-width: 500px; gap: 20px; align-items: center; }
-    .pet-display {
-      flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
-      background: var(--pink-light); border-radius: 16px; padding: 20px 10px;
-      border: 1px solid var(--border); position: relative;
-    }
-    .pet-message { font-size: 12px; color: var(--pink-dark); font-style: italic; margin-top: 10px; min-height: 16px; text-align: center; }
-    .pet-level { position: absolute; top: 8px; left: 8px; font-size: 11px; font-weight: bold; background: var(--pink); color: #fff; padding: 3px 8px; border-radius: 10px; }
-    .pet-exp { position: absolute; top: 8px; right: 8px; font-size: 11px; color: var(--muted); }
-    
-    .pet-stats { flex: 1.5; display: flex; flex-direction: column; gap: 10px; width: 100%; }
-    .stat-row { display: flex; align-items: center; gap: 10px; }
-    .stat-label { font-size: 13px; font-weight: bold; color: var(--pink-dark); width: 65px; display: flex; justify-content: space-between; }
-    .stat-bar-bg { flex: 1; height: 12px; background: var(--border); border-radius: 6px; overflow: hidden; position: relative; }
-    .stat-bar-fill { height: 100%; border-radius: 6px; transition: width 0.4s ease, background-color 0.4s ease; width: 100%; }
-    .pet-actions { display: flex; gap: 10px; margin-top: 15px; width: 100%; justify-content: center; }
-    .pet-actions button {
-      flex: 1; max-width: 120px; padding: 8px; border: 1px solid var(--border); border-radius: 12px;
-      background: var(--nav-bg); color: var(--pink-dark); font-weight: bold; font-size: 13px;
-      transition: 0.2s ease; box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; align-items: center; justify-content: center; gap: 5px;
-    }
-    .pet-actions button:hover { background: var(--pink); color: #fff; border-color: var(--pink); transform: translateY(-2px); }
-
     /* MUSIC PLAYER BONG BÓNG */
     .music-widget { position: fixed; bottom: 25px; right: 25px; z-index: 999; display: flex; flex-direction: column; align-items: flex-end; }
     .music-bubble-btn {
@@ -386,16 +324,13 @@
       .char-page-img { width: 180px; height: 180px; }
       .char-page-info .btn-chat { width: 100%; text-align: center; }
       .char-page-body { padding: 25px; }
-      .pet-layout { flex-direction: column; gap: 15px; }
-      .pet-actions { flex-wrap: wrap; }
-      .pet-actions button { flex: 1 1 30%; max-width: none; }
     }
     @media (max-width: 480px) { .character-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
 
-  <!-- POPUP CHÀO MỪNG -->
+  <!-- POPUP CHÀO MỪNG (GIẢI QUYẾT LỖI TỰ PHÁT NHẠC) -->
   <div id="welcome-popup" class="welcome-overlay">
     <div class="welcome-modal">
       <h2>🌸 Chào mừng ghé thăm 🌸</h2>
@@ -419,9 +354,9 @@
         <p class="donate-wish">Chúc Quý Nhân vạn dặm bình an!</p>
       </div>
 
+      <!-- BẠN ĐỔI LINK ẢNH QR Ở DÒNG BÊN DƯỚI NHÉ -->
       <div class="qr-container">
-        <!-- BẠN ĐỔI LINK ẢNH QR VÀO ĐÂY -->
-        <img src="./images/qr-code.png" alt="Mã QR Ủng Hộ" onerror="this.src='https://via.placeholder.com/200x200/F5E1E6/D46C85?text=Mã+QR+ở+đây'">
+        <img src="./images/qr-code.png" alt="Mã QR Ủng Hộ" onerror="this.src='https://cdn.phototourl.com/member/2026-10-27-2847d741-51e9-4cf3-a604-d229dc9db0db.jpg'">
       </div>
     </div>
   </div>
@@ -447,7 +382,7 @@
         </svg>
       </button>
       
-      <!-- NÚT TRÁI TIM DONATE -->
+      <!-- NÚT TRÁI TIM ĐƯỢC THÊM VÀO ĐÂY -->
       <button id="btn-donate" class="theme-btn heart-btn" title="Cảm Ơn Quý Nhân">
         <svg viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>
       </button>
@@ -479,50 +414,6 @@
         </div>
         <div class="count" id="character-count">0 nhân vật</div>
       </div>
-
-      <!-- MINI GAME: CHĂM SÓC GÀ BÔNG PIXEL -->
-      <div class="pet-card">
-        <div class="pet-header">🎮 Nuôi Gà Bông Ảo (Pixel Game)</div>
-        
-        <div class="pet-layout">
-          <!-- Hiển thị thú cưng Ảnh Pixel -->
-          <div class="pet-display">
-            <span id="pet-level" class="pet-level">Lv. 1</span>
-            <span id="pet-exp" class="pet-exp">EXP: 0/100</span>
-            
-            <div id="pet-image-wrapper" class="pet-image-wrapper" onclick="pokePet()">
-              <!-- ẢNH NHÂN VẬT SẼ THAY ĐỔI TẠI ĐÂY -->
-              <img id="pet-image" class="pet-image" src="./images/pixel-egg.gif" alt="Gà Bông Pixel" onerror="this.src='https://via.placeholder.com/100x100/F5E1E6/D46C85?text=Pixel+Cute'">
-            </div>
-            
-            <div id="pet-message" class="pet-message">Trứng đang ngủ ngoan...</div>
-          </div>
-          
-          <!-- Thanh trạng thái -->
-          <div class="pet-stats">
-            <div class="stat-row">
-              <div class="stat-label"><span>🍚 Đói</span> <span id="val-hunger">100%</span></div>
-              <div class="stat-bar-bg"><div id="bar-hunger" class="stat-bar-fill" style="width: 100%; background-color: var(--stat-green);"></div></div>
-            </div>
-            <div class="stat-row">
-              <div class="stat-label"><span>💖 Vui vẻ</span> <span id="val-happiness">100%</span></div>
-              <div class="stat-bar-bg"><div id="bar-happiness" class="stat-bar-fill" style="width: 100%; background-color: var(--stat-green);"></div></div>
-            </div>
-            <div class="stat-row">
-              <div class="stat-label"><span>⚡ Năng lượng</span> <span id="val-energy">100%</span></div>
-              <div class="stat-bar-bg"><div id="bar-energy" class="stat-bar-fill" style="width: 100%; background-color: var(--stat-green);"></div></div>
-            </div>
-
-            <!-- Các nút hành động -->
-            <div class="pet-actions">
-              <button onclick="feedPet()">🍚 Cho ăn</button>
-              <button onclick="playPet()">⚽ Chơi đùa</button>
-              <button onclick="sleepPet()">💤 Đi ngủ</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- KẾT THÚC MINI GAME -->
 
       <div class="controls">
         <label class="search-wrap">
@@ -736,25 +627,26 @@
     loadSong(currentSongIndex);
 
     // ==========================================
-    // 2. LOGIC CHO POPUP CHÀO MỪNG 
+    // 2. LOGIC CHO POPUP CHÀO MỪNG (CÓ LƯU TRẠNG THÁI)
     // ==========================================
     const welcomePopup = document.getElementById("welcome-popup");
     const btnEnterFarm = document.getElementById("btn-enter-farm");
     const btnEnterSilent = document.getElementById("btn-enter-silent");
 
+    // Kiểm tra xem người dùng đã từng xác nhận trong phiên làm việc này chưa
     if (sessionStorage.getItem("farmWelcomePassed") === "true") {
       welcomePopup.style.display = "none";
     }
 
     btnEnterFarm.addEventListener("click", () => {
-      sessionStorage.setItem("farmWelcomePassed", "true");
+      sessionStorage.setItem("farmWelcomePassed", "true"); // Lưu trạng thái
       welcomePopup.classList.add("hidden");
       setTimeout(() => welcomePopup.style.display = "none", 400); 
-      playMusic();
+      playMusic(); // Điện thoại cho phép phát vì bạn vừa chủ động bấm
     });
 
     btnEnterSilent.addEventListener("click", () => {
-      sessionStorage.setItem("farmWelcomePassed", "true");
+      sessionStorage.setItem("farmWelcomePassed", "true"); // Lưu trạng thái
       welcomePopup.classList.add("hidden");
       setTimeout(() => welcomePopup.style.display = "none", 400);
     });
@@ -841,6 +733,8 @@
     function openCharacterPage(id, pushHistory = true) {
       const char = characters.find(c => c.id === id);
       if (!char) return;
+      
+      // Đổ dữ liệu
       detailImg.src = char.image; 
       detailName.textContent = char.name; 
       detailIntro.textContent = char.intro || "";
@@ -848,22 +742,37 @@
       detailLink.href = char.link || "#";
       detailTags.innerHTML = (char.tags || []).map(tag => `<span class="character-tag" style="pointer-events:none">${tag}</span>`).join("");
       
+      // Ẩn trang trại, hiện chi tiết
       mainView.style.display = "none";
       charPageView.style.display = "block";
-      window.scrollTo({ top: 0, behavior: 'smooth' }); 
-      if (pushHistory) history.pushState({ charId: id }, "", "#character-" + id);
+      window.scrollTo({ top: 0, behavior: 'smooth' }); // Cuộn lên đầu trang
+
+      // Cập nhật URL để dùng được nút Back của trình duyệt
+      if (pushHistory) {
+        history.pushState({ charId: id }, "", "#character-" + id);
+      }
     }
 
+    // Đóng trang chi tiết
     function closeCharacterPage(pushHistory = true) {
       charPageView.style.display = "none";
       mainView.style.display = "block";
+      
+      // Cuộn về đầu danh sách nhân vật
       document.querySelector('.collection').scrollIntoView({ behavior: 'smooth' });
-      if (pushHistory) history.pushState("", document.title, window.location.pathname + window.location.search);
+      
+      if (pushHistory) {
+        history.pushState("", document.title, window.location.pathname + window.location.search);
+      }
     }
 
+    // Xử lý sự kiện khi bấm nút BACK trên trình duyệt điện thoại/máy tính
     window.addEventListener("popstate", (event) => {
-      if (event.state && event.state.charId) openCharacterPage(event.state.charId, false);
-      else closeCharacterPage(false);
+      if (event.state && event.state.charId) {
+        openCharacterPage(event.state.charId, false);
+      } else {
+        closeCharacterPage(false);
+      }
     });
 
     function filterByTag(tag) { selectedTag = selectedTag === tag ? null : tag; renderCharacters(); renderAllTags(); }
@@ -875,7 +784,7 @@
     resetButton.addEventListener("click", clearFilters);
 
     // ==========================================
-    // 5. LOGIC POPUP DONATE
+    // 5. LOGIC POPUP DONATE (TRÁI TIM)
     // ==========================================
     const btnDonate = document.getElementById("btn-donate");
     const donatePopup = document.getElementById("donate-popup");
@@ -883,187 +792,22 @@
 
     btnDonate.addEventListener("click", () => {
       donatePopup.style.display = "flex";
-      setTimeout(() => donatePopup.classList.remove("hidden"), 10);
+      setTimeout(() => donatePopup.classList.remove("hidden"), 10); // Kích hoạt animation
     });
 
     function closeDonatePopup() {
       donatePopup.classList.add("hidden");
-      setTimeout(() => donatePopup.style.display = "none", 400); 
+      setTimeout(() => donatePopup.style.display = "none", 400); // Đợi CSS transition kết thúc
     }
+
     closeDonate.addEventListener("click", closeDonatePopup);
-    donatePopup.addEventListener("click", (e) => { if (e.target === donatePopup) closeDonatePopup(); });
 
+    // Bấm ra vùng tối để tắt popup
+    donatePopup.addEventListener("click", (e) => {
+      if (e.target === donatePopup) closeDonatePopup();
+    });
 
-    // ==========================================
-    // 6. MINI GAME CHĂM SÓC GÀ BÔNG PIXEL
-    // ==========================================
-    let petState = JSON.parse(localStorage.getItem("gaBongPet")) || {
-      level: 1, exp: 0, 
-      hunger: 100, happiness: 100, energy: 100,
-      lastUpdate: Date.now()
-    };
-
-    const expToNextLevel = 100;
-    
-    // Khai báo kết nối biến giao diện
-    const elPetImageWrapper = document.getElementById("pet-image-wrapper");
-    const elPetImage = document.getElementById("pet-image");
-    
-    const elPetLevel = document.getElementById("pet-level");
-    const elPetExp = document.getElementById("pet-exp");
-    const elPetMsg = document.getElementById("pet-message");
-    
-    const barHunger = document.getElementById("bar-hunger");
-    const barHappiness = document.getElementById("bar-happiness");
-    const barEnergy = document.getElementById("bar-energy");
-    
-    const valHunger = document.getElementById("val-hunger");
-    const valHappiness = document.getElementById("val-happiness");
-    const valEnergy = document.getElementById("val-energy");
-
-    // HÀM CHỌN LINK ẢNH PIXEL DỰA THEO CẤP ĐỘ
-    function getPetImage(level) {
-      /* 
-       * HƯỚNG DẪN THAY ẢNH PIXEL CỦA BẠN: 
-       * Bạn có thể tải các ảnh pixel dễ thương (định dạng .gif) về máy.
-       * Lưu chúng vào thư mục /images/ và thay tên ảnh vào các dòng dưới đây.
-       */
-      if (level <= 2) return "./images/pixel-egg.jpg";   // Trứng pixel
-      if (level <= 5) return "./images/pixel-baby.jpg";  // Gà con pixel nở
-      return "./images/pixel-anime.jpg";                 // Nhân vật Anime trưởng thành
-    }
-
-    function getColor(value) {
-      if (value > 60) return "var(--stat-green)";
-      if (value > 30) return "var(--stat-yellow)";
-      return "var(--stat-red)";
-    }
-
-    function updatePetUI(msg = "") {
-      // Giới hạn giá trị 0 - 100
-      petState.hunger = Math.max(0, Math.min(100, petState.hunger));
-      petState.happiness = Math.max(0, Math.min(100, petState.happiness));
-      petState.energy = Math.max(0, Math.min(100, petState.energy));
-
-      // Cập nhật text & ẢNH
-      elPetLevel.textContent = `Lv. ${petState.level}`;
-      elPetExp.textContent = `EXP: ${Math.floor(petState.exp)}/${expToNextLevel}`;
-      
-      // Update nguồn ảnh
-      elPetImage.src = getPetImage(petState.level);
-      
-      // Update thanh trạng thái
-      barHunger.style.width = petState.hunger + "%";
-      barHunger.style.backgroundColor = getColor(petState.hunger);
-      valHunger.textContent = Math.floor(petState.hunger) + "%";
-
-      barHappiness.style.width = petState.happiness + "%";
-      barHappiness.style.backgroundColor = getColor(petState.happiness);
-      valHappiness.textContent = Math.floor(petState.happiness) + "%";
-
-      barEnergy.style.width = petState.energy + "%";
-      barEnergy.style.backgroundColor = getColor(petState.energy);
-      valEnergy.textContent = Math.floor(petState.energy) + "%";
-
-      // Cập nhật tin nhắn
-      if (msg) {
-        elPetMsg.textContent = msg;
-      } else {
-        if (petState.hunger < 30) elPetMsg.textContent = "Nhân vật đói bụng quá ủm bò...";
-        else if (petState.energy < 30) elPetMsg.textContent = "Bé đang buồn ngủ ríu mắt rồi zZz...";
-        else if (petState.happiness < 30) elPetMsg.textContent = "Không ai chơi với bé à (╥_╥)";
-        else elPetMsg.textContent = "Bé đang rất vui vẻ (´▽`ʃ♡ƪ)";
-      }
-
-      // Lưu lại
-      petState.lastUpdate = Date.now();
-      localStorage.setItem("gaBongPet", JSON.stringify(petState));
-    }
-
-    function addExp(amount) {
-      petState.exp += amount;
-      if (petState.exp >= expToNextLevel) {
-        petState.level++;
-        petState.exp -= expToNextLevel;
-        updatePetUI(`🎉 Bạn bé đã tiến hóa lên cấp ${petState.level}!`);
-      }
-    }
-
-    function animatePet() {
-      // Hiệu ứng nhún khi bị tương tác
-      elPetImageWrapper.classList.remove("shake");
-      void elPetImageWrapper.offsetWidth; // Kích hoạt lại animation (reflow)
-      elPetImageWrapper.classList.add("shake");
-    }
-
-    // Các hành động
-    function feedPet() {
-      if (petState.hunger >= 100) return updatePetUI("Bụng đã no tròn rồi, không ăn nổi nữa!");
-      petState.hunger += 25;
-      petState.energy -= 5;
-      addExp(10);
-      animatePet();
-      updatePetUI("Măm măm, hạt thóc ngon quá! 🍚");
-    }
-
-    function playPet() {
-      if (petState.energy < 20) return updatePetUI("Bé mệt quá không vung vẩy nổi đâu...");
-      petState.happiness += 30;
-      petState.energy -= 15;
-      petState.hunger -= 10;
-      addExp(15);
-      animatePet();
-      updatePetUI("Vui quá đi mất! ⚽");
-    }
-
-    function sleepPet() {
-      if (petState.energy >= 100) return updatePetUI("Đang rất tỉnh táo, không muốn ngủ đâu!");
-      petState.energy += 40;
-      petState.hunger -= 10;
-      petState.happiness -= 5;
-      addExp(5);
-      updatePetUI("Khò... khò... zZz 💤");
-    }
-
-    function pokePet() {
-      animatePet();
-      petState.happiness += 2;
-      addExp(1);
-      updatePetUI("He he! ✨");
-    }
-
-    // Game Loop (Tự động tụt chỉ số mỗi 15 giây)
-    function checkOfflineDrain() {
-      const now = Date.now();
-      const timePassed = Math.floor((now - petState.lastUpdate) / 1000); // Đổi ra giây
-      
-      if (timePassed > 60) {
-        // Tụt tối đa 50% khi offline để thú không bao giờ chết hẳn
-        const drainAmount = Math.min(50, Math.floor(timePassed / 60)); 
-        petState.hunger -= drainAmount;
-        petState.happiness -= drainAmount;
-        petState.energy -= drainAmount;
-        updatePetUI(`Tớ đã đợi bạn ở đây rất lâu rồi đó...`);
-      } else {
-        updatePetUI();
-      }
-    }
-
-    checkOfflineDrain(); // Chạy lúc vừa vào trang
-    setInterval(() => {
-      petState.hunger -= 1;
-      petState.happiness -= 1;
-      petState.energy -= 1;
-      
-      // Nhận 1 chút exp thụ động nếu chỉ số tốt
-      if (petState.hunger > 50 && petState.happiness > 50 && petState.energy > 50) addExp(2);
-      
-      updatePetUI();
-    }, 15000); // 15 giây tụt 1 điểm
-
-    // ==========================================
-    // 7. EFFECTS VÀ KHỞI TẠO CHUNG
-    // ==========================================
+    // Hoa anh đào rơi
     const leafBackground = document.getElementById("leaf-background");
     for (let i = 0; i < 15; i++) {
       const leaf = document.createElement("span"); leaf.className = "falling-leaf"; 
@@ -1075,11 +819,14 @@
 
     renderAllTags(); renderCharacters();
 
+    // Nếu người dùng F5 trực tiếp vào đường link có #character-1
     window.addEventListener('load', () => {
       const hash = window.location.hash;
       if (hash && hash.startsWith("#character-")) {
         const id = parseInt(hash.replace("#character-", ""));
-        if (!isNaN(id)) openCharacterPage(id, false);
+        if (!isNaN(id)) {
+          openCharacterPage(id, false);
+        }
       }
     });
   </script>
