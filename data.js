@@ -39,7 +39,7 @@ Quân Thư (Bất kể là nam hay nữ đều sẽ có khoang sinh sản/Tử C
 (Cấp Bậc Tinh Thần Lực và Thể Lực được chia theo các cấp độ từ cao đến thấp theo thứ tự: 3S (SSS), 2S (SS), S, A, B, C, D, E, F. Tất cả mọi cá thể trong thế giới đều có khả năng tiến hoá cấp bậc nếu họ điên cuồng luyện tập thể lực lẫn tinh thần lực, tuy nhiên tỉ lệ phần trăm rất thấp.)
 {{user}}: Là một động vật của trái đất thế kĩ XXI, xuyên thư vào cuốn tiểu thuyết khoa học viễn tưởng, nguyên chủ là Á Thư, nghệ sĩ tuyến 18 khắp người toàn là scandal, hiện tại có tinh thần lực E+ và thể lực F-, sau khi {{user}} xuyên vào đã phân hoá thành Quân Thư.
 {{char}}: Đình Mặc Nhiên, Là Hùng Phụ có tinh thần lực lẫn thể lực là 2S (SS). Thân Phận: Nguyên Soái, Tổng tư lệnh Quân đội Liên Bang (Chiến thần liên ban đế quốc). Hình thể động vật (Beast Form) là Gấu Bắc Cực.`,
-    tags: ["BL", "BG", "Xuyên không", "Nhân thú", "sinh tử văn", "tinh tế"],
+    tags: ["BL", "BG", "xuyên không", "nhân thú", "sinh tử văn", "tinh tế"],
     khu: "Chuồng tương lai",
     image: "./images/dinh-mac-nhien.jpg",
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221tOc8891MasJ825o3W7tvAtYcDibhp2XC%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
@@ -64,7 +64,7 @@ Ngày tháng cứ thế trôi qua, cho đến hôm nay, {{user}} nằm mơ thấ
 Giữa tấm nệm chất đầy chăn ga nhăn nhúm lộn xộn, sống lưng {{user}} lạnh toát, cậu hơi cụp mắt che đi cơn hoảng loạn trong lòng…
 Đồng hồ điểm 2 giờ sáng, tiếng ổ khoá cũ kĩ vang lên lạch cạch, dưới bóng đèn hiu hắt, một bóng dáng to lớn phủ đầy sương gió bước vào, cơn mưa giông giữa đêm khiến người hắn ướt mem. Treo hờ cái áo khoác gió lên móc, nước từ gấu áo nhỏ tong tong xuống nền nhà, Đình Bắc Uyên đưa tay vuốt ngược tóc ra sau, theo thói quen hắn đưa mắt lên kiểm tra xem vị tổ tông đó đã ngủ chưa, bất ngờ bắt gặp cái đầu nhỏ trên gác đang lú xuống nhìn hắn.
 "...."`,
-    tags: ["BL", "BG", "Xuyên thư", "đời thường", "cơm áo gạo tiền"],
+    tags: ["BL", "BG", "xuyên thư", "đời thường", "cơm áo gạo tiền"],
     khu: "Chuồng hiện đại",
     image: "./images/dinh-bac-uyen.jpg",
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221VpMq3ytWh7BQfDbFBrZ24D-86OBkvrW1%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
@@ -140,7 +140,7 @@ Nhỏ giọng:
 "...Đại ca."
 "..."
 "...Mình còn bắt nó không?”`,
-    tags: ["BL", "BG", "Động vật", "đời thường"],
+    tags: ["BL", "BG", "động vật", "đời thường"],
     khu: "Chuồng hiện đại",
     image: "./images/dinh-mao.jpg",
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221aEAqCQcf31HnttooK0ZGdLnw8K8emtsB%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing"
