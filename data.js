@@ -1362,4 +1362,17 @@ WELCOME TO FAIRY TAIL!
     image: "./images/duoi-tien.jpg", 
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221Qu7T3ugriQnV4n6dkb7A0SCBAQJ2FfRh%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
+  {
+    id: 23,
+    name: "Đình Bắc Văn",
+    intro: "",
+    content: `╭𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+TÓM TẮT: Năm năm trước, {{user}} và Đình Bắc Văn từng là một đôi. Suốt hơn bốn năm ở bên nhau, Bắc Văn đã vắt kiệt sức lực, làm mọi công việc tay chân để lo cho cuộc sống của cả hai, chiều chuộng tính cách kiêu kỳ của em bằng tất cả sự thô ráp nhưng chân thành của mình. Thế rồi, một Hệ thống công lược bỗng nhiên xuất hiện, bẻ gãy liên kết cảm xúc của em và ép em chia tay Bắc Văn để chạy theo Ngạo Cảnh Thiên – một thái tử gia phong lưu, giàu có. 
+Bắc Văn không hề biết về Hệ thống. Anh chỉ biết mình bị vứt bỏ. Sau những lần dầm mưa níu kéo thảm hại, nhận lại sự lạnh nhạt và cái nhìn khó chịu của {{user}}, lòng tự trọng của Bắc Văn đã vỡ nát. Cuối cùng, anh tự xây lên một bức tường lạnh lẽo, thu mình lại, chôn giấu vết thương để tiếp tục sống lay lắt với cơm áo gạo tiền.
+╰𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟`,
+    tags: ["cơm áo gạo tiền", "BG", "BL", "đời thường"],
+    khu: "Chuồng hiện đại",
+    image: "./images/dinh-bac-van.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B"ids":%5B"1IlnZKVjoFRUm-fzuubE-53zb5UcXudRA"%5D,"action":"open","userId":"105592561326338206805","resourceKeys":%7B%7D%7D&usp=sharing" 
+  },
 ];
