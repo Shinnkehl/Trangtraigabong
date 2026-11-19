@@ -1373,6 +1373,6 @@ Bắc Văn không hề biết về Hệ thống. Anh chỉ biết mình bị v�
     tags: ["cơm áo gạo tiền", "BG", "BL", "đời thường"],
     khu: "Chuồng hiện đại",
     image: "./images/dinh-bac-van.jpg", 
-    link: "https://aistudio.google.com/app/prompts?state=%7B"ids":%5B"1IlnZKVjoFRUm-fzuubE-53zb5UcXudRA"%5D,"action":"open","userId":"105592561326338206805","resourceKeys":%7B%7D%7D&usp=sharing" 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221IlnZKVjoFRUm-fzuubE-53zb5UcXudRA%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
 ];
