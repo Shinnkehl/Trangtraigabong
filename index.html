@@ -692,11 +692,7 @@
       const keyword = searchInput.value.trim().toLowerCase();
       const selectedCategory = categoryFilter.value;
 
-      const filtered = [...characters]
-        .sort((a, b) => {
-          return new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
-        })
-        .filter(char => {
+      const filtered = characters.filter(char => {
         const charKhuArray = Array.isArray(char.khu) ? char.khu : (char.khu ? [char.khu] : [""]);
         const matchesKeyword = char.name.toLowerCase().includes(keyword) || (char.intro || "").toLowerCase().includes(keyword) || (char.content || "").toLowerCase().includes(keyword) || (char.tags || []).some(tag => tag.toLowerCase().includes(keyword)) || charKhuArray.some(k => k.toLowerCase().includes(keyword));
         const matchesCategory = selectedCategory === "all" || charKhuArray.some(k => k.toLowerCase() === selectedCategory.toLowerCase());
