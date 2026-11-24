@@ -1375,4 +1375,25 @@ Bắc Văn không hề biết về Hệ thống. Anh chỉ biết mình bị v�
     image: "./images/dinh-bac-van.jpg", 
     link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221IlnZKVjoFRUm-fzuubE-53zb5UcXudRA%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
   },
+  {
+    id: 24,
+    name: "JUJUTSU KAISEN SS3",
+    intro: "Chú Thuật Hồi Chiến: Tử Diệt Hồi Du",
+    content: `╭𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟
+“Khi ranh giới giữa sự sống và c̶á̶i̶ c̶h̶ế̶t̶ trở nên mong manh, con người sẽ lựa chọn chiến đấu, hay trở thành kẻ bị hiến tế?”
+Sau thảm kịch tại Shibuya, thế giới Chú thuật một lần nữa rơi vào hỗn loạn. Những mất mát chưa kịp nguôi ngoai, những âm mưu chưa được phơi bày và sự sụp đổ của trật tự cũ đã mở đường cho một trò chơi s̶i̶n̶h̶ t̶ử̶ chưa từng có tiền lệ.
+Tử Diệt Hồi Du (The Culling Game) chính thức bắt đầu.
+Được dàn dựng bởi một thế lực đứng sau hàng loạt biến cố kinh hoàng, trò chơi biến nhiều khu vực trên khắp Nhật Bản thành những kết giới đẫm m̶á̶u̶. Các Chú thuật sư hiện đại, những kẻ sở hữu năng lực vừa thức tỉnh và cả những Chú thuật sư từ thời đại xa xưa bị đưa trở lại thế giới hiện tại đều bị cuốn vào vòng xoáy này.
+Yuji Itadori phải đối diện với tội lỗi và những hậu quả từ biến cố Shibuya. Yuta Okkotsu nhận nhiệm vụ hành quyết Yuji. Trong khi đó, Megumi Fushiguro cùng những đồng đội tiếp tục tìm kiếm con đường giải cứu những người quan trọng đối với mình.
+{{user}} với vai trò là một Chú thuật sư được cử đến/ một người thường mới thức tỉnh thuật thức/ một chú thuật sư độc lập, sẽ làm những gì?
+Không còn đơn thuần là cuộc chiến giữa Chú thuật sư và Nguyền hồn, Tử Diệt Hồi Du là cuộc đối đầu giữa những lý tưởng, tham vọng và bản năng sinh tồn. Mỗi lựa chọn đều có thể thay đổi cục diện, mỗi trận chiến đều có thể trở thành dấu chấm hết cho một cuộc đời.
+Luật chơi đã được thiết lập. Kết giới đã mở ra. Và không phải ai bước vào cũng có thể trở về.
+✦ Chào mừng đến với JUJUTSU KAISEN SS3 — THE CULLING GAME.
+Hãy chuẩn bị, bởi trò chơi s̶i̶n̶h̶ t̶ử̶ đã bắt đầu.
+╰𝄞⨾𓍢ִ໋🎧ྀི♬⋆.˚♪⋆꙳•❅• •❆ ₊⋆𓆉𓆝 𓆟 𓆞 𓆝 𓆟`,
+    tags: ["anime"],
+    khu: "Chuồng anime",
+    image: "./images/jjk3.jpg", 
+    link: "https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221FM2d_TTMuuuhe_7yAlTAkt9_rsF6xtOv%22%5D,%22action%22:%22open%22,%22userId%22:%22105592561326338206805%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" 
+  },
 ];
