@@ -14,8 +14,8 @@
       --card-bg: rgba(255, 255, 255, 0.93);
       --input-bg: rgba(255, 255, 255, 0.94);
       --white: #FFFFFF;
-      --pink: #D46C85; /* Hồng chủ đạo */
-      --pink-dark: #632B39; /* Đỏ đô / Hồng đậm */
+      --pink: #D46C85;
+      --pink-dark: #632B39;
       --pink-light: #F5E1E6;
       --border: #E8D0D6;
       --muted: #8A7278;
@@ -24,7 +24,6 @@
       --art-bg-2: #F5E1E6;
     }
 
-    /* MÀU SẮC CHẾ ĐỘ TỐI (DARK MODE) - TONE HỒNG ĐEN */
     [data-theme="dark"] {
       --bg: #1A1416;
       --bg-gradient: #2B1D22;
@@ -45,7 +44,6 @@
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
 
-    /* Custom Scrollbar */
     ::-webkit-scrollbar { width: 8px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--pink); border-radius: 10px; }
@@ -62,7 +60,6 @@
     button { cursor: pointer; }
     button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid var(--pink); outline-offset: 3px; }
 
-    /* Hoa anh đào rơi */
     #leaf-background { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; contain: strict; }
     .falling-leaf {
       position: absolute; top: -40px; left: var(--leaf-left); font-size: var(--leaf-size); opacity: var(--leaf-opacity);
@@ -75,7 +72,6 @@
       100% { transform: translate3d(-20px, 110vh, 0) rotate(320deg); }
     }
 
-    /* Navbar & Hero */
     .navbar {
       position: relative; z-index: 1; display: flex; justify-content: space-between; align-items: center; gap: 15px;
       padding: 18px 7%; background: var(--nav-bg); border-bottom: 1px solid var(--border); backdrop-filter: blur(10px);
@@ -105,7 +101,6 @@
     .hero p { max-width: 510px; margin: 0 auto; color: var(--muted); font-size: 14px; line-height: 1.9; }
     .hero-decoration { margin-top: 18px; font-size: 24px; letter-spacing: 8px; }
 
-    /* Collection & Controls */
     .collection { position: relative; z-index: 1; width: min(1100px, 100%); margin: 0 auto; padding: 15px 24px 70px; }
     .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 15px; margin-bottom: 22px; }
     .section-heading h2 { margin: 0 0 7px; font-size: 23px; }
@@ -125,14 +120,12 @@
     .reset-button { padding: 10px 16px; border: 1px solid var(--border); border-radius: 12px; background: var(--pink-light); color: var(--pink-dark); font-weight: bold; transition: 0.2s ease; }
     .reset-button:hover { background: var(--pink); color: #fff; border-color: var(--pink); }
 
-    /* TAG CARD */
     .tag-card {
       background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 16px 20px;
       margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); backdrop-filter: blur(10px); transition: all 0.3s;
     }
     .tag-card-title { font-size: 14px; font-weight: bold; color: var(--pink-dark); margin-bottom: 12px; display: flex; align-items: center; gap: 6px; }
 
-    /* Character cards */
     .character-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
     .character-card {
       min-width: 0; overflow: hidden; border: 1px solid var(--border); border-radius: 20px; background: var(--card-bg);
@@ -165,11 +158,25 @@
     .empty-state { grid-column: 1 / -1; padding: 50px 20px; border: 1px dashed var(--border); border-radius: 18px; text-align: center; color: var(--muted); background: var(--card-bg); }
     .empty-state div { margin-bottom: 10px; font-size: 32px; }
 
-    /* --- NÚT TƯƠNG TÁC (Dùng cho trang chi tiết) --- */
+    /* Badge NEW */
+    .newest-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: linear-gradient(135deg, #D46C85, #e88a9e);
+      color: white;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 20px;
+      letter-spacing: 0.5px;
+      z-index: 2;
+      box-shadow: 0 3px 10px rgba(212, 108, 133, 0.4);
+    }
+
     .btn-chat { background: var(--pink); color: #fff; padding: 12px 30px; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; box-shadow: 0 4px 15px rgba(212, 108, 133, 0.3); }
     .btn-chat:hover { background: var(--pink-dark); transform: translateY(-2px); color: #fff;}
 
-    /* --- CSS CHO TRANG CHI TIẾT NHÂN VẬT TOÀN MÀN HÌNH --- */
     #character-page-view {
       position: relative;
       z-index: 2;
@@ -228,7 +235,6 @@
     .char-page-body h3 { color: var(--pink); margin-top: 0; font-size: 22px; border-bottom: 2px dashed var(--border); padding-bottom: 15px; margin-bottom: 20px; }
     .desc-content { font-size: 16px; line-height: 1.8; color: var(--pink-dark); white-space: pre-wrap; }
 
-    /* MUSIC PLAYER BONG BÓNG */
     .music-widget { position: fixed; bottom: 25px; right: 25px; z-index: 999; display: flex; flex-direction: column; align-items: flex-end; }
     .music-bubble-btn {
       width: 60px; height: 60px; border-radius: 50%; background: var(--pink); color: #fff; border: 3px solid var(--card-bg);
@@ -268,7 +274,6 @@
 
     footer { position: relative; z-index: 1; padding: 24px 15px; border-top: 1px solid var(--border); background: var(--nav-bg); text-align: center; color: var(--muted); font-size: 12px; line-height: 1.8; padding-bottom: 80px; transition: all 0.3s; }
 
-    /* --- GIAO DIỆN POPUP CHUNG --- */
     .welcome-overlay {
       position: fixed; top: 0; left: 0; inset: 0;
       background: rgba(0, 0, 0, 0.75);
@@ -297,7 +302,6 @@
     .silent-btn { background: transparent; color: var(--muted); border: none; font-size: 14px; cursor: pointer; text-decoration: underline; transition: 0.3s; }
     .silent-btn:hover { color: var(--pink-dark); }
 
-    /* --- POPUP DONATE (TRÁI TIM) --- */
     .donate-modal { max-width: 480px; position: relative; padding: 40px 30px 30px; }
     .close-donate-btn {
       position: absolute; top: 15px; right: 15px;
@@ -330,7 +334,7 @@
 </head>
 <body>
 
-  <!-- POPUP CHÀO MỪNG (GIẢI QUYẾT LỖI TỰ PHÁT NHẠC) -->
+  <!-- POPUP CHÀO MỪNG -->
   <div id="welcome-popup" class="welcome-overlay">
     <div class="welcome-modal">
       <h2>🌸 Chào mừng ghé thăm 🌸</h2>
@@ -340,7 +344,7 @@
     </div>
   </div>
 
-  <!-- POPUP DONATE (CẢM ƠN QUÝ NHÂN) -->
+  <!-- POPUP DONATE -->
   <div id="donate-popup" class="welcome-overlay hidden" style="display: none;">
     <div class="welcome-modal donate-modal">
       <button id="close-donate" class="close-donate-btn">×</button>
@@ -354,7 +358,6 @@
         <p class="donate-wish">Chúc Quý Nhân vạn dặm bình an!</p>
       </div>
 
-      <!-- BẠN ĐỔI LINK ẢNH QR Ở DÒNG BÊN DƯỚI NHÉ -->
       <div class="qr-container">
         <img src="./images/qr-code.png" alt="Mã QR Ủng Hộ" onerror="this.src='https://cdn.phototourl.com/member/2026-10-27-2847d741-51e9-4cf3-a604-d229dc9db0db.jpg'">
       </div>
@@ -382,7 +385,6 @@
         </svg>
       </button>
       
-      <!-- NÚT TRÁI TIM ĐƯỢC THÊM VÀO ĐÂY -->
       <button id="btn-donate" class="theme-btn heart-btn" title="Cảm Ơn Quý Nhân">
         <svg viewBox="0 0 512 512"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>
       </button>
@@ -404,6 +406,18 @@
       <h1>🐥 Trang Trại <span>Gà Bông</span> 🌷</h1>
       <p>chào mừng em đã ghé thăm, hãy cùng Shinn đi tham quan nhà của những chú lùn mỏ nhọn nào~</p>
       <div class="hero-decoration" aria-hidden="true">✿ 🌸 ❀ 🌸 ✿</div>
+    </section>
+
+    <!-- ===== MỤC MỚI NHẤT ===== -->
+    <section class="collection" style="padding-bottom: 10px;">
+      <div class="section-heading">
+        <div>
+          <h2>✨ Mới nhất</h2>
+          <p>Những chú gà vừa được đưa về trang trại gần đây nhất</p>
+        </div>
+        <div class="count" id="newest-count">0 nhân vật</div>
+      </div>
+      <div class="character-grid" id="newest-grid"></div>
     </section>
 
     <main class="collection">
@@ -439,9 +453,9 @@
 
       <div class="character-grid" id="character-grid"></div>
     </main>
-  </div> <!-- Kết thúc main-view -->
+  </div>
 
-  <!-- GIAO DIỆN TRANG CHI TIẾT NHÂN VẬT (SPA) -->
+  <!-- GIAO DIỆN TRANG CHI TIẾT NHÂN VẬT -->
   <div id="character-page-view" style="display: none;">
     <div class="char-page-container">
       <button class="btn-back" onclick="closeCharacterPage()">
@@ -505,7 +519,7 @@
 
   <script>
     // ==========================================
-    // 0. LOGIC CHẾ ĐỘ SÁNG / TỐI (DARK MODE)
+    // 0. LOGIC CHẾ ĐỘ SÁNG / TỐI
     // ==========================================
     const themeToggle = document.getElementById("theme-toggle");
     const moonIcon = document.getElementById("moon-icon");
@@ -627,32 +641,31 @@
     loadSong(currentSongIndex);
 
     // ==========================================
-    // 2. LOGIC CHO POPUP CHÀO MỪNG (CÓ LƯU TRẠNG THÁI)
+    // 2. LOGIC POPUP CHÀO MỪNG
     // ==========================================
     const welcomePopup = document.getElementById("welcome-popup");
     const btnEnterFarm = document.getElementById("btn-enter-farm");
     const btnEnterSilent = document.getElementById("btn-enter-silent");
 
-    // Kiểm tra xem người dùng đã từng xác nhận trong phiên làm việc này chưa
     if (sessionStorage.getItem("farmWelcomePassed") === "true") {
       welcomePopup.style.display = "none";
     }
 
     btnEnterFarm.addEventListener("click", () => {
-      sessionStorage.setItem("farmWelcomePassed", "true"); // Lưu trạng thái
+      sessionStorage.setItem("farmWelcomePassed", "true");
       welcomePopup.classList.add("hidden");
       setTimeout(() => welcomePopup.style.display = "none", 400); 
-      playMusic(); // Điện thoại cho phép phát vì bạn vừa chủ động bấm
+      playMusic();
     });
 
     btnEnterSilent.addEventListener("click", () => {
-      sessionStorage.setItem("farmWelcomePassed", "true"); // Lưu trạng thái
+      sessionStorage.setItem("farmWelcomePassed", "true");
       welcomePopup.classList.add("hidden");
       setTimeout(() => welcomePopup.style.display = "none", 400);
     });
 
     // ==========================================
-    // 3. LOGIC HIỂN THỊ THẺ NHÂN VẬT VÀ LỌC BẢNG
+    // 3. LOGIC HIỂN THỊ THẺ NHÂN VẬT VÀ LỌC
     // ==========================================
     const grid = document.getElementById("character-grid");
     const searchInput = document.getElementById("search-input");
@@ -728,13 +741,63 @@
     }
 
     // ==========================================
-    // 4. MỞ TRANG CHI TIẾT (SPA)
+    // 4. RENDER MỤC MỚI NHẤT (id càng lớn càng mới)
+    // ==========================================
+    function renderNewest() {
+      if (typeof characters === 'undefined') return;
+
+      const newest = [...characters]
+        .sort((a, b) => b.id - a.id)
+        .slice(0, 6); // lấy 6 nhân vật mới nhất
+
+      const newestGrid = document.getElementById("newest-grid");
+      const newestCount = document.getElementById("newest-count");
+
+      newestCount.textContent = newest.length + " nhân vật";
+
+      if (newest.length === 0) {
+        newestGrid.innerHTML = `<div class="empty-state"><div>🌸</div><strong>Chưa có nhân vật mới</strong></div>`;
+        return;
+      }
+
+      newestGrid.innerHTML = newest.map(char => {
+        const tagsHTML = (char.tags || []).map(tag => 
+          `<button class="character-tag" type="button" onclick="event.stopPropagation(); filterByTag('${tag.replace(/'/g, "\\'")}')">${tag}</button>`
+        ).join("");
+
+        const charKhuArray = Array.isArray(char.khu) ? char.khu : (char.khu ? [char.khu] : ["Chưa phân khu"]);
+        const khuHTML = charKhuArray.map(k => 
+          `<button class="character-khu" type="button" onclick="event.stopPropagation(); filterByKhu('${k.replace(/'/g, "\\'")}')">🏰 ${k}</button>`
+        ).join("");
+
+        return `
+          <article class="character-card" onclick="openCharacterPage(${char.id})">
+            <div class="character-art">
+              <span class="newest-badge">NEW</span>
+              <img src="${char.image}" loading="lazy" onerror="this.src='https://via.placeholder.com/300x180/F5E1E6/D46C85?text=Gà+Bông'">
+            </div>
+            <div class="character-info">
+              <h3>${char.name}</h3>
+              <p class="character-intro">${char.intro || ""}</p>
+              <p class="character-description">${char.content || ""}</p>
+              <div class="character-tags">${tagsHTML}</div>
+              <div class="khu-container">${khuHTML}</div>
+              <button class="choose-button" type="button" onclick="event.stopPropagation(); openCharacterPage(${char.id})">
+                📖 Xem chi tiết nội dung
+              </button>
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    // ==========================================
+    // 5. MỞ TRANG CHI TIẾT
     // ==========================================
     function openCharacterPage(id, pushHistory = true) {
       const char = characters.find(c => c.id === id);
       if (!char) return;
       
-      // Đổ dữ liệu
       detailImg.src = char.image; 
       detailName.textContent = char.name; 
       detailIntro.textContent = char.intro || "";
@@ -742,23 +805,18 @@
       detailLink.href = char.link || "#";
       detailTags.innerHTML = (char.tags || []).map(tag => `<span class="character-tag" style="pointer-events:none">${tag}</span>`).join("");
       
-      // Ẩn trang trại, hiện chi tiết
       mainView.style.display = "none";
       charPageView.style.display = "block";
-      window.scrollTo({ top: 0, behavior: 'smooth' }); // Cuộn lên đầu trang
+      window.scrollTo({ top: 0, behavior: 'smooth' });
 
-      // Cập nhật URL để dùng được nút Back của trình duyệt
       if (pushHistory) {
         history.pushState({ charId: id }, "", "#character-" + id);
       }
     }
 
-    // Đóng trang chi tiết
     function closeCharacterPage(pushHistory = true) {
       charPageView.style.display = "none";
       mainView.style.display = "block";
-      
-      // Cuộn về đầu danh sách nhân vật
       document.querySelector('.collection').scrollIntoView({ behavior: 'smooth' });
       
       if (pushHistory) {
@@ -766,7 +824,6 @@
       }
     }
 
-    // Xử lý sự kiện khi bấm nút BACK trên trình duyệt điện thoại/máy tính
     window.addEventListener("popstate", (event) => {
       if (event.state && event.state.charId) {
         openCharacterPage(event.state.charId, false);
@@ -784,7 +841,7 @@
     resetButton.addEventListener("click", clearFilters);
 
     // ==========================================
-    // 5. LOGIC POPUP DONATE (TRÁI TIM)
+    // 6. LOGIC POPUP DONATE
     // ==========================================
     const btnDonate = document.getElementById("btn-donate");
     const donatePopup = document.getElementById("donate-popup");
@@ -792,17 +849,16 @@
 
     btnDonate.addEventListener("click", () => {
       donatePopup.style.display = "flex";
-      setTimeout(() => donatePopup.classList.remove("hidden"), 10); // Kích hoạt animation
+      setTimeout(() => donatePopup.classList.remove("hidden"), 10);
     });
 
     function closeDonatePopup() {
       donatePopup.classList.add("hidden");
-      setTimeout(() => donatePopup.style.display = "none", 400); // Đợi CSS transition kết thúc
+      setTimeout(() => donatePopup.style.display = "none", 400);
     }
 
     closeDonate.addEventListener("click", closeDonatePopup);
 
-    // Bấm ra vùng tối để tắt popup
     donatePopup.addEventListener("click", (e) => {
       if (e.target === donatePopup) closeDonatePopup();
     });
@@ -817,9 +873,12 @@
       leaf.style.setProperty("--leaf-delay", (-Math.random() * 40) + "s"); leafBackground.appendChild(leaf);
     }
 
-    renderAllTags(); renderCharacters();
+    // Gọi các hàm render
+    renderAllTags(); 
+    renderCharacters();
+    renderNewest();
 
-    // Nếu người dùng F5 trực tiếp vào đường link có #character-1
+    // Xử lý hash khi F5
     window.addEventListener('load', () => {
       const hash = window.location.hash;
       if (hash && hash.startsWith("#character-")) {
